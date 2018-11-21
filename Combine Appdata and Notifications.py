@@ -42,6 +42,12 @@ notif = pd.read_csv("../OrigData/core_notifications_randsample.csv", delimiter="
 # In[]:
 notif.drop(columns = ["Unnamed: 0","data_version", "notificationID"], inplace = True)
 
+
+#%%
+notif.drop(notif.loc[notif.application.isin(['com.android.systemui','android', 'com.android'])].index,inplace = True)
+
+
+#%%
 notif = notif[notif.posted == True]
 
 notif.drop(columns = ["posted"], inplace = True)
@@ -49,10 +55,10 @@ notif.drop(columns = ["posted"], inplace = True)
 
 # In[]
 
-with open('../Outputs/notifications_postedtrue_clean.pkl', 'wb') as file:
+with open('../Outputs/PreProcessing/notifications_postedtrue_clean.pkl', 'wb') as file:
     pickle.dump(notif, file)
 
-notif.to_csv('../Outputs/notifications_postedtrue_clean.csv', index=False)
+notif.to_csv('../Outputs/PreProcessing/notifications_postedtrue_clean.csv', index=False)
 
 # ## Combine Appdata and Notifications
 

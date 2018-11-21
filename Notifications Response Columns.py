@@ -22,19 +22,15 @@ alldata['session'] = alldata['session'].fillna(method = "bfill")
 
 alldata['event_num'] = alldata.groupby(["id",'session', 'event_type']).cumcount()
 
-
-# In[]:
-
 temp = alldata.loc[(alldata.event_type == 'app_event') & (alldata.event_num == 0), ['id','session','startTime','notification', 'application']].rename(columns={"startTime": "next_session", "notification":"session_start_notif", "application":"session_start_application"})
 
-# In[]:
 alldata = alldata.merge(temp, on = ['id', 'session'], how = "outer")
 
 
 #%% Drop notifications that are inter-session
 alldata.drop(alldata.loc[alldata.notification_time > alldata.next_session].index, inplace = True)
 
-#%% Use start flag
+#%% Session start flag
 
 alldata.loc[alldata.session_start_application == alldata.application, "session_start_app"] = True
 alldata.loc[alldata.session_start_application != alldata.application, "session_start_app"] = False
@@ -42,19 +38,24 @@ alldata.loc[alldata.session_start_application != alldata.application, "session_s
 alldata.drop(columns = "session_start_application", inplace = True)
 
 
-# In[]: Next App Use for that Application
+# In[]: Next App Use in Session for that Application
 
 alldata['app_event_num'] = alldata.groupby(["id",'session',"event_type", "application"]).cumcount()
 
 
-# In[]:
-
-temp2 = alldata.loc[(alldata.event_type=='app_event') & (alldata.app_event_num ==0), ['id','session','application','startTime','notification']].rename(columns={"startTime": "next_app_use", "notification":"app_use_notif"})
-
-
-# In[]:
+temp2 = alldata.loc[(alldata.event_type=='app_event') & (alldata.app_event_num ==0), ['id','session','application','startTime','notification']].rename(columns={"startTime": "next_session_app_use", "notification":"session_app_use_notif"})
 
 alldata = alldata.merge(temp2, on = ['id', 'session', 'application'], how = "outer")
+
+
+# In[]: Next App Use overall for that Application
+alldata.sort_values(['id','event_time'], inplace = True)
+
+alldata['next_app_use'] = alldata.loc[alldata.event_type=='app_event', 'startTime']
+
+alldata['next_app_use'] = alldata.groupby(['id','application'])['next_app_use'].fillna(method = 'bfill')
+
+
 #%%
 alldata.sort_values(['id','event_time'], inplace = True)
 
