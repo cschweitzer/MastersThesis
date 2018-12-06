@@ -38,7 +38,7 @@ trains_topoverall_freq_features <- function(input="../Outputs/sessions_trains",
     ungroup()
   
   user_trains <- inner_join(select(sessions_trains_filtered, id, session, trains), 
-                            top_n(trains_freq, 150, freq_train), by = 'trains')
+                            top_n(trains_freq, 10, freq_train), by = 'trains')
   
   trains_freq_features <- user_trains %>%
     group_by(id, trains) %>%
