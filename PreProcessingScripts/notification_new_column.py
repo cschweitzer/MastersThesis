@@ -13,10 +13,12 @@ import numpy as np
 
 # In[]:
 
-appdata = pd.read_csv("../Outputs/PreProcessing/clean_data.csv")
+app_pos_data = pd.read_csv("../../Outputs/PreProcessing/apps_position.csv")
 
 
 # In[]: Change Select Date column to proper format
+
+appdata = app_pos_data.copy(deep=True)
 
 appdata['startTime'] = pd.to_datetime(appdata.startTime_str)
 appdata['endTime'] = pd.to_datetime(appdata.endTime_str)
@@ -37,35 +39,17 @@ appdata.drop(columns = ['battery','duration', 'duration_s', 'startTime_str', 'en
 
 # In[]:
 
-notif = pd.read_csv("../OrigData/core_notifications_randsample.csv", delimiter=";")
+notif = pd.read_csv("../../BigData/core_notifications.csv", delimiter=";")
 
 # In[]:
 notif.drop(columns = ["Unnamed: 0","data_version", "notificationID"], inplace = True)
 
-
-#%%
 notif.drop(notif.loc[notif.application.isin(['com.android.systemui','android', 'com.android'])].index,inplace = True)
 
 
-#%%
 notif = notif[notif.posted == True]
 
 notif.drop(columns = ["posted"], inplace = True)
-
-
-# In[]
-
-with open('../Outputs/PreProcessing/notifications_postedtrue_clean.pkl', 'wb') as file:
-    pickle.dump(notif, file)
-
-notif.to_csv('../Outputs/PreProcessing/notifications_postedtrue_clean.csv', index=False)
-
-# ## Combine Appdata and Notifications
-
-# In[]: load notification data
-
-#with open('../Outputs/notifications_postedtrue_clean.pkl', 'rb') as file:
- #   notif_clean = pickle.load(file)
 
 
 # In[]:
@@ -92,8 +76,40 @@ alldata.loc[pd.isna(alldata.startTime), "event_type"] = "notification"
 alldata = alldata.sort_values(by = ["id", "event_time"]).reset_index(drop=True)
 
 
-# In[]: Save All data combined to file
+alldata['session'] = alldata['session'].fillna(method = "bfill")
 
-with open('../Outputs/PreProcessing/appdata_notifications_pd.pkl', 'wb') as file:
-    pickle.dump(alldata, file)
+# In[]: Next Session Use
 
+alldata['event_num'] = alldata.groupby(["id",'session', 'event_type']).cumcount()
+
+
+# In[]:
+
+temp = alldata.loc[(alldata.event_type == 'app_event') & (alldata.event_num == 0), ['id','session','startTime','notification', 'application']].rename(columns={"startTime": "next_session", "notification":"session_start_notif", "application":"session_start_application"})
+
+# In[]:
+alldata = alldata.merge(temp, on = ['id', 'session'], how = "outer")
+
+
+#%% Drop notifications that are inter-session
+alldata.drop(alldata.loc[alldata.notification_time > alldata.next_session].index, inplace = True)
+
+#%%
+
+session_notif = alldata.loc[alldata.event_type == 'notification',['id','session','application', 'next_session']].drop_duplicates()
+#%%
+session_notif['notification_new'] = pd.notna(session_notif['next_session'])
+#%%
+session_notif = session_notif.drop(columns = "next_session").drop_duplicates()
+
+#%%
+
+appdata = app_pos_data.merge(session_notif, how = 'left', on = ['id', 'session','application'])
+
+#%%
+
+notification_col = app_pos_data[['id','session','application','startTimeMillis','notification_new']]
+
+
+#%%
+notification_col.to_csv("../../Outputs/PreProcessing/newnotifcol.csv")

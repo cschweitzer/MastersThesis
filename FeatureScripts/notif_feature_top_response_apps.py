@@ -4,7 +4,7 @@ import time
 import pickle
 import numpy as np
 #%%
-with open('../Outputs/PreProcessing/notifications_sessiontimecols_pd.pkl', 'rb') as file:
+with open('../../Outputs/PreProcessing/notifications_sessiontimecols_pd.pkl', 'rb') as file:
     notifdata = pickle.load(file)
 
 
@@ -46,7 +46,7 @@ topapps_response_app = top_app_apps.pivot(index = 'id', columns = 'level_1', val
 
 #%%
 
-topapps_response_session.to_csv("../Outputs/Features/topapps_response_session.csv")
+topapps_response_session.to_csv("../../Outputs/Features/topapps_response_session.csv")
 
 
-topapps_response_app.to_csv("../Outputs/Features/topapps_response_app.csv")
+topapps_response_app.to_csv("../../Outputs/Features/topapps_response_app.csv")

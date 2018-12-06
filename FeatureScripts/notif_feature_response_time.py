@@ -4,7 +4,7 @@ import time
 import pickle
 import numpy as np
 #%%
-with open('../Outputs/PreProcessing/notifications_sessiontimecols_pd.pkl', 'rb') as file:
+with open('../../Outputs/PreProcessing/notifications_sessiontimecols_pd.pkl', 'rb') as file:
     notifdata = pickle.load(file)
 
 
@@ -23,4 +23,4 @@ features = notifdata.groupby("id")["response_time_session","response_time_app"].
 
 #%%
 
-features.to_csv("../Outputs/Features/notification_responsetime.csv")
+features.to_csv("../../Outputs/Features/notification_responsetime.csv")
