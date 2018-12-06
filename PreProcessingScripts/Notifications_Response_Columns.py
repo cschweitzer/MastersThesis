@@ -10,7 +10,7 @@ import numpy as np
 
 # In[]: Save All data combined to file
 
-with open('../Outputs/PreProcessing/appdata_notifications_pd.pkl', 'rb') as file:
+with open('../../Outputs/PreProcessing/appdata_notifications_pd.pkl', 'rb') as file:
    alldata = pickle.load(file)
 
 
@@ -65,7 +65,7 @@ alldata.drop(columns = ['event_num','app_event_num'], inplace = True)
 
 # In[]: Save all data to file
 
-with open('../Outputs/PreProcessing/appdata_notifications_responsecols_pd.pkl', 'wb') as file:
+with open('../../Outputs/PreProcessing/appdata_notifications_responsecols_pd.pkl', 'wb') as file:
     pickle.dump(alldata, file)
 
 
@@ -81,6 +81,6 @@ notifdata.sort_values(['id','notification_time'], inplace= True)
 
 #%%Save Only notification data to file
 
-with open('../Outputs/PreProcessing/notifications_sessiontimecols_pd.pkl', 'wb') as file:
+with open('../../Outputs/PreProcessing/notifications_sessiontimecols_pd.pkl', 'wb') as file:
     pickle.dump(notifdata, file)
 

@@ -54,10 +54,10 @@ notif.drop(columns = ["posted"], inplace = True)
 
 # In[]
 
-with open('../Outputs/PreProcessing/notifications_postedtrue_clean.pkl', 'wb') as file:
+with open('../../Outputs/PreProcessing/notifications_postedtrue_clean.pkl', 'wb') as file:
     pickle.dump(notif, file)
 
-notif.to_csv('../Outputs/PreProcessing/notifications_postedtrue_clean.csv', index=False)
+notif.to_csv('../../Outputs/PreProcessing/notifications_postedtrue_clean.csv', index=False)
 
 # ## Combine Appdata and Notifications
 
