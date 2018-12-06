@@ -6,15 +6,15 @@
 ## DO NOT append .csv to file name, functions do that for you
 
 
-source("clean_appdata.R")
+#source("clean_appdata.R")
 
-appdata <- clean_appdata("../../Outputs/PreProcessing/core_appevents_stripped",
-                         "../../Outputs/PreProcessing/clean_data")
+#appdata <- clean_appdata("../../Outputs/PreProcessing/core_appevents_stripped",
+#                         "../../Outputs/PreProcessing/clean_data")
 
-source("apps_position.R")
+#source("apps_position.R")
 
-apps_position <- apps_position("../../Outputs/PreProcessing/clean_data",
-                              "../../Outputs/PreProcessing/apps_position")
+#apps_position <- apps_position("../../Outputs/PreProcessing/clean_data",
+#                              "../../Outputs/PreProcessing/apps_position")
 
 source("notification_new_column.R")
 data_newnotif <- notification_new_column(appdata="../../Outputs/PreProcessing/apps_position",

@@ -31,7 +31,7 @@ appdata["event_time"] = appdata.startTime
 
 # In[]: Check if all are in newest clean data
 
-appdata.drop(columns = ['battery','duration', 'duration_s', 'startTime_str', 'endTime_str'], inplace= True)
+appdata.drop(columns = ['battery', 'duration_s', 'startTime_str', 'endTime_str'], inplace= True)
 
 
 
