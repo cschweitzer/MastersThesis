@@ -29,7 +29,7 @@ apps_position <- function(input="../../Outputs/PreProcessing/clean_data",
     
   apps_position <- apps_condensed %>%
     group_by(id, session, application, app_num) %>%
-    summarise(battery = mean(battery), notification = first(notification), notification_new = first(notification_new),
+    summarise(battery = mean(battery), notification = first(notification), #notification_new = first(notification_new),
               startTime_str = first(startTime_str), startTime = min(startTime), startTimeMillis=min(startTimeMillis),
               endTime_str = max(endTime_str), endTime = min(endTime), endTimeMillis=min(endTimeMillis),
               duration_s = sum(duration_s)) %>%
