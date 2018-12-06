@@ -104,7 +104,7 @@ session_notif = session_notif.drop(columns = "next_session").drop_duplicates()
 
 #%%
 
-appdata = app_pos_data.merge(session_notif, how = 'left', on = ['id', 'session','application'])
+app_pos_data = app_pos_data.merge(session_notif, how = 'left', on = ['id', 'session','application'])
 
 #%%
 
