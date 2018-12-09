@@ -3,6 +3,9 @@ import pandas as pd
 import time
 import pickle
 import numpy as np
+
+from sklearn import preprocessing
+
 #%%
 with open('../../Outputs/PreProcessing/notifications_sessiontimecols_pd.pkl', 'rb') as file:
     notifdata = pickle.load(file)
@@ -20,6 +23,7 @@ notifdata['response_time_app'] = (notifdata.next_app_use - notifdata.notificatio
 #%%
 
 appresponse = notifdata.groupby(["id",'application'])["response_time_session","response_time_app"].median().reset_index()
+
 
 #%%
 
@@ -39,10 +43,35 @@ top_app_apps = appresponse.groupby('id')['application','response_time_app'].appl
 
 #%%
 
-topapps_response_session = top_apps_session.pivot(index = 'id', columns = 'level_1', values = 'application')
+topapps_response_session_names = top_apps_session.pivot(index = 'id', columns = 'level_1', values = 'application')
 
-topapps_response_app = top_app_apps.pivot(index = 'id', columns = 'level_1', values = 'application')
+topapps_response_app_names = top_app_apps.pivot(index = 'id', columns = 'level_1', values = 'application')
 
+
+topapps_response_session= topapps_response_session_names.copy(deep = True)
+
+topapps_response_app= topapps_response_app_names.copy(deep = True)
+
+#%%
+topapps_response_session.fillna("None", inplace = True)
+topapps_response_app.fillna("None", inplace = True)
+
+
+#%%
+apps = appresponse.application.append(pd.Series("None"))
+#%%
+le = preprocessing.LabelEncoder()
+
+le.fit(apps)
+#%%
+le.classes_.shape
+#%%
+
+for i in topapps_response_session.columns:
+    topapps_response_session[i] = le.transform(topapps_response_session[i])
+
+for i in topapps_response_app.columns:
+    topapps_response_app[i] = le.transform(topapps_response_app[i])
 
 #%%
 

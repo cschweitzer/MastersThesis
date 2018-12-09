@@ -10,7 +10,7 @@ import os
 import pandas as pd
 
 #%%
-location = "..\Outputs\Features\Full_Dataset_Nov_25"
+location = "..\Outputs\Features"
 features = []
 for file in os.listdir(location):
     if ".csv" in file:
@@ -26,13 +26,18 @@ for file in os.listdir(location):
 #%%
 features_nona = features_all_df.copy(deep = True)
 
-
 #%%
 for i in features:
     if "between" in i:
         cols = features_nona.columns[features_nona.columns.str.contains(pat = 'between')]
         vals = features_nona.loc[:,cols].median()
         features_nona.loc[:,cols] = features_nona.loc[:,cols].fillna(vals)
+
+    if "responsetime" in i:
+        cols = features_nona.columns[features_nona.columns.str.contains(pat = 'responsetime')]
+        vals = features_nona.loc[:,cols].median()
+        features_nona.loc[:,cols] = features_nona.loc[:,cols].fillna(vals)
+
     if "trains" in i:
         cols = features_nona.columns[features_nona.columns.str.contains(pat = 'trains')]
         features_nona.loc[:,cols] = features_nona.loc[:,cols].fillna(0)
