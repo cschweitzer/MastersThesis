@@ -19,7 +19,12 @@ notifdata['response_time_app'] = (notifdata.next_app_use - notifdata.notificatio
 
 #%%
 
-features = notifdata.groupby("id")["response_time_session","response_time_app"].agg([np.median, np.std])
+features1 = notifdata.groupby("id")["response_time_session"].agg([np.median, np.std]).rename(columns={"median": "response_time_session_median", "std": "response_time_session_std"})
+
+features2 = notifdata.groupby("id")["response_time_app"].agg([np.median, np.std]).rename(columns={"median": "response_time_app_median", "std": "response_time_app_std"})
+
+features = features1.merge(features2, how = 'outer', on = 'id')
+
 
 #%%
 
