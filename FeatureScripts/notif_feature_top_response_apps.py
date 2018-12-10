@@ -23,8 +23,8 @@ notifdata['response_time_app'] = (notifdata.next_app_use - notifdata.notificatio
 #%%
 
 appresponse = notifdata.groupby(["id",'application'])["response_time_session","response_time_app"].median().reset_index()
-
-
+#%%
+index = pd.DataFrame(index = np.unique(appresponse.id))
 #%%
 
 def topapp(data, time):
@@ -46,11 +46,14 @@ top_app_apps = appresponse.groupby('id')['application','response_time_app'].appl
 topapps_response_session_names = top_apps_session.pivot(index = 'id', columns = 'level_1', values = 'application')
 
 topapps_response_app_names = top_app_apps.pivot(index = 'id', columns = 'level_1', values = 'application')
+#%%
 
+topapps_response_session= topapps_response_session_names.merge(index, how = 'outer', right_index = True, left_index = True)
 
-topapps_response_session= topapps_response_session_names.copy(deep = True)
+topapps_response_app= topapps_response_app_names.merge(index, how = 'outer', right_index = True, left_index = True)
 
-topapps_response_app= topapps_response_app_names.copy(deep = True)
+topapps_response_session.index.name = "id"
+topapps_response_app.index.name = "id"
 
 #%%
 topapps_response_session.fillna("None", inplace = True)
@@ -79,3 +82,8 @@ topapps_response_session.to_csv("../../Outputs/Features/topapps_response_session
 
 
 topapps_response_app.to_csv("../../Outputs/Features/topapps_response_app.csv")
+
+topapps_response_app_names.to_csv("../../Outputs/Descriptives/topapps_response_app.csv")
+
+
+topapps_response_session_names.to_csv("../../Outputs/Features/topapps_response_session.csv")
