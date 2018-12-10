@@ -83,7 +83,7 @@ topapps_response_session.to_csv("../../Outputs/Features/topapps_response_session
 
 topapps_response_app.to_csv("../../Outputs/Features/topapps_response_app.csv")
 
+
 topapps_response_app_names.to_csv("../../Outputs/Descriptives/topapps_response_app.csv")
 
-
-topapps_response_session_names.to_csv("../../Outputs/Features/topapps_response_session.csv")
+topapps_response_session_names.to_csv("../../Outputs/Descriptives/topapps_response_session.csv")
