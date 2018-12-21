@@ -45,17 +45,27 @@ for i in features:
 features_nona.isnull().any()
 #%%
 X = np.array(features_nona)
+#%%
 
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+X_z = scaler.fit_transform(X)
+
+#%%
 import pickle
-pickle.dump( X, open( "../Outputs/features.pickle", "wb" ) )
+pickle.dump( X_z, open( "../Outputs/features_std.pickle", "wb" ) )
 
 #%%
+#X = pickle.load( Xt, open( "../Outputs/features.pickle", "rb" ) )
+#X_z = pickle.load( Xt, open( "../Outputs/features_std.pickle", "rb" ) )
+
 pca = PCA(20)
-pca.fit(X)
-Xt = pca.transform(X)
+pca.fit(X_z)
+Xt = pca.transform(X_z)
 #%%
-pickle.dump( Xt, open( "../Outputs/features_pca.pickle", "wb" ) )
+pickle.dump( Xt, open( "../Outputs/features_z_pca.pickle", "wb" ))
+
 #%%
 comps = pd.DataFrame(pca.components_, columns = features_all_df.columns)
 #%%
-
+test = pca.components_
