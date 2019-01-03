@@ -1,0 +1,1749 @@
+app_id,count,name,category,better_category
+com.whatsapp,845758,WhatsApp Messenger,Communication,WhatsApp Messenger
+com.facebook.katana,668480,Facebook,Social,Facebook
+com.android.chrome,479583,Google Chrome,Communication,Google Chrome
+com.facebook.orca,453335,Facebook Messenger,Communication,Facebook Messenger
+com.instagram.android,378376,Instagram,Social,Instagram
+com.snapchat.android,281644,Snapchat,Social,Snapchat
+com.google.android.gm,172689,Gmail,Communication,Gmail
+com.samsung.android.incallui,158706,Phone,Communication,Phone
+com.android.mms,155007,Messages,Communication,Messages
+com.google.android.googlequicksearchbox,152477,Google Search,Tools,Google_Search
+com.samsung.android.messaging,143206,Messages,Communication,Messages
+com.android.incallui,132033,Phone,Communication,Phone
+com.samsung.android.email.provider,102762,Samsung Email,Productivity,Samsung_Email
+com.android.settings,95590,Settings,Tools,Settings
+com.google.android.youtube,93522,YouTube,Video Players & Editors,YouTube
+com.microsoft.office.outlook,88034,Outlook Email,Productivity,Outlook_Email
+com.samsung.android.contacts,87466,Contacts,Communication,Contacts
+com.twitter.android,83491,Twitter,News & Magazines,Twitter
+com.spotify.music,83204,Spotify,Music & Audio,Spotify
+com.sec.android.app.sbrowser,80907,Samsung Internet Browser,Communication,Samsung_Internet_Browser
+com.android.contacts,79123,Contacts,Communication,Contacts
+com.android.dialer,71946,Phone,Communication,Phone
+com.google.android.apps.messaging,71863,Android Messages,Communication,Android_Messages
+com.google.android.apps.maps,70201,Maps,Travel & Local,Maps
+com.sec.android.gallery3d,66195,Samsung Gallery,Photography,Samsung Gallery
+com.google.android.calendar,58371,Google Calendar,Productivity,Google_Calendar
+com.sec.android.app.camera,56918,Camera,Photography,Camera
+com.sec.android.app.clockpackage,52057,Clock,Tools,Clock
+com.samsung.android.calendar,50839,Calendar,Productivity,Calendar
+android,44942,,Background Process,Background_Process
+com.android.vending,44840,Google Play Store,Background Process,Background_Process
+com.tinder,38880,Tinder,Lifestyle,Dating
+com.google.android.packageinstaller,38557,Package Installer,Background Process,Background_Process
+be.smartschool.mobile,38166,Smartschool,Education,Education
+com.android.email,36841,Email,Productivity,Email
+com.android.server.telecom,36762,Telecom framework,Background Process,Background_Process
+com.google.android.apps.photos,33440,Google Photos,Photography,Camera
+com.waze,32632,Waze,Maps & Navigation,Maps
+com.google.android.apps.docs,29342,Google Drive,Productivity,Phone_Tools
+com.linkedin.android,28929,LinkedIn,Social,Social_Networking
+be.persgroep.android.news.mobilehln,27473,HLN.be,News & Magazines,News
+com.android.deskclock,26825,Clock,Tools,Phone_Tools
+com.android.gallery3d,26338,Gallery,Photography,Camera
+com.foursquare.robin,25820,Foursquare Swarm,Travel & Local,Maps
+be.vrt.mobile.android.deredactie,25733,VRT NWS,News & Magazines,News
+com.google.android.deskclock,22683,Clock,Tools,Phone_Tools
+com.google.android.apps.inbox,21684,Inbox,Productivity,Email
+com.google.android.gms,21086,Google Play services,Tools,Phone_Tools
+com.kbc.mobile.android.phone.kbc,21053,KBC Mobile,Finance,Personal_Finance
+com.oneplus.camera,19421,Camera,Photography,Camera
+com.android.calendar,18826,Calendar,Productivity,Calendar
+de.hafas.android.sncbnmbs,17611,SNCB National,Maps & Navigation,Travel_Planning
+com.netflix.mediaclient,17005,Netflix,Entertainment,Streaming_Services
+org.mozilla.firefox,16245,Firefox Browser,Communication,Internet_Browser
+com.huawei.camera,15397,Camera,Photography,Camera
+com.oneplus.deskclock,15090,Clock,Tools,Phone_Tools
+com.pinterest,14782,Pinterest,Social,Social_Networking
+com.sec.android.app.music,14464,Samsung Music,Music & Audio,Music_&_Audio
+com.nianticlabs.pokemongo,14136,Pokemon GO,Adventure,Game_Multiplayer
+com.google.android.music,14066,Google Play Music,Music & Audio,Streaming_Services
+com.google.android.dialer,13687,Phone,Tools,Dialer
+org.telegram.messenger,13250,Telegram,Communication,Instant_Messaging
+com.oneplus.applocker,12757,App Locker,Background Process,Background_Process
+com.android.captiveportallogin,12489,WiFi Authentication,Background Process,Background_Process
+com.facebook.mlite,12216,Facebook Messenger Lite,Communication,Instant_Messaging
+com.cmcm.locker,12087,CM Locker,Tools,Phone_Personalization
+com.strava,11696,Strava Training,Health & Fitness,Personal_Fitness
+com.google.android.keep,11506,Google Keep,Productivity,Document_Editor
+be.belfius.directmobile.android,10499,Belfius Mobile,Finance,Personal_Finance
+com.android.documentsui,10383,File Picker,Background Process,Background_Process
+com.samsung.android.MtpApplication,9776,MediaTransferProtocol,Background Process,Background_Process
+com.cleanmaster.mguard,9759,Clean Master,Tools,Phone_Optimization
+com.sec.android.app.popupcalculator,9626,Samsung Calculator,Tools,Phone_Tools
+com.grindrapp.android,9317,Grindr,Social,Dating
+com.twipemobile.nbmobile,9298,Het Nieuwsblad niews,News & Magazines,News
+com.android.phone,9222,,Background Process,Background_Process
+com.android.mediacenter,9188,Music,Music & Audio,Music_&_Audio
+me.bluemail.mail,8931,Blue Mail,Productivity,Email
+com.supercell.clashroyale,8896,Clash Royale,Strategy,Game_Multiplayer
+be.argenta.bankieren,8813,Argenta Banking,Finance,Personal_Finance
+com.antivirus,8723,AVG AntiVirus 2018,Tools,Security
+com.google.android.talk,8586,Google Hangouts,Communication,Instant_Messaging
+com.motorola.cameraone,8430,Camera,Photography,Camera
+com.fwc2014.vrt.and,8373,sporza,Sports,Sports
+be.irm.kmi.meteo,8333,KMI - IRM: .be Weather,Weather,Weather
+com.android.nfc,8331,NFC Framework,Background Process,Background_Process
+com.oneplus.gallery,8251,OnePlus Gallery,Photography,Camera
+flipboard.boxer.app,8210,Flipboard Briefing,News & Magazines,News
+com.ninegag.android.app,8129,9GAG,Entertainment,Social_Networking
+com.qihoo.security,8022,360 Security,Tools,Security
+be.tweedehands.m,8001,2dehands,Shopping,Online_Shopping
+com.sonos.acr,7745,Sonos Controller,Music & Audio,Home_Automation
+com.teslacoilsw.notifier,7721,TeslaUnread for Nova Launcher,Personalization,Phone_Personalization
+com.bnpp.easybanking,7623,BNP Paribas: Easy Banking App,Finance,Personal_Finance
+com.microsoft.office.word,7621,Microsoft Word,Productivity,Document_Editor
+jp.naver.line.android,7488,LINE,Communication,Instant_Messaging
+com.llamalab.automate,7459,Automate,Tools,Phone_Optimization
+com.huawei.systemmanager,7368,System Manager,Tools,Phone_Tools
+be.ugent.mobiledna,7292,mobileDNA,Lifestyle,Phone_Tools
+com.android.messaging,7233,Messages,Communication,Messaging
+com.hbwares.wordfeud.free,7099,Wordfeud FREE,Word,Game_Multiplayer
+be.persgroep.android.news.mobiledm,7089,DeMorgen.be Mobile,News & Magazines,News
+com.facebook.lite,7044,Facebook Lite,Social,Social_Networking
+com.textra,6987,Textra SMS,Communication,Messaging
+MyING.be,6957,ING Smart Banking,Finance,Personal_Finance
+com.sec.android.app.shealth,6896,Samsung Health,Health & Fitness,Personal_Fitness
+com.huawei.android.internal.app,6852,,,Phone_Tools
+com.twipemobile.dsmobile,6774,dS Nieuws,News & Magazines,News
+com.sonyericsson.conversations,6755,Messages,Communication,Messaging
+com.skype.raider,6722,Skype,Communication,Instant_Messaging
+com.king.candycrushsaga,6702,Candy Crush Saga,Casual,Game_Singleplayer
+com.samsung.android.video,6664,Samsung Video Library,Video Players & Editors,Video_Players_&_Editors
+com.android.calculator2,6663,Calculator,Tools,Phone_Tools
+com.Slack,6620,Slack,Business,Business_Management
+com.yahoo.mobile.client.android.mail,6609,Yahoo Mail,Communication,Email
+com.supercell.clashofclans,6595,Clash of Clans,Strategy,Game_Multiplayer
+com.reddit.frontpage,6502,Reddit,News & Magazines,Social_Networking
+com.discord,6497,Discord,Communication,Instant_Messaging
+com.chrome.beta,6395,Chrome Beta,Productivity,Internet_Browser
+com.themobilecompany.delijn,6333,De Lijn,Maps & Navigation,Travel_Planning
+com.fitbit.FitbitMobile,6323,Fitbit,Health & Fitness,Wearables
+com.estrongs.android.pop,6290,ES File Explorer File Manager,Productivity,Phone_Tools
+com.sec.android.app.myfiles,6056,Samsung My Files,Tools,Phone_Tools
+com.shazam.android,5920,Shazam,Music & Audio,Entertainment
+com.apnax.wordsnack.nl,5894,Woord Snack,Word,Game_Singleplayer
+com.samsung.android.game.gamehome,5776,Samsung Game Launcher,Tools,Entertainment
+com.akasoft.topplaces,5749,Restaurant Finder,Travel & Local,Food_&_Drinks
+com.microsoft.next,5741,Next Lock Screen,Productivity,Phone_Personalization
+com.hbwares.wordfeud.full,5716,Wordfeud,Word,Game_Multiplayer
+com.avast.android.mobilesecurity,5618,Avast Mobile Security 2018,Tools,Security
+com.samsung.android.app.spage,5372,Bixby,Background Process,Phone
+com.dropbox.android,5356,Dropbox,Productivity,Phone_Tools
+com.samsung.android.weather,5345,Weather,Weather,Weather
+com.samsung.android.app.memo,5317,Samsung Notes,Productivity,Document_Editor
+com.qustodio.qustodioapp,5103,Qustodio Parental Control,Productivity,Family_Planning
+com.macrovideo.v380,5027,V380,Business,Home_Automation
+com.urbandroid.sleep,4993,Sleep as Android,Lifestyle,Personal_Fitness
+com.wssyncmldm,4838,System Update,Background Process,Background_Process
+com.zhiliaoapp.musically,4769,TikTok,Social,Social_Networking
+com.adobe.reader,4765,Adobe Acrobat Reader,Productivity,Document_Editor
+be.vrt.mobile.android.sporza.voetbal,4673,sporza voetbal,Sports,Sports
+org.thoughtcrime.securesms,4664,Signal Private Messenger,Communication,Instant_Messaging
+com.twipemobile.standaard,4655,De Standaard,News & Magazines,News
+com.garmin.android.apps.connectmobile,4639,Garmin Connect™,Health & Fitness,Personal_Fitness
+com.example.android.notepad,4602,,,Document_Editor
+com.google.android.GoogleCamera,4583,Google Camera,Photography,Camera
+be.telenet.yelo,4561,Yelo Play,Video Players & Editors,Streaming_Services
+mobi.inthepocket.mediafin.detijd,4528,De Tijd,News & Magazines,News
+com.tumblr,4440,Tumblr,Social,Social_Networking
+com.planetromeo.android.app,4303,ROMEO,Social,Dating
+be.rbfa,4237,Best of Belgian Football,Sports,Sports
+com.google.android.apps.translate,4224,Google Translate,Tools,Phone_Tools
+com.google.android.apps.docs.editors.docs,4126,Google Docs,Productivity,Document_Editor
+com.avg.cleaner,4073,AVG Cleaner,Productivity,Phone_Optimization
+com.brave.browser,4060,Brave,Communication,Internet_Browser
+com.soundcloud.android,4060,SoundCloud,Music & Audio,Streaming_Services
+com.android.packageinstaller,4059,Package Installer,Background Process,Background_Process
+forgepond.com.mobileiron.android.pim,3956,MobileIron Email+,Business,Email
+com.truecaller,3881,Truecaller,Communication,Phone_Tools
+com.sonymobile.android.dialer,3877,Phone,Communication,Dialer
+com.andrewshu.android.reddit,3797,reddit is fun,News & Magazines,Social_Networking
+tv.peel.app,3796,Peel Universal Smart TV Remote Control,House & Home,Home_Automation
+com.viber.voip,3794,Viber Messenger,Communication,Instant_Messaging
+com.sonymobile.email,3715,Email,Productivity,Email
+com.surpax.ledflashlight.panel,3690,Super-Bright LED Flashlight,Productivity,Phone_Tools
+com.google.android.play.games,3683,Google Play Games,Entertainment,Entertainment
+com.google.android.apps.docs.editors.sheets,3671,Google Sheets,Productivity,Document_Editor
+org.yoki.android.buienalarm,3517,Buienalarm,Weather,Weather
+com.flayvr.flayvr,3516,Gallery,Photography,Camera
+com.livescore,3502,LiveScore,Sports,Sports
+com.microsoft.skydrive,3467,Microsoft OneDrive,Productivity,Phone_Tools
+de.stocard.stocard,3462,Stocard,Shopping,Coupons
+com.google.android.contacts,3433,Contacts,Communication,Dialer
+vex.android,3387,Vente-Exclusive.com,Shopping,Online_Shopping
+com.alibaba.aliexpresshd,3363,AliExpress,Shopping,Online_Shopping
+com.ecosia.android,3355,Ecosia Browser,Communication,Internet_Browser
+com.wunderkinder.wunderlistandroid,3292,Wunderlist,Productivity,To-Do_List
+de.zalando.mobile,3218,Zalando,Shopping,Online_Shopping
+com.google.android.calculator,3216,Calculator,Tools,Phone_Tools
+com.itchmedia.ta3,3197,Baseball Boy!,Arcade,Game_Singleplayer
+com.facebook.pages.app,3129,Facebook Pages Manager,Business,Social_Networking
+be.colruyt.mycolruyt,3121,MyColruyt,Shopping,Online_Shopping
+com.evernote,3114,Evernote,Productivity,Document_Editor
+be.vmma.vtm.zenderapp,3059,VTM online tv kijken,Entertainment,Streaming_Services
+kik.android,3052,Kik,Communication,Instant_Messaging
+be.kulapp.mobile,3042,Quivr,Education,Education
+com.lenovo.ideafriend,3018,ideafriend,,Messaging
+wp.wattpad,2975,Wattpad,Books & Reference,Book_Readers
+com.sonyericsson.organizer,2890,Liveware Manager,Tools,Phone_Tools
+com.samsung.android.lool,2870,Device Maintenance,Tools,Home_Automation
+com.bambuna.podcastaddict,2854,Podcast Addict,News & Magazines,Streaming_Services
+mobi.inthepocket.bcmc.bancontact,2852,Bancontact,Finance,Personal_Finance
+com.turboc.cleaner,2847,Turbo Cleaner,Tools,Phone_Optimization
+com.samsung.knox.securefolder,2844,Secure Folder,Business,Phone_Tools
+com.hitgrab.android.mousehunt,2813,MouseHunt,Role Playing,Game_Singleplayer
+com.oneplus.calculator,2772,Calculator,Tools,Phone_Tools
+com.blockfolio.blockfolio,2722,Blockfolio,Finance,Personal_Finance
+com.huawei.vassistant,2709,Huawei Voice Assistant,Productivity,Phone_Assistant
+deezer.android.app,2709,Deezer Music,Music & Audio,Streaming_Services
+com.myfitnesspal.android,2667,MyFitnessPal,Health & Fitness,Personal_Fitness
+com.microsoft.office.excel,2665,Microsoft Excel,Productivity,Document_Editor
+com.sec.android.mimage.photoretouching,2656,Photo Editor,Photography,Camera
+be.bmid.itsme,2646,itsme,Finance,Phone_Tools
+com.teslacoilsw.launcherclientproxy,2623,Nova Launcher,Personalization,Phone_Personalization
+com.lionmobi.powerclean,2622,Power Clean,Tools,Phone_Optimization
+com.oasisfeng.greenify,2620,Greenify,Tools,Phone_Optimization
+com.playrix.homescapes,2611,Homescapes,Casual,Game_Singleplayer
+com.kunkunnapps.os8.keypad,2611,Keypad lock screen,Tools,Phone_Personalization
+com.htc.sense.mms,2557,HTC Messages,Communication,Messages
+com.microsoft.office.onenote,2546,Microsoft OneNote,Productivity,Document_Editor
+be.belgacom.hello,2522,MyProximus,Tools,Phone_Tools
+com.samsung.android.app.notes,2512,Samsung Notes,Productivity,Document_Editor
+free.reddit.news,2505,Relay for reddit,News & Magazines,Social_Networking
+com.produpress.immoweb,2487,Immoweb,Lifestyle,House_Search
+com.appgenix.bizcal,2458,Business Calendar 2,Productivity,Calendar
+com.socialnmobile.dictapps.notepad.color.note,2454,ColorNote Notepad Notes,Productivity,Document_Editor
+com.medela.mymedela.live,2423,MyMedela Breastfeed Companion,Health & Fitness,Family_Planning
+tc.wo.mbseo.dday,2398,D-day Counter widget,Lifestyle,Phone_Personalization
+com.vikingco.vikingapp,2385,Viking App,Communication,Phone_Tools
+be.axa.mobilebanking,2374,Mobile Banking Service,Finance,Personal_Finance
+com.lemon.avdb,2339,Appje voor de Borst,Health & Fitness,Family_Planning
+com.devhd.feedly,2334,Feedly,News & Magazines,News
+nl.nos.app,2321,NOS,News & Magazines,News
+com.supercell.hayday,2257,Hay Day,Casual,Game_Singleplayer
+cn.wps.moffice_eng,2232,WPS Office,Productivity,Document_Editor
+com.bol.shop,2196,Bol.com,Shopping,Online_Shopping
+com.sonyericsson.android.camera,2190,Camera,Photography,Camera
+be.crelan.channels.mobile.android.store,2178,Crelan Mobile,Finance,Personal_Finance
+be.concentra.gva.MediaApp,2173,gva.be mobile,News & Magazines,News
+com.orange.myorange.obe,2170,My Orange BE,Tools,Phone_Tools
+com.gamebasics.osm,2147,Online Soccer Manager (OSM),Sports,Game_Multiplayer
+com.nam.fbwrapper,2131,Metal for Facebook & Twitter,Communication,Social_Networking
+com.cootek.smartinputv5.skin.keyboard_theme_sparkling_heart,2128,Sparkling Heart Keyboard Theme,Personalization,Phone_Personalization
+com.good.gcs,2094,BlackBerry Work,Productivity,Email
+com.motorola.camera,2070,Motorola Camera,Photography,Camera
+com.ryosoftware.calendareventsnotifier,2065,Events Notifier for Calendar,Productivity,Calendar
+com.ftw_and_co.happn,2052,happn – Local dating app,Lifestyle,Dating
+com.huawei.android.hwouc,2038,System Update,Tools,Phone_Tools
+com.htc.android.mail,2031,HTC Mail,Productivity,Email
+com.cleanmaster.security,2006,Security Master,Tools,Security
+be.keytradebank.phone,1972,Keytrade Bank,Finance,Personal_Finance
+fr.snapp.fidme,1961,FidMe Loyalty Cards & Deals at Grocery Supermarket,Shopping,Coupons
+com.imdb.mobile,1957,IMDb Movies & TV,Entertainment,Entertainment
+au.com.shiftyjelly.pocketcasts,1952,Pocket Casts,News & Magazines,Streaming_Services
+com.lge.smartcover,1951,Smart Cover,Background Process,Background_Process
+com.google.android.apps.authenticator2,1948,Google Authenticator,Tools,Security
+com.google.android.projection.gearhead,1942,Android Auto,Auto & Vehicles,Auto_&_Vehicles
+com.sonyericsson.album,1936,Album,Photography,Camera
+be.vrt.radioplus,1922,Radioplus,Music & Audio,Streaming_Services
+com.wonderabbit.lovedays,1917,Lovedays – D-Day for Couples,Lifestyle,Family_Planning
+com.agilys.myshopi,1917,MyShopi – shopping & promo,Shopping,Online_Shopping
+com.kbc.mobile.android.oob,1897,KBC Sign,Finance,Personal_Finance
+com.itube.colorseverywhere,1893,iTube,Video Players & Editors,Streaming_Services
+com.huawei.android.totemweather,1847,Weather,Weather,Weather
+com.anydo,1847,Any.do,Productivity,To-Do_List
+org.withouthat.acalendar,1845,aCalendar,Productivity,Calendar
+com.payconiq.customers,1835,Payconiq,Finance,Personal_Finance
+sandbox.art.sandbox,1798,Sandbox,"Entertainment, Creativity",Drawing
+com.ninefolders.hd3,1791,Nine – Email & Calendar,Business,Email
+net.eagin.software.android.dejaloYa,1786,QuitNow! PRO – Stop Smoking,Health & Fitness,Personal_Fitness
+com.fitnesskeeper.runkeeper.pro,1770,Runkeeper – GPS Track Run Walk,Health & Fitness,Personal_Fitness
+com.blackberry.hub,1766,BlackBerry Hub,Communication,Messaging
+com.boxer.email,1755,Vmware Boxer,Business,Email
+com.gameloft.android.ANMP.GloftDYHM,1735,Disney Magic Kingdoms,"Simulation, Action & Adventure",Game_Singleplayer
+com.samsung.android.app.galaxyfinder,1732,Samsung Finder,Tools,Phone_Tools
+com.weightwatchers.mobile,1730,Weight Watchers Mobile,Health & Fitness,Personal_Fitness
+com.guardofitcoachtrack.second,1723,Guardo Fit Coach Track,Health & Fitness,Personal_Fitness
+be.telenet.mobile.usage,1720,TelnetMobile,Communication,Phone_Tools
+com.huawei.hwvplayer,1711,Videos,Video Players & Editors,Video_Players_&_Editors
+com.EAGINsoftware.dejaloYa,1674,QuitNow! Quit smoking,Health & Fitness,Personal_Fitness
+com.ideashower.readitlater.pro,1667,Pocket,News & Magazines,News
+fi.polar.polarflow,1665,Polar Flow,Health & Fitness,Personal_Fitness
+com.htc.contacts,1662,HTC People,Tools,Dialer
+com.europosit.pixelcoloring,1652,Pixel Art,Puzzle,Drawing
+com.twipemobile.nieuwsblad,1652,Het Nieuwsblad Krant,News & Magazines,News
+com.google.android.apps.chromecast.app,1639,Google Home,Tools,Home_Automation
+org.wikipedia,1616,Wikipedia,Books & Reference,Book_Readers
+com.android.browser,1604,Android Browser,Communication,Internet_Browser
+org.kman.AquaMail,1597,Aqua Mail,Business,Email
+com.ketchapp.rider,1587,Rider,Arcade,Game_Singleplayer
+com.ea.gp.simsmobile,1586,The Sims Mobile,Simulation,Game_Multiplayer
+com.jiubang.fastestflashlight,1582,Flashlight,Tools,Phone_Tools
+nl.marktplaats.android,1581,Marktplaats,Shopping,Online_Shopping
+org.mozilla.focus,1573,Firefox Focus,Communication,Internet_Browser
+com.coinbase.android,1556,Coinbase,Finance,Portfolio/Trading
+se.footballaddicts.livescore,1553,Forza – Live soccer scores & video highlights,Sports,Sports
+com.gomo.calculator,1552,Multi Calculator,Tools,Phone_Tools
+com.booking,1551,Booking.com,Travel & Local,Travel_Planning
+com.lotus.sync.traveler,1535,IBM Verse,Business,Email
+com.trtf.blue,1513,Email TypeApp,Communication,Email
+com.nitrodesk.honey.nitroid,1492,TouchDown HD,Business,Email
+net.sharewire.buienradar.belgium,1480,Buitenradar – weather,Weather,Weather
+com.innogames.foeandroid,1480,Forge of Empires,Strategy,Game_Singleplayer
+org.withouthat.acalendarplus,1475,aCalendar+ Calendar & Tasks,Productivity,Calendar
+com.binance.dev,1469,Binance – Cryptocurrency Exchange,Finance,Portfolio/Trading
+com.sonymobile.coverapp,1466,Smart Cover,Background Process,Background_Process
+be.persgroep.red.mobile.android.dmo,1454,De Morgen digitale krant,News & Magazines,News
+com.my.mail,1452,myMail,Communication,Email
+com.huawei.hidisk,1446,Files,Tools,Phone_Tools
+com.itbenefit.android.Minesweeper,1444,Minesweeper Classic (Mines),Puzzle,Game_Singleplayer
+com.microsoft.windowsintune.companyportal,1441,Intune Company Portal,Business,Business_Management
+com.kbcsecurities.bolero,1437,Bolero,Finance,Portfolio/Trading
+com.jiubang.go.music,1429,GO Music,Music & Audio,Music_&_Audio
+com.vlingo.midas,1426,Vlingo,Productivity,Phone_Assistant
+com.fluffyfairygames.idleminertycoon,1410,Idle Miner Tycoon,Simulation,Game_Singleplayer
+com.medisafe.android.client,1398,Pill Reminder and Medication Tracker by Medisafe,Health & Fitness,Medical
+com.sec.android.app.popupuireceiver,1397,System Messages,Background Process,Background_Process
+com.hsv.freeadblockerbrowser,1396,Free Adblocker Browser,Communication,Internet_Browser
+com.google.android.apps.genie.geniewidget,1392,Google News & Weather,News & Magazines,News
+com.lastpass.lpandroid,1387,LastPass Password Manager,Productivity,Security
+com.connected2.ozzy.c2m,1376,Connected2.me Chat Anonymously,Social,Social_Networking
+com.oneplus.filemanager,1373,OnePlus File Manager,Tools,Phone_Tools
+com.google.android.apps.fitness,1367,Google Fit,Health & Fitness,Personal_Fitness
+com.android.stk,1362,SIM Toolkit,Tools,Phone_Tools
+com.nianticproject.ingress,1349,Ingress,Adventure,Game_Multiplayer
+com.opera.browser,1345,Opera Browser,Communication,Internet_Browser
+com.microsoft.office.lync15,1345,Skype for Business,Business,Business_Management
+com.weplaydots.twodotsandroid,1342,Two Dots,Puzzle,Game_Singleplayer
+com.airbnb.android,1338,Airbnb,Travel & Local,Travel_Planning
+com.duolingo,1331,Duolingo,Education,Education
+com.philips.lighting.hue2,1325,Philips Hue,Lifestyle,Home_Automation
+com.Splitwise.SplitwiseMobile,1304,Splitwise,Finance,Personal_Finance
+com.lge.clock,1300,Clock,Tools,Phone_Tools
+io.getdelta.android,1298,Delta – Bitcoin & Cryptocurrency Portfolio Tracker,Finance,Portfolio/Trading
+com.contextlogic.wish,1290,Wish – Shopping Made Fun,Shopping,Online_Shopping
+bubbleshooter.android,1287,Bubble Shooter,Puzzle,Game_Singleplayer
+com.imgur.mobile,1266,Imgur,Entertainment,Social_Networking
+fm.castbox.audiobook.radio.podcast,1262,Castbox,News & Magazines,Streaming_Services
+com.cyngn.cameranext,1257,Cyanogen Camera,Photography,Camera
+com.twoo,1246,Twoo,Social,Social_Networking
+com.hyperspeed.rocketclean,1243,Super Speed Cleaner,Tools,Phone_Optimization
+com.okcupid.okcupid,1240,OkCupid Dating,Dating,Dating
+be.colruyt.xtra,1237,Xtra,Shopping,Coupons
+com.htc.android.worldclock,1229,HTC Clock,Tools,Phone_Tools
+com.health.drinkwater.reminder,1220,Drink Water Reminder,Health & Fitness,Personal_Fitness
+tv.twitch.android.app,1216,Twitch,Entertainment,Streaming_Services
+com.android.providers.downloads.ui,1215,Download Manager,Background Process,Background_Process
+com.sec.android.inputmethod,1213,Samsung Keyboard,Productivity,Phone_Personalization
+com.forgepond.locksmith,1208,,,Phone_Tools
+com.playrix.township,1205,Township,Casual,Game_Singleplayer
+com.sec.android.app.voicenote,1201,Samsung Voice Recorder,Tools,Phone_Tools
+com.tripadvisor.tripadvisor,1196,TripAdvisor,Travel & Local,Travel_Planning
+com.lge.camera,1190,Camera,Photography,Camera
+com.alarmclock.xtreme.free,1181,Alarm Clock,Productivity,Phone_Tools
+com.fsck.k9,1180,K-9 Mail,Communication,Email
+com.binckbank.evolution,1180,Binck,Finance,Portfolio/Trading
+com.microsoft.office.powerpoint,1170,Microsoft PowerPoint,Productivity,Document_Editor
+com.coyotesystems.android,1165,Coyote,Maps & Navigation,Auto_&_Vehicles
+ch.bitspin.timely,1165,Timely Alarm Clock,Lifestyle,Phone_Tools
+com.ibood.app,1164,iBOOD.com,Shopping,Coupons
+com.motorola.MotGallery2,1155,Motorola Gallery,Video Players & Editors,Camera
+com.untappdllc.app,1154,Untappd,Food & Drink,Food_&_Drinks
+com.wileyfox.camera,1153,Wileyfox Camera,Photography,Camera
+kr.co.vcnc.android.couple,1148,Between – Private Couples App,Social,Family_Planning
+com.mega.cast,1145,MegaCast,Video Players & Editors,Home_Automation
+com.crater.bbtan,1144,BBTAN by 111%,Arcade,Game_Singleplayer
+com.popularapp.thirtydayfitnesschallenge,1143,30 Day Fitness Challenge,Health & Fitness,Personal_Fitness
+com.ea.games.r3_row,1137,Real Racing 3,"Racing, Action & Adventure",Game_Singleplayer
+com.scopely.headshot,1132,The Walking Dead: Road to Survival,Role Playing,Game_Multiplayer
+com.sec.android.app.samsungapps,1129,Samsung Apps,Tools,Phone_Tools
+org.videolan.vlc,1129,VLC for Android,Video Players & Editors,Video_Players_&_Editors
+be.mt.telenet,1125,Triiing,Communication,Dialer
+com.ketchapp.knifehit,1122,Knife Hit,Arcade,Game_Singleplayer
+be.vmma.vtm.hetnieuws,1122,VTM NIEUWS,News & Magazines,News
+com.jb.go.musicplayer.mp3player,1120,GO Music Player Plus,Music & Audio,Music_&_Audio
+com.eastsidegames.trailerparkboys,1120,Trailer Park Boys: Greasy Money,Simulation,Game_Singleplayer
+com.android.printspooler,1118,Print Spooler,Background Process,Background_Process
+com.vdk.prod,1112,mobile@vdk,Finance,Personal_Finance
+com.drillyapps.babydaybook,1108,Baby Daybook – Babycare,Parenting,Family_Planning
+com.motorola.ccc.ota,1106,Motorola Update Service,Tools,Phone_Tools
+com.digibites.calendar,1105,DigiCal Calendar Agenda,Productivity,Calendar
+com.cnn.mobile.android.phone,1099,CNN Breaking US & World News,News & Magazines,News
+com.dynamicg.homebuttonlauncher,1098,Home Button Launcher,Tools,Phone_Personalization
+com.tencent.mm,1097,WeChat,Communication,Instant_Messaging
+com.ikeyboard.theme.pink_silk,1085,Pink Silk Keyboard Theme,Personalization,Phone_Personalization
+com.s.cleaner,1080,AVG Cleaner for Xperia,Productivity,Phone_Optimization
+com.ijinshan.kbatterydoctor_en,1077,Battery Doctor,Tools,Phone_Optimization
+com.bitdefender.security,1071,Bitdefencer Mobile Security & Antivirus,Tools,Security
+com.sonyericsson.android.socialphonebook,1067,Phonebook,Communication,Dialer
+com.ea.gp.fifaultimate,1062,EA SPORTS FIFA 19 Companion,Sports,Game_Singleplayer
+marlon.mobilefor_4411,1059,4411,Maps & Navigation,Auto_&_Vehicles
+net.tandem,1055,Tandem Language Exchange,Education,Social_Networking
+com.playrix.gardenscapes,1049,Gardenscapes,Casual,Game_Singleplayer
+be.ixor.doccle.android,1049,Doccle,Productivity,Phone_Tools
+com.apple.android.music,1041,Apple Music,Music & Audio,Streaming_Services
+com.onelouder.baconreader.premium,1032,BaconReader Premium for Reddit,News & Magazines,News
+nl.schoolmaster.magister.mobile,1030,Magister,Education,Education
+com.rhmsoft.pulsar,1023,Pulsar Music Player,Music & Audio,Music_&_Audio
+com.firsttouchgames.story,1021,Score! Hero,Sports,Game_Singleplayer
+com.twentyfivesquares.press,1021,Press,News & Magazines,News
+be.vrt.radioplus.radio1,1020,VRT Radio 1,Music & Audio,Streaming_Services
+com.badoo.mobile,1012,Badoo,Social,Dating
+tv.peel.smartremote,1009,Peel Smart Remote,Entertainment,Home_Automation
+fc.clean.security.memory.booster.battery,1008,Flash Cleaner,Tools,Phone_Optimization
+com.gbwhatsapp,1008,GBWhatsApp,Communication,Phone_Tools
+com.niksoftware.snapseed,993,Snapseed,Photography,Camera
+com.google.android.apps.paidtasks,992,Google Opinion Rewards,Tools,Phone_Tools
+be.stievie,987,Stievie TV kijken,Video Players & Editors,Streaming_Services
+com.htc.calendar,986,HTC Calendar,Productivity,Calendar
+com.king.candycrushsodasaga,986,Candy Crush Soda Saga,Casual,Game_Singleplayer
+com.d3p.mpq,983,Marver Puzzle Quest,Role Playing,Game_Multiplayer
+com.sofascore.results,972,SofaScore Live Score,Sports,Sports
+com.jqrapps.slowmotionvideo,966,Slow Motion Video,Tools,Camera
+com.cootek.smartinputv5,965,TouchPal Keyboard,Productivity,Phone_Personalization
+com.watagame.skymo,965,Momio,Social,Game_Multiplayer
+be.vrt.radioplus.stubru,956,Studio Brussel,Music & Audio,Streaming_Services
+cgeo.geocaching,948,c:geo,Entertainment,Entertainment
+com.s.antivirus,947,AVG Protection for Xperia,Tools,Security
+com.sillens.shapeupclub,947,Lifesum,Health & Fitness,Personal_Fitness
+be.vrt.radioplus.mnm,947,MNM,Music & Audio,Streaming_Services
+com.easilydo.mail,936,Email – Fast & Secure mail for Gmail Outlook & more,Productivity,Email
+be.concentra.hbvl.MediaApp,920,HBVL,News & Magazines,News
+be.edenred.mobileapps,916,TicketFinder Belgium,Tools,Coupons
+com.sonymobile.android.contacts,915,Contacts,Communication,Dialer
+mrigapps.andriod.breakfree.deux,912,SPACE,Productivity,Phone_Tools
+com.ume.browser.international,908,Browser – Search&News,Tools,Internet_Browser
+com.laurencedawson.reddit_sync.pro,908,Sync for reddit (Pro),News & Magazines,Social_Networking
+com.motorola.camera2,905,Moto Camera 2,Photography,Camera
+xyz.klinker.messenger,903,Pulse SMS,Communication,Messaging
+com.trendmicro.tmmspersonal.emea,902,Mobile Security & Antivirus,Tools,Security
+tunein.player,902,TuneIn,Music & Audio,Streaming_Services
+co.yellw.yellowapp,897,Yubo,Social,Social_Networking
+com.microsoft.emmx,894,Microsoft Edge,Communication,Internet_Browser
+com.ivymobi.applock.free,892,AppLock,Tools,Security
+eu.livesport.FlashScore_com,890,FlashScore,Sports,Sports
+com.firsttouchgames.smp,877,Score! Match,Sports,Game_Multiplayer
+midasapps.fingertwister,875,Twist Your Fingers!,Board,Game_Multiplayer
+com.mediatek.camera,867,Camera,Photography,Camera
+com.matchington.mansion,862,Matchington Mansion,Puzzle,Game_Singleplayer
+com.sec.android.app.sbrowser.beta,861,Samsung Internet Browser Beta,Communication,Internet_Browser
+bbc.mobile.news.ww,858,BBC News,News & Magazines,News
+de.wetteronline.wetterapp,848,Weather & Radar – Free,Weather,Weather
+com.lge.aodex,843,APK Interpreter,Background Process,Background_Process
+com.huawei.himovie,842,Huawei Videos,Video Players & Editors,Video_Players_&_Editors
+com.fusionmedia.investing,835,"Stocks, Forex, Finance, Markets: Portfolio & News",Finance,Portfolio/Trading
+be.belgacom.mobile.adeleeverywhere,832,Proximus TV,Entertainment,Entertainment
+com.supercell.boombeach,830,Boom Beach,Strategy,Game_Multiplayer
+com.tozelabs.tvshowtime,824,TV Time,Entertainment,Entertainment
+com.dotc.latin.ime.tap,813,Flash Keyboard Emoji,Entertainment,Phone_Personalization
+cc.forestapp,810,Forest: Stay focused,Productivity,Time_Tracker
+com.android.soundrecorder,803,Recorder,Tools,Phone_Tools
+com.android.thewongandonly.QuickDraw,802,Draw,Tools,Drawing
+com.record.gamma.mobile,801,Gamma Horizon Call Recording,Tools,Personal_Finance
+net.peakgames.toonblast,799,Toon Blast,Puzzle,Game_Singleplayer
+sh.whisper,794,Whisper,Social,Social_Networking
+com.thanksys.joyn.user,784,Joyn,Shopping,Coupons
+be.humo.tvgids,784,Humo’s tv-gids,Entertainment,Entertainment
+com.tomtom.Sports,783,TomTom Sport,Health & Fitness,Personal_Fitness
+com.syncme.syncmeapp,781,Sync.ME – Caller ID & Block,Communication,Phone_Tools
+com.mg.android,780,WeatherPro,Weather,Weather
+com.brainbow.peak.app,778,Peak – Brain Games & Training,Education,Game_Singleplayer
+com.gurushots.app,775,GuruShots – Photography Game,Photography,Social_Networking
+rpkandrodev.yaata,772,YAATA – SMS/MMS mesaging,Communication,Messaging
+com.uken.armory,771,Armory & Machine,Simulation,Game_Singleplayer
+com.sec.android.app.videoplayer,771,Videos,Video Players & Editors,Video_Players_&_Editors
+com.kiloo.subwaysurf,769,Subway Surfers,Arcade,Game_Singleplayer
+org.xbmc.kore,768,"Kore, Official Remote for Kodi",Video Players & Editors,Home_Automation
+bubbleshooter.orig,765,Bubble Shooter,Casual,Game_Singleplayer
+com.amazon.mShop.android.shopping,764,Amazon Shopping,Shopping,Online_Shopping
+com.lge.email,764,Email,Productivity,Email
+com.bose.soundtouch,760,Bose SoundTouch,Music & Audio,Home_Automation
+com.moonactive.coinmaster,751,Coin Master,Casual,Game_Multiplayer
+com.audeara,750,Audeara,Music & Audio,Wearables
+im.happening.android,750,Happening,Social,Game_Multiplayer
+com.bitstrips.imoji,748,Bitmoji – Your Personal Emoji,Entertainment,Phone_Personalization
+com.etoro.openbook,747,eToro Cryptocurrency Trading,Finance,Portfolio/Trading
+com.king.farmheroessaga,746,Farm Heroes Saga,Casual,Game_Singleplayer
+com.samsung.android.themestore,746,Samsung Themes,Personalization,Phone_Personalization
+com.lionmobi.battery,745,Power Battery – Battery Life Saver & Health Test,Tools,Phone_Optimization
+com.hmdglobal.camera2,745,Nokia Camera,Tools,Camera
+com.cyngn.gallerynext,745,Gallery,Photography,Camera
+com.bumble.app,744,Bumble – Date. Meet Friends. Network.,Lifestyle,Dating
+com.mysms.android.sms,742,mysms SMS Text Messaging Sync,Communication,Messaging
+com.wsandroid.suite,741,"Mobile Security: Antivirus, Anti-Theft & Safe Web",Productivity,Security
+com.doubleTwist.androidPlayer,734,doubleTwist Music & Podcast Player with Sync,Music & Audio,Streaming_Services
+com.qihoo.batterysaverplus,728,360 Battery – Batter Saver,Tools,Phone_Optimization
+com.miniclip.eightballpool,726,8 Ball Pool,Sports,Game_Multiplayer
+mac.pocket.mobile.lock.boost.clean.battery.booster,723,Pocket Boost,Tools,Phone_Optimization
+com.xs2theworld.weeronline,719,Wereonline: weer en regenradar,Weather,Weather
+com.fingersoft.hcr2,717,Hill Climb Racing 2,Racing,Game_Singleplayer
+com.gramgames.tenten,717,1010! Block Puzzle Game,Puzzle,Game_Singleplayer
+com.samsung.android.app.scrollcapture,715,Scrolling Screen Capture,Background Process,Background_Process
+com.bnpp.easybanking.fintro,712,Fintro Easy Banking,Finance,Personal_Finance
+com.jiubang.alock,708,AppLock Pro,Tools,Phone_Personalization
+air.com.pixelfederation.seaport.explore.collect.trade,703,"Seaport – Explore, Collect & Trade",Simulation,Game_Singleplayer
+com.nest.android,701,Nest,Lifestyle,Home_Automation
+com.trello,701,Trello,Productivity,To-Do_List
+com.samsung.android.email.ui,699,Samsung Email,Tools,Email
+com.alegrium.cong2,699,"Cash, Inc. Money Clicker Game & Business Adventure",Simulation,Game_Singleplayer
+com.plexapp.android,698,Plex,Video Players & Editors,Streaming_Services
+mobi.mgeek.TunnyBrowser,696,"Dolphin Browser – Fast, Private & Adblock",Communication,Internet_Browser
+io.voodoo.dune,696,Dune!,Arcade,Game_Singleplayer
+com.life360.android.safetymapd,695,Family Locator – GPS Tracker,Lifestyle,Family_Planning
+be.qmusic.app,693,Q,Music & Audio,Streaming_Services
+com.endomondo.android,690,Endomondo – Running & Walking,Health & Fitness,Personal_Fitness
+net.osmand,688,OsmAnd – Offline Travel Maps & Navigation,Maps & Navigation,Maps
+be.pizza.android,687,Takeaway.com – Belgium,Food & Drink,Online_Shopping
+com.huawei.health,684,Huawei Health,Health & Fitness,Personal_Fitness
+vivino.web.app,683,Vivino: Buy the Right Wine,Food & Drink,Food_&_Drinks
+com.duapps.antivirus,679,DU Antivirus Security – Applock & Privacy Guard,Tools,Security
+com.coredeltaapps.adultemojidirtyemoticons,676,Adult Emojis: Dirty Emoji Pack,Entertainment,Phone_Personalization
+com.android.mi.email,675,Mail,Productivity,Email
+com.flaregames.rrtournament,668,Royal Revolt 2: Tower Defense,Action,Game_Multiplayer
+nl.rabomobiel,668,Rabo Bankieren,Finance,Personal_Finance
+com.here.app.maps,664,HERE WeGo – Offline Maps & GPS,Maps & Navigation,Maps
+com.pixelberrystudios.choices,662,Chices: Sories You Play,Simulation,Game_Singleplayer
+org.thunderdog.challegram,659,Telegram X,Social,Instant_Messaging
+com.tradegame.shiptycoon,657,Ship Tycoon,Simulation,Game_Multiplayer
+com.yato.wood.blockpuzzle,655,Wood Block Puzzle,Puzzle,Game_Singleplayer
+net.oneplus.weather,653,OnePlus Weather,Weather,Weather
+com.Project100Pi.themusicplayer,652,Pi Music Player – Mp3 Music Player,Music & Audio,Music_&_Audio
+com.voodoo.idleballs,650,Idle Balls,Simulation,Game_Singleplayer
+com.sec.android.app.fm,648,Samsung FM Radio,Music & Audio,Streaming_Services
+com.sonymobile.calendar,644,Calendar,Productivity,Calendar
+org.leetzone.android.yatsewidgetfree,644,Yatse: Kodi remote control and cast,Video Players & Editors,Home_Automation
+com.dianxinos.dxbs,643,DU Battery Saver – Battery Charger & Battery Life,Tools,Phone_Optimization
+com.alensw.PicFolder,643,QuickPic – Photo Gallery with Google Drive Support,Photography,Camera
+com.app.tgtg,641,"Too Good To Go – fight food waste, save great food",Food & Drink,Online_Shopping
+com.aloggers.atimeloggerapp,641,aTimeLogger – Time Tracker,Productivity,Time_Tracker
+com.eoffice.android,640,NOS Teletekst,News & Magazines,News
+com.flightradar24free,640,Flightradar24 Flight Tracker,Travel & Local,Travel_Planning
+com.futorrent.torrent.client,639,FuTorrent,Tools,Phone_Tools
+com.bitlove.fetlife,637,FetLife,Lifestyle,Dating
+grit.storytel.app,636,Storytel,Books & Reference,Book_Readers
+com.tdo.showbox,635,ShowBox,Video Players & Editors,Streaming_Services
+com.sodexo.mySodexoCard,634,Sodexo4You,Tools,Coupons
+com.samruston.twitter,634,Flamingo for Twitter,Social,Social_Networking
+com.supportware.Buienradar,632,Buienradar – weer,Weather,Weather
+be.colruyt.collectandgo,632,Collect&Go,Shopping,Online_Shopping
+com.android.providers.media,632,Media Storage,Background Process,Background_Process
+mobi.inthepocket.fostplus.recyclage,629,Recycle!,Lifestyle,Phone_Tools
+com.zte.camera,628,Camera,Photography,Camera
+com.piriform.ccleaner,628,Ccleaner,Tools,Phone_Optimization
+eu.gimme.app2,627,gimme,Productivity,Phone_Tools
+com.intsig.camscanner,627,CamScanner – Phone PDF Creator,Productivity,Document_Editor
+dict.se.wf.finder.nl,627,WordFeud Fincer – Dutch,Puzzle,Entertainment
+de.zalando.lounge,626,Zalando Lounge – Shopping Club,Shopping,Online_Shopping
+com.calea.echo,623,Mood Messenger – SMS & MMS,Communication,Messaging
+com.king.candycrush4,623,Candy Crush Friends Saga,Casual,Game_Singleplayer
+com.duapps.recorder,622,"DU Recorder – Screen Recorder, Video Editor, Live",Video Players & Editors,Phone_Tools
+com.disa,621,Disa (Unified Messenger Hub),Communication,Instant_Messaging
+abs.workout.fitness.tabata.hiit.stomach,616,"Abs Workout – Home Workout, Tabata, HIIT",Health & Fitness,Personal_Fitness
+mobi.infolife.ezweather,616,Amber Weather,Weather,Weather
+com.ikeyboard.theme.blackcat2,615,Blackcat2 Keyboard Theme,Personalization,Phone_Personalization
+park.outlook.sign.in.client,613,Email App for Any Mail,Communication,Email
+com.jb.gokeyboard,612,"GO Keyboard – Emoticol Keyboard Free Theme, GIF",Personalization,Phone_Personalization
+com.ea.game.simcitymobile_row,609,SimSity BuildIt,Simulation,Game_Multiplayer
+be.vakantieveilingen.app,607,VakantieVeilingen.be,Travel & Local,Travel_Planning
+fr.two4tea.fightlist,606,Fight List – Categories Game,Trivia,Game_Multiplayer
+com.yahoo.mobile.client.android.weather,604,Yahoo Weather,Weather,Weather
+app.nl.socialdeal,604,Social Deal – The best deals,Travel & Local,Coupons
+com.pipedrive,599,Pipedrive – Sales CRM,Productivity,Business_Management
+com.hoplr,599,Hoplr,Social,Social_Networking
+o.o.joey,598,Joey for Reddit,News & Magazines,Social_Networking
+com.riftergames.onemorebrick,596,OneMoreBrick,Arcade,Game_Singleplayer
+be.geminicorp.qir,596,QIR,Business,Phone_Tools
+com.evenwell.camera2,594,Camera,Tools,Camera
+com.smallgiantgames.empires,587,Empires & Puzzes: RPG Quest,Role Playing,Game_Multiplayer
+com.xiaomi.hm.health,586,Mi Fit,Health & Fitness,Personal_Fitness
+zte.com.cn.alarmclock,586,Clock,Tools,Phone_Tools
+be.niko.homecontrol,585,Niko Home Control,Lifestyle,Home_Automation
+works.jubilee.timetree,585,TimeTree – Free Shared Calendar,Productivity,Calendar
+com.addswhilessuffers.binds,583,Block Puzzle – Wood Legend,Puzzle,Game_Singleplayer
+com.accuweather.android,582,AccuWeather: Daily Forecast & Live Weather Maps,Weather,Weather
+fm.player,581,Podcast App: Free & Offline Podcasts by Player FM,News & Magazines,Streaming_Services
+com.simonschellaert.radiobelgium,579,Radio Belgium,Music & Audio,Streaming_Services
+com.disney.frozensaga_goo,579,Frozen Free Fall,"Action, Adventure",Game_Singleplayer
+com.zte.privacyzone,574,,,Security
+keepass2android.keepass2android,574,Keepass2Android Password Safe,Tools,Security
+forgepond.com.android.mi.email,574,Email,Tools,Email
+com.samsung.android.oneconnect,572,SmartThings,Lifestyle,Home_Automation
+be.basecompany.base.mybase,569,My BASE,Productivity,Phone_Tools
+no.nrk.yr,568,Yr,Weather,Weather
+com.ai.pbp,565,Personal Body Plan,Health & Fitness,Personal_Fitness
+com.sfapps.power,565,Power for Facebook,Social,Social_Networking
+com.oneplus.security,562,,,Security
+com.zzoo.dokdo,562,DOKDO,Simulation,Game_Singleplayer
+com.utorrent.client,561,UTorrent – Torrent Downloader,Video Players & Editors,Phone_Tools
+be.mcdonalds.mcdo,560,McDonald’s Belgium,Food & Drink,Food_&_Drinks
+com.amila.parenting,559,"Baby tracker – feeding, sleep and diaper",Parenting,Family_Planning
+net.daylio,558,"Daylio – Diary, Journal, Mood Tracker",Lifestyle,Personal_Fitness
+org.wordpress.android,558,WordPress – Website & Blog Builder,,Streaming_Services
+com.sec.android.wallpapercropper2,557,Samsung Wallpapers,Personalization,Phone_Personalization
+be.byteworks.motus,556,MOTUS,Education,Phone_Tools
+be.wandelknooppunt,555,Wandelknoppunt,Travel & Local,Maps
+com.getsomeheadspace.android,554,Headspace: Meditation & Mindfulness,Health & Fitness,Personal_Fitness
+com.todoist,554,Todoist: To-do lists for task management & errands,Productivity,To-Do_List
+com.vsco.cam,551,VSCO,Photography,Camera
+com.symantec.mobilesecurity,551,Norton Security and Antivirus,Tools,Security
+com.Appsparagus.MrBinairo.app,550,Mr. Binairo – Binary Sudoku Puzzle,Puzzle,Game_Singleplayer
+com.huawei.android.thememanager,548,Huawei Theme Manager,Personalization,Phone_Personalization
+com.nike.plusgps,547,Nike+ Run Club,Health & Fitness,Personal_Fitness
+com.boxer.calendar,547,Boxer Calendar,Productivity,Calendar
+com.sec.android.app.launcher,547,Samsung Experience Home,Personalization,Phone_Personalization
+com.igg.android.lordsmobile,547,Lords Mobile: Battle of the Empires – Strategy RPG,Strategy,Game_Multiplayer
+com.fatsecret.android,546,Calorie Counter by FatSecret,Health & Fitness,Personal_Fitness
+com.bnpp.hellobank,546,Hello bank!,Finance,Personal_Finance
+com.buzzfeed.android,545,"BuzzFeed: News, Tasty, Quizzes",News & Magazines,News
+eu.chainfire.supersu,545,SuperSU,Tools,Phone_Tools
+com.xpro.camera.lite,542,APUS Camera,Photography,Camera
+Orion.Soft,540,Sound Profile (+ volume scheduler),Personalization,Phone_Personalization
+com.htc.camera2,539,HTC Camera,Photography,Camera
+com.azure.authenticator,539,Microsoft Authenticator,Business,Security
+ch.protonmail.android,535,ProtonMail – Encrypted Email,Communication,Email
+com.doodle.android,533,Doodle – Easy Scheduling,Productivity,Calendar
+com.martin,527,Winfeud the Wordfeud helper,Puzzle,Game_Singleplayer
+com.jb.zcamera,526,"Z Camera – Photo Editor, Beauty Selfie, Collage",Photography,Camera
+com.contapps.android,523,Contacts+,Communication,Dialer
+nl.degiro.trader,517,DEGIRO – Mobile Stock trading,Finance,Portfolio/Trading
+com.twipemobile.gva,517,Gazet van Antwerpen – Krant,News & Magazines,News
+com.samsung.android.gearoplugin,517,Gear S Plugin,Tools,Wearables
+com.itchmedia.tc4,516,Car Merger,Simulation,Game_Singleplayer
+menion.android.locus.pro,515,Locus Map Pro – Outdoor GPS navigation and maps,Maps & Navigation,Maps
+se.yo.android.bloglovin,513,Bloglovin’,Social,News
+com.chess,510,Chess – Play & Learn,"Board, Brain Games",Game_Singleplayer
+com.playtogga.togga,508,Draft Fantasy Premier League,Sports,Game_Singleplayer
+com.samsung.android.sm,507,,,Phone_Optimization
+nl.sneeuwhoogte.android,506,Sneeuwhoogte.nl,Weather,Weather
+com.wordgame.puzzle.board.nl,505,Woord Kruis,Word,Game_Singleplayer
+com.bigduckgames.flow,504,Flow Free,Puzzle,Game_Singleplayer
+com.sec.android.preloadinstaller,503,,,Phone_Tools
+com.etermax.preguntados.lite,502,Trivia Crack,Trivia,Game_Singleplayer
+com.myos.camera,502,Camera,Photography,Camera
+com.velldrin.smartvoiceassistant,501,Smart Voice Assistant,Productivity,Phone_Assistant
+com.lenovo.scg,499,Lenovo Super Camera and Gallery,Photography,Camera
+com.guardian,497,The Guardian,News & Magazines,News
+com.percent.bbtantwo,497,BBTAN by 222%,Arcade,Game_Singleplayer
+com.xs2theworld.weeronline.meteovista,493,Meteovista,Weather,Weather
+com.huawei.android.launcher,493,Huawei Launcher,Personalization,Phone_Personalization
+com.google.android.apps.giant,492,Google Analytics,Business,Business_Management
+tesmath.calcy,492,Calcy IV,Tools,Game_Multiplayer
+com.rivalregions.rivalregions,492,Rival Regions: world strategy of war and politics,Strategy,Game_Singleplayer
+com.urbandroid.lux,490,Twilight: Blue light filter,Health & Fitness,Phone_Personalization
+org.obsmapp,489,ObsMapp,Books & Reference,Document_Editor
+co.thefabulous.app,488,"Fabulous: Motivate Me! Meditate, Relax, Sleep",Health & Fitness,Personal_Fitness
+com.gmail.bulupe.Scale,488,Scale,Puzzle,Game_Singleplayer
+com.blackberry.camera,488,BlackBerry Camera,Photography,Camera
+com.mobilityware.solitaire,488,Solitaire,Card,Game_Singleplayer
+eu.nordeus.topeleven.android,487,Top Eleven 2018 – Be a Soccer Manager,Sports,Game_Multiplayer
+com.valvesoftware.android.steam.community,484,Steam,Entertainment,Online_Shopping
+com.havos.wordpuzzle,481,Word Fit Puzzle,Word,Game_Singleplayer
+com.evenwell.batteryprotect,480,Nokia Battery Protect,Tools,Phone_Optimization
+com.paypal.android.p2pmobile,479,PayPal Cash App: Send and Request Money Fast,Finance,Personal_Finance
+com.blizzard.wtcg.hearthstone,478,Heartstone,Card,Game_Multiplayer
+appli.speaky.com,477,Speaky – Language Exchange,Education,Social_Networking
+com.a0soft.gphone.app2sd,476,"AppMgr III (App 2 SD, Hide and Freeze apps)",Tools,Phone_Optimization
+com.google.android.apps.books,475,Google Play Books,Books & Reference,Book_Readers
+com.hecorat.screenrecorder.free,475,AZ Screen Recorder – No Root,Video Players & Editors,Phone_Tools
+com.withings.wiscale2,474,Health Mate – Total Health Tracking,Health & Fitness,Personal_Fitness
+droom.sleepIfUCan,473,Alarmy (Sleep If U Can) – Mission Alarm Clock App,Lifestyle,Phone_Tools
+co.vero.app,472,Vero – True Social,Social,Social_Networking
+com.onelouder.baconreader,468,BaconReader for Reddit,News & Magazines,Social_Networking
+com.bitmango.go.mahjongsolitaireclassic,468,Mahjong Solitaire: Classic,Puzzle,Game_Singleplayer
+com.baviux.pillreminder,464,Lady Pill Reminder,Medical,Medical
+net.skyscanner.android.main,464,"Skyscanner – Cheap Flights, Hotels and Car Rental",Travel & Local,Travel_Planning
+com.kodarkooperativet.blackplayerfree,462,BlackPlayer Music Player,Music & Audio,Music_&_Audio
+com.spotlightsix.zentimerlite2,460,Insight Timer – Free Meditation App,Health & Fitness,Personal_Fitness
+com.king.petrescuesaga,459,Pet Rescue Saga,Casual,Game_Singleplayer
+com.call.flash.ringtones,456,"Call Flash – Color Your Phone, Caller Screen Themes",Communication,Phone_Personalization
+com.samsung.android.bixby.agent,456,Bixby,Background Process,Background_Process
+com.syntomo.email,454,Email Exchange,Communication,Email
+com.quarterborrowresult.customer,454,Puzzle Game,Strategy,Game_Singleplayer
+com.ubercab,454,Uber,Maps & Navigation,Auto_&_Vehicles
+com.tippingcanoe.peppernl,453,"Pepper.com: Kortingscodes, deals, aanbiedingen",Shopping,Coupons
+sixpack.sixpackabs.absworkout,452,Six Pack in 30 Days – Abs Workout,Health & Fitness,Personal_Fitness
+com.ea.gp.fifamobile,451,FIFA Soccer,Sports,Game_Multiplayer
+com.ichi2.anki,451,AnkiDroid Flashcards,Education,Education
+com.ea.games.simsfreeplay_row,449,The Sims FreePlay,Simulation,Game_Singleplayer
+com.google.android.apps.walletnfcrel,447,Google Pay,Finance,Personal_Finance
+com.handcent.app.nextsms,445,"Handcent Next SMS(Free Messenger for texting, MMS)",Communication,Messaging
+com.db.pbc.mybankbelgium,441,MyBank Belgium,Finance,Personal_Finance
+com.android.bluetooth,439,Bluetooth,Background Process,Background_Process
+com.scee.psxandroid,436,PlayStation App,Entertainment,Entertainment
+com.mobilepioneers.tvgidstv,435,TVGiDS.tx – de tv gids app,Entertainment,Entertainment
+com.runtastic.android,435,Runtastic Running App & Mile Tracker,Health & Fitness,Personal_Fitness
+com.loxone.kerberos,433,Loxone Smart Home,Lifestyle,Home_Automation
+com.picsart.studio,432,PicsArt Photo Studio: Collage Maker & Pic Editor,Photography,Camera
+org.mozilla.firefox_beta,431,Firefox for Android Beta,Communication,Internet_Browser
+com.youneedabudget.evergreen.app,430,"YNAB – Budget, Personal Finance",Finance,Personal_Finance
+com.contextlogic.geek,429,Geek – Smarter Shopping,Shopping,Online_Shopping
+com.exatools.skitracker,429,Ski Tracker,Sports,Sports
+com.android.apps.tag,428,NFC Tagging,Background Process,Background_Process
+com.mapswithme.maps.pro,426,MAPS.ME – Offline Map and Travel Navigation,Travel & Local,Maps
+org.dayup.stocks,424,Webull – Stock Quotes & Free Stock Trading,Finance,Portfolio/Trading
+org.cyanogenmod.resolver,423,Cyanogenmod Dependency Resolver,Background Process,Background_Process
+com.toggl.timer,423,"Toggl Time Tracker, Timesheet",Productivity,Time_Tracker
+com.crypter.cryptocyrrency,423,"Crypto App – Widget, Alerts, News, Bitcoin Prices",Finance,Portfolio/Trading
+com.avast.android.cleaner,423,"Avast Cleanup & Boost, Phone Cleaner, Optimizer",Tools,Phone_Optimization
+com.deliveroo.orderapp,423,Deliveroo: Restaurant Delivery,Food & Drink,Online_Shopping
+com.nbaimd.gametime.nba2011,423,NBA App,Sports,Sports
+com.jafolders.promopromo,422,PromoPromo,Shopping,Online_Shopping
+com.p1.chompsms,421,chomp SMS,Communication,Messaging
+com.zerodesktop.appdetox.qualitytime,421,QualityTime – My Digital Diet,Productivity,Personal_Fitness
+com.pacybits.fut18packopener,420,FUT 18 PACK OPENER by PacyBits,Sports,Game_Multiplayer
+be.vbl.VBL,420,Basketbal App,Sports,Sports
+nl.dumpert,419,Dumpert,Entertainment,Streaming_Services
+com.frozax.tentsandtrees,418,Tents and Trees Puzzles,Puzzle,Game_Singleplayer
+com.microsoft.exchange.mowa,418,Microsoft Outlook Web Access,Productivity,Email
+com.xvideostudio.videoeditor,418,"VideoShow – Video Editor, Video Maker, Beauty Camera",Video Players & Editors,Video_Players_&_Editors
+sodexo.vouchers,417,Dienstencheques by Sodexo,Productivity,Coupons
+com.tct.weather,417,Weather – Simple weather forecast,Weather,Weather
+com.amdroidalarmclock.amdroid,416,Alarm Clock for Heavy Sleepers – Smart Math & Free,Productivity,Phone_Tools
+com.nll.acr,415,Call Recorder – ACR,Productivity,Phone_Tools
+be.vrt.ketnet.ketnetjr,414,Ketnet Junior,Music & Audio,Streaming_Services
+com.kingstudio.purify,413,Purify,Health & Fitness,Phone_Optimization
+com.catawiki2,413,Catawiki Online Auctions,Shopping,Online_Shopping
+com.ing.mobile,413,ING Bankieren,Finance,Personal_Finance
+com.vsrevogroup.revouninstallermobile,411,Revo Uninstaller Mobile,Tools,Phone_Optimization
+com.gemius.netpanel,410,Net Panel,Libraries & Demo,Education
+mikado.bizcalpro,410,Business Calendar Pro,Productivity,Calendar
+com.tayu.tau.pedometer,409,Pedometer,Health & Fitness,Personal_Fitness
+com.duckduckgo.mobile.android,407,DuckDuckGo Privacy Browser,Tools,Internet_Browser
+com.huawei.hwid,406,Huawei Mobile Servies,Tools,Phone_Tools
+com.differencetenderwhite.skirt,403,Block Puzzle Jewel,Puzzle,Game_Singleplayer
+com.android.camera,402,Camera,Photography,Camera
+nl.sanomamedia.android.nu,401,NU.nl,News & Magazines,News
+com.firsttouchgames.dls3,400,Dream League Soccer 2018,Sports,Game_Singleplayer
+com.instagram.layout,400,Layout from Instagram: Collage,Photography,Social_Networking
+air.com.goodgamestudios.empirefourkingdoms,399,Empire: Four Kingdoms,Strategy,Game_Multiplayer
+com.hipchat,396,HipChat – Chat Built for Teams,Business,Instant_Messaging
+org.codeaurora.gallery,394,,,Camera
+nl.telegraaf,393,De Telegraaf niews sport entertainment financieel,News & Magazines,News
+com.estrongs.android.pop.pro,392,ES File Explorer/Manager PRO,Productivity,Phone_Tools
+com.yahoo.mobile.client.android.flickr,387,Flickr,Photography,Camera
+com.htc.album,386,HTC Gallery,Video Players & Editors,Camera
+com.pl.premierleague,386,Premier League – Official App,Sports,Sports
+com.tribab.tricount.android,386,Tricount – Split bills & manage group expenses,Finance,Personal_Finance
+com.PupInteractive.TwistyRoad,385,Twisty Road!,Arcade,Game_Singleplayer
+com.sec.android.widgetapp.ap.hero.accuweather,385,Samsung Weather,Weather,Weather
+com.gameinsight.gobandroid,384,Guns of Boom – Online Shooter,Action,Game_Multiplayer
+com.hb.dialer.free,384,True Phone Dialer & Contacts,Communication,Dialer
+com.infraware.office.link,384,"Polaris Office – Word, Docs, Sheets, Slides, PDF",Productivity,Document_Editor
+com.futbin,382,"FUT 18 Draft, Squar Builder & SBC – FUTBIN",Sports,Sports
+com.lge.wifisettings,379,LG WiFi Settings,Tools,Phone_Tools
+com.google.android.apps.plus,378,Google+,Social,Social_Networking
+com.nezdroid.cardashdroid,378,Car dashdroid-Car infotainment,Auto & Vehicles,Auto_&_Vehicles
+de.axelspringer.yana.zeropage,378,upday,Others,News
+com.opera.mini.native,376,Opera Mini – fast web browser,Communication,Internet_Browser
+com.microsoft.office.officelens,376,Microsoft Office Lens – PDF Scanner,Productivity,Document_Editor
+org.iggymedia.periodtracker,375,"Period Tracker Flo, Pregnancy & Ovulation Calendar",Health & Fitness,Medical
+com.eyefilter.nightmode.bluelightfilter,373,"Blue Light Filter – Night Mode, Eye Care",Health & Fitness,Phone_Personalization
+com.mydiego.takeabreak,373,Trimiday – 3 minutes per day,Tools,Personal_Fitness
+game.puzzle.woodenblockpuzzle,370,Wood Block Puzzle Westerly,Puzzle,Game_Singleplayer
+com.microsoft.teams,370,Microsoft Teams,Business,Business_Management
+com.gameduell.mobile.belote,366,Belote.com – Free Belote Game,Card,Game_Multiplayer
+com.laurencedawson.reddit_sync,366,Sync for Reddit,News & Magazines,Social_Networking
+com.clue.android,366,Period Tracker Clue: Period & Ovulation Tracker,Health & Fitness,Medical
+com.zutgames.ilovehue,366,I Love Hue,Puzzle,Game_Singleplayer
+com.teamlava.fashionstory,365,Fashion Story,Casual,Game_Singleplayer
+vstc.eye4zx.client,364,EyeCloud,Libraries & Demo,Home_Automation
+com.zoho.mail,364,Zoho Mail – Email and Calendar,Productivity,Email
+air.com.hypah.io.slither,364,slither.io,Action,Game_Multiplayer
+com.daysofwonder.tt.android,362,Ticker to Ride,Board,Game_Multiplayer
+com.guardofitcoach.second,361,Guardo Fit Coach,Health & Fitness,Personal_Fitness
+com.melodis.midomiMusicIdentifier.freemium,357,SoundHound – Music Discovery & Hands-Free Player,Music & Audio,Streaming_Services
+com.dnm.heos.phone,357,HEOS,Music & Audio,Music_&_Audio
+be.vrt.ketnet.ketnet,356,Ketnet,Music & Audio,Streaming_Services
+com.sunnyportal.ui,355,Sunny Portal,Tools,Home_Automation
+de.softxperience.android.quickprofiles,355,Quick Profiles,Tools,Phone_Personalization
+com.osp.app.signin,355,Samsung Account Login,Background Process,Background_Process
+se.newspaper,352,US Newspapers,News & Magazines,News
+com.splunchy.android.alarmclock,351,AlarmDroid (alarm clock),Tools,Phone_Tools
+dp.ws.popcorntime,349,Popcorn Time,Video Players & Editors,Streaming_Services
+com.lge.qmemoplus,347,Qmemos,Productivity,Document_Editor
+org.dayup.gtask,346,Gtask: Todo List & Task List,Productivity,To-Do_List
+com.oneplus.opbackup,346,OnePlus Backup,Tools,Phone_Tools
+st.brothas.mtgoxwidget,346,Bitcoin Ticker Widget,Finance,Portfolio/Trading
+com.shopify.mobile,346,Shopify: Sell Online Ecommerce,Business,Business_Management
+com.gameloft.android.GloftMBCF,346,,,Game_Singleplayer
+im.vector.alpha,345,Riot.im – open team collaboration,Communication,Instant_Messaging
+com.lbe.parallel.intl,345,Parallel Space – Multiple accounts & Two face,Personalization,Social_Networking
+com.andrwq.recorder,344,Smart Recorder – High-quality voice recorder,Music & Audio,Phone_Tools
+mobi.drupe.app,344,"Contacts, Phone Dialer & Caller ID: drupe",Communication,Dialer
+com.robtopx.geometryjump,344,Geometry Dash,Arcade,Game_Singleplayer
+com.androbaby.game2048,343,2048,"Puzzle, Brain Games",Game_Singleplayer
+com.scopely.yux,342,New YAHTZEE® With Buddies Dice Game,Board,Game_Multiplayer
+be.ugent.zeus.hydra,340,Hydra,Education,Education
+com.landlordgame.tycoon,340,Landlord Real Estate Tycoon,Board,Game_Multiplayer
+be.voetbalkrantapp,340,Voetbalkrant,Sports,Sports
+netgenius.bizcal,338,Business Calendar,Productivity,Calendar
+com.linkedin.android.jobs.jobseeker,338,LinkedIn Job Search,Business,Job_Search
+name.pilgr.appdialer.pro,337,AppDialer Pro T9 finder,Productivity,Phone_Personalization
+com.mobile.legends,336,Mobile Legends: Bang Bang,Action,Game_Multiplayer
+com.king.candycrushjellysaga,336,Candy Crush Jelly Saga,Puzzle,Game_Singleplayer
+net.peakgames.amy,335,Toy Blast,Puzzle,Game_Singleplayer
+org.cyanogenmod.snap,335,Camera,Photography,Camera
+com.seven.fitness.workout,334,HiFit – 7 Minute Workout with No Equipment Needed,Health & Fitness,Personal_Fitness
+com.yammer.v1,333,Yammer,Business,Business_Management
+nl.negentwee,333,9292,Travel & Local,Travel_Planning
+com.naturalmotion.customstreetracer2,332,CSR Racing 2,Racing,Game_Singleplayer
+com.hasbro.riskbigscreen,331,RISK: Global Domination,"Action, Adventure",Game_Multiplayer
+com.vives.degavers,331,De Gavers,Entertainment,Maps
+com.vaillantgroup.vaillant.thermostat,331,Vaillant vSMART Control,Tools,Home_Automation
+com.itunestoppodcastplayer.app,331,Podcast Republic – Podcast and Radio App,News & Magazines,Streaming_Services
+com.capigami.outofmilk,329,Out of Milk – Grocery Shopping List,Shopping,To-Do_List
+com.diandian.gog,329,Guns of Glory,Strategy,Game_Singleplayer
+com.dianxinos.optimizer.duplay,327,Cache Cleaner – DU Speed Booster (booster & cleaner),Tools,Phone_Optimization
+be.vdab.vindeenjobapp,327,VDAB jobs,Business,Job_Search
+com.weather.Weather,327,The Weather Channel: Fall Forecast & Live Alerts,Weather,Weather
+com.instagram.boomerang,326,Boomerang from Instagram,Photography,Social_Networking
+com.spacegame.solitaire.basic,326,Solitaire!,Card,Game_Singleplayer
+forgepond.com.ninefolders.hd3.work,326,Nine Work for Android Enterprise,Business,Email
+com.Airbolt.TheAirBolt,326,AirBolt,Tools,Security
+com.groundspeak.geocaching.intro,325,Geocaching,Health & Fitness,Entertainment
+com.alarmclock.xtreme,325,Alarm Clock Xtreme & Timer,Tools,Phone_Tools
+com.ryanair.cheapflights,325,Ryanair – Cheapest Fares,Travel & Local,Travel_Planning
+com.outfit7.talkingtompool,324,Talkting Tom Pool Puzzle Game,Puzzle,Game_Singleplayer
+com.sonymobile.androidapp.audiorecorder,324,Audio Recorder,Tools,Phone_Tools
+com.taplane.logoquiz,324,Logo Quiz World,Trivia,Game_Singleplayer
+com.mxtech.videoplayer.ad,324,MX Player,Video Players & Editors,Video_Players_&_Editors
+com.hm.goe,324,H&M,Lifestyle,Online_Shopping
+net.osmand.plus,322,OsmAnd+ - Offline Travel Maps & Navigation,Travel & Local,Maps
+com.bitcare.parent,321,Bitcare for parents,Social,Family_Planning
+com.SoftCactusStudio.Inequality,321,Inequality – Futoshiki,Puzzle,Game_Singleplayer
+com.netgear.android,321,Arlo,Video Players & Editors,Home_Automation
+com.microblink.photomath,321,Photomath,Education,Education
+com.bpb.mobilebanking.smartphone.prd,320,MOBILEbanking smartphone,Finance,Personal_Finance
+com.autoscout24,319,AutoScout24 – used car finder,Auto & Vehicles,Online_Shopping
+com.google.android.apps.pdfviewer,319,Google PDF Viewer,Productivity,Document_Editor
+com.boredpanda.android,319,Bored Panda,Entertainment,Social_Networking
+com.once.android,317,Once – Quality Matches Every day,Dating,Dating
+kr.co.ladybugs.fourto,316,FOTO Galley,Photography,Camera
+com.spacegame.basic3,316,Solitaire,Card,Game_Singleplayer
+com.ikeyboard.theme.golden_bow,315,Gold Bow Keyboard theme,Personalization,Phone_Personalization
+com.android.music,315,Android Music Player,Music & Audio,Music_&_Audio
+com.calengoo.android,312,CaenGoo – Calendar and Tasks,Productivity,Calendar
+com.tomtom.speedcams.android.map,312,TomTom Speed Cameras,Maps & Navigation,Auto_&_Vehicles
+com.apusapps.tools.booster,312,APUS Booster – Space Cleaner & Booster,Productivity,Phone_Optimization
+com.ebay.mobile,312,"Fashion & Tech Deals – Shop, Sell & Save with eBay",Shopping,Online_Shopping
+com.kobobooks.android.bol,312,Bol.com Kobo – ebooks lezen,Books & Reference,Book_Readers
+com.macropinch.swan,311,Weather,Weather,Weather
+nl.ns.android.activity,311,NS,Travel & Local,Travel_Planning
+com.sec.android.app.wallpaperchooser,311,Samsung Wallpaper Picker,Personalization,Phone_Personalization
+com.solaregde.apps.monitoring,311,SolarEdge Monitoring,Tools,Home_Automation
+com.jb.gosms,311,"GO SMS Pro – Messenger, Free Themes, Emoji",Communication,Messaging
+com.ketchapp.dunkshot,311,Dunk Shot,Arcade,Game_Singleplayer
+com.goodreads,310,Goodreads,Books & Reference,Online_Shopping
+air.app.smartybubbles,310,Smarty Bubble Shooter Free,Casual,Game_Singleplayer
+com.kodarkooperativet.blackplayerex,310,BlackPlayer EX,Music & Audio,Music_&_Audio
+be.bemobile.touringmobilis,309,Touring Mobilis,Maps & Navigation,Auto_&_Vehicles
+je.fit,309,"JEFIT Workout Tracker, Weight Lifting, Gym Log App",Health & Fitness,Personal_Fitness
+tw.mobileapp.qrcode.banner,308,QR Code Reader,Tools,Phone_Tools
+org.zwanoo.android.speedtest,308,Speedtest by Ookla,Tools,Phone_Tools
+com.appmind.radios.be,307,Radio Belgium: FM Radio and Internet Radio,Music & Audio,Streaming_Services
+com.dlink.mydlinkbaby,306,mydlink Baby Camera Monitor,Tools,Home_Automation
+com.drivemode.android,306,Drivemode: Safe Driving App,Auto & Vehicles,Auto_&_Vehicles
+air.com.sgn.juicejam.gp,304,Juice Jam – Puzzle Game & Free Match 3 Games,Puzzle,Game_Singleplayer
+com.htc.camera,304,HTC Camera,Photography,Camera
+homeworkout.homeworkouts.noequipment,304,Home Workout – No Equipment,Health & Fitness,Personal_Fitness
+com.google.android.apps.tachyon,304,Google Duo – High Quality Video Calls,Communication,Dialer
+com.android.keychain,302,KeyChain,Background Process,Background_Process
+com.nakko.android.voetbalzone,301,Voetbalzone,Sports,Sports
+be.appsolution.lotterienationale,301,Win Checkr,Entertainment,Entertainment
+com.nexonm.dominations.adk,300,DomiNations,Strategy,Game_Multiplayer
+com.morecast.weather,299,Morecast – Your Personal Weather Companion,Weather,Weather
+com.barisefe.belgiumnewspapers,299,Belgie Kranten,News & Magazines,News
+com.appxy.tinyscanner,299,Tiny Scanner – PDF Scaner App,Business,Document_Editor
+com.inthepocket.kinepolis,298,Kinepolis,Entertainment,Entertainment
+com.seamless.seqr,297,Glase – mobile payments,Finance,Personal_Finance
+com.nitroxenon.terrarium,297,Terrarium TV,Video Players & Editors,Streaming_Services
+com.android.aldiko,297,Aldiko Classic Prebium,Books & Reference,Book_Readers
+com.orange.be.orangetv,296,Orange TV BE,Entertainment,Streaming_Services
+com.anishu.homebudget.full,296,Home Budget with Sync,Finance,Personal_Finance
+com.beobank_prod.bad,295,Beobank Mobile,Finance,Personal_Finance
+com.noinnion.android.greader.readerpro,295,gReader,News & Magazines,News
+com.google.android.apps.docs.editors.slides,294,Google Slides,Productivity,Document_Editor
+com.definitive.newsmonkey,293,newsmonkey,News & Magazines,News
+com.clusor.ice,292,ICE – in case of emergency,Medical,Medical
+com.aldiko.android,291,Aldiko Book Reader,Books & Reference,Book_Readers
+io.walletpasses.android,290,WalletPasses | Passbook Wallet,Travel & Local,Coupons
+com.zynga.livepoker,290,Zynga Poker – Texas Holdem,Casino,Game_Multiplayer
+cn.zte.music,290,ZTE Music Player,Music & Audio,Music_&_Audio
+com.samsung.voiceserviceplatform,289,Samsung S Voice,Tools,Phone_Assistant
+onetcup.cryptostats,289,"Crypto Tracker – Bitcoin, Ethereum + more tracker",Finance,Portfolio/Trading
+be.joefm.app,287,JOE,Music & Audio,Streaming_Services
+be.persgroep.red.mobile.android.hln,286,Het Laatste Nieuws,News & Magazines,News
+be.telenet.telenetsupport,286,Telnet Support,Tools,Phone_Tools
+com.sonymobile.sketch,286,Sketch – Draw & Paint,Art & Design,Drawing
+com.unitedwardrobe.app,285,United Wardrobe – Fashion App,Lifestyle,Online_Shopping
+air.com.innogames.staemme,285,Tribal Wars,Strategy,Game_Multiplayer
+be.proximus.proximusmail,285,Proximus Mail,Productivity,Email
+be.vrt.vrtswitch,285,Switch,Trivia,Game_Multiplayer
+com.snaptube.premium,284,Snaptube,Video Players & Editors,Streaming_Services
+be.persgroep.topics,284,Topics BE,News & Magazines,News
+com.cindicator,284,"Cindicator: stock market, cryptocurrency, bitcoin",Finance,Portfolio/Trading
+com.radarbeep,284,Radar Beep – Radar Detector,Travel & Local,Auto_&_Vehicles
+com.bbm,283,BBM – Free Calls & Messages,Communication,Messaging
+com.google.android.apps.wallpaper,283,Wallpapers,Personalization,Phone_Personalization
+com.bottledapp.bottled,282,Bottled – Message in a Bottle,Social,Social_Networking
+com.joelapenna.foursquared,282,Foursquare City Guide,Food & Drink,Maps
+com.ally.griddlersplus,281,Griddler Plus,Puzzle,Game_Singleplayer
+com.ted.android,281,TED,Education,Streaming_Services
+be.vrt.radioplus.radio2,280,VRT Radio 2,Music & Audio,Music_&_Audio
+com.cozi.androidfree,280,Cozi Family Organizer,Productivity,Family_Planning
+com.samsung.android.scloud,280,Samsung Cloud,Productivity,Phone_Tools
+com.vulog.carshare.poppy,280,Poppy,Travel & Local,Auto_&_Vehicles
+com.blendle.app,280,Blendle,News & Magazines,News
+com.ogden.memo,278,Notes,Tools,Document_Editor
+piuk.blockchain.android,278,"Blockchain Wallet. Bitcoin, Bitcoin Cash, Ethereum",Finance,Personal_Finance
+com.gameloft.android.ANMP.GloftCAHM,278,Cars: Fast As Lighting,Racing,Game_Singleplayer
+be.persgroep.android.news.mobilevk,276,de Volkskrant,News & Magazines,News
+com.tapptic.jupiler.android,275,Jupiler Pro League (official) + Rode Duivels,Sports,Sports
+de.motain.iliga,275,Onefootball – Soccer Scores,Sports,Sports
+com.northcube.sleepcycle,275,Sleep Cycle alarm clock,Health & Fitness,Phone_Tools
+at.bluesource.mobilepocket,275,Mobile-pocket loyalty cards,Shopping,Coupons
+be.dlbank.mobilebankingapp,275,Nagelmackers Mobile Banking,Finance,Personal_Finance
+com.sensio.instapreview,275,Preview – Plan your Instagram,Photography,Social_Networking
+com.playrix.fishdomdd.gplay,274,Fishdom,Puzzle,Game_Singleplayer
+net.persgroep.dmo.tv,274,DM TV App,Entertainment,Entertainment
+com.mypthub.thefitnesschef,273,Absolute Fit,Health & Fitness,Personal_Fitness
+com.icenta.sudoku.ui,273,Sudoku,Puzzle,Game_Singleplayer
+com.netatmo.netatmo,273,Neatmo Weather,Weather,Home_Automation
+com.ringapp,272,Ring – Always Home,Communication,Security
+com.bigfishgames.gummydropgoogle,272,Gummy Drop! - Free Match 3 Puzzle Game,Puzzle,Game_Singleplayer
+eu.creativefriends.wordcrex,271,WordCrex: The fair word game,Word,Game_Multiplayer
+com.zwift.android.prod,270,Zwift Companion,Health & Fitness,Personal_Fitness
+com.airbsit.development,270,Bsit: Your kids – A babysitter,Parenting,Family_Planning
+com.ubercab.eats,270,Uber Eats: Local Food Delivery,Food & Drink,Online_Shopping
+com.teamviewer.teamviewer.market.mobile,269,TeamViewer for Remote Control,Productivity,Remote_Administration
+com.ketchapp.fingerdriver,269,Finger Driver,Arcade,Game_Singleplayer
+com.realvnc.viewer.android,269,VNC Viewer – Remote Desktop,Productivity,Remote_Administration
+com.spaceapegames.fastlane,269,Fastlane: Road to Revenge,Action,Game_Singleplayer
+com.criticalforceentertainment.criticalops,267,Critical Ops,Action,Game_Multiplayer
+com.samsung.android.app.watchmanager,267,Galaxy Wearable (Samsung Gear),Tools,Wearables
+com.mixcloud.player,266,Mixcloud – Radio & DJ mixes,Music & Audio,Streaming_Services
+de.egym.mobile.android,266,eGym Fitness app,Health & Fitness,Personal_Fitness
+com.airwatch.admin.rm.samsung,265,Samsung AirWatch Remote Management,Background Process,Background_Process
+com.synology.DScam,265,DS cam,Productivity,Home_Automation
+com.synology.DSfile,264,DS file,Productivity,Phone_Tools
+com.turbochilli.rollingsky,264,Rolling Sky,Board,Game_Singleplayer
+net.zedge.android,264,ZEDGE Ringtones & Wallpapers,Personalization,Phone_Personalization
+com.unibet.unibetpro,264,Unibet – Live Sports Betting,Sports,Entertainment
+com.andreisokal.ballscontrol,263,Balls Control,Casual,Game_Singleplayer
+de.bmw.connected,263,BMW Connected,Travel & Local,Auto_&_Vehicles
+cc.pacer.androidapp,263,"Pedometer, Step Counter & Weight Loss Tracker App",Health & Fitness,Personal_Fitness
+com.android.hwmirror,263,Mirror,Background Process,Background_Process
+com.lemongame.klondike.solitaire,263,Solitaire,Card,Game_Singleplayer
+com.rcg.fives,262,Fives,Puzzle,Game_Singleplayer
+com.vector.game.puzzle.numberlink,262,2248,"Puzzle, Brain Games",Game_Singleplayer
+com.quizlet.quizletandroid,262,Quizlet: Learn Languages & Vocab with Flashcards,Education,Education
+com.tado,262,tado°,Tools,Home_Automation
+com.acn.uc,262,Uconnect LIVE,Lifestyle,Home_Automation
+com.lookout.net,261,Lookout Security Extension,Tools,Security
+com.asos.app,260,ASOS,Shopping,Online_Shopping
+com.ghisler.android.TotalCommander,260,Total Commander – file manager,Tools,Phone_Tools
+com.avast.android.batterysaver,259,Avast Battery Saver,Tools,Phone_Tools
+com.macropinch.axe,258,Alarm Clock,Tools,Phone_Tools
+com.lge.shutdownmonitor,257,Shutdown Monitor,Background Process,Background_Process
+com.peaksware.trainingpeaks,257,TrainingPeaks,Health & Fitness,Personal_Fitness
+com.mobirix.swipebrick,256,Bricks Breaker Puzzle,Arcade,Game_Singleplayer
+com.ucdevs.jcross,256,Nonograms Katana,Puzzle,Game_Singleplayer
+be.antwerpen.velo,255,Velo Antwerpen,Lifestyle,Auto_&_Vehicles
+com.parkmobile,255,Parkmobile Parking,Travel & Local,Auto_&_Vehicles
+com.audible.application,254,Audiobooks from Audible,Books & Reference,Book_Readers
+com.groupon,254,"Groupon – Shop Deals, Discounts & Coupons",Shopping,Coupons
+com.parship.android,254,Parship – Partnersuche,Dating,Dating
+net.nurik.roman.dashclock,253,DashClock Widget,Personalization,Phone_Personalization
+f.industries.fakemessages,253,Fake Chat Conversations,Entertainment,Entertainment
+com.handmark.expressweather,252,1Weather: Widget Forecast Radar,Weather,Weather
+com.bitmango.go.wordcookies,252,Word Cookies,Word,Game_Singleplayer
+be.energylab.start2run,252,Start 2 Run,Sports,Personal_Fitness
+com.ikea.kompis,252,IKEA Store,Shopping,Online_Shopping
+com.twipemobile.hbvl,252,Het Beland van Limburg – Krant,News & Magazines,News
+com.cardgame.solitaire.full,252,Solitaire: Super Challenges,Card,Game_Singleplayer
+com.timaimee.hband,251,H Band 2.0,Health & Fitness,Personal_Fitness
+telecom.IT,251,,,Remote_Administration
+net.roamler,250,Roamler,Lifestyle,Mechanical_Turk
+com.orange.MobileCloud.be,250,Orange Cloud BE,Productivity,Phone_Tools
+com.synology.DSaudio,249,DS audio,Music & Audio,Streaming_Services
+com.headcode.ourgroceries,248,Our Groceries Shopping List,Shopping,To-Do_List
+com.htc.launcher,247,"Sense Home Launcher-News, Theme",News & Magazines,Home_Automation
+com.hancom.office.viewer,247,Hancom Office Viewer,Productivity,Document_Editor
+com.rim.mobilefusion.client,247,BlackBerry UEM Client,Productivity,Phone_Tools
+jp.pioneer.avsoft.android.icontrolav2014,246,iControlAV5,Entertainment,Home_Automation
+com.vecturagames.android.app.gpxviewer,246,"GPX Viewer – Tracks, Routes & Waypoints",Travel & Local,Maps
+com.mobitobi.android.gentlealarm,246,Gentle Alarm,Lifestyle,Phone_Tools
+com.google.android.wearable.app,245,Wear OS by Google Smartwatch (was Android Wear),Communication,Wearables
+com.theta360,245,RICOH THETA,Productivity,Camera
+se.maginteractive.rumble.free,244,Ruzzle Free,Word,Game_Singleplayer
+nl.transip.stack,244,STACK,Productivity,Phone_Tools
+com.saj.esolar,244,eSolar Portal,Business,Home_Automation
+nl.uitzendinggemist,243,NPO Start,Entertainment,Streaming_Services
+com.magix.camera_mx,242,Camera MX – Free Photo & Video Camera,Photography,Camera
+com.duapps.cleaner,242,DU Cleaner – Memory cleaner & clean phone cache,Tools,Phone_Optimization
+jp.konami.duellinks,242,Yu-Gi-Oh! Duel Links,Card,Game_Multiplayer
+com.polyvore,242,Polyvore,Shopping,Online_Shopping
+com.lge.videoplayer,242,Video Player,Video Players & Editors,Video_Players_&_Editors
+com.square_enix.android_googleplay.FFBEWW,241,FINAL FANTASY BRAVE EXVIUS,Role Playing,Game_Singleplayer
+com.mobilefootie.wc2010,240,FotMob – Live Soccer Scores,Sports,Sports
+com.exovoid.weather.app.be,240,Weather Belgium XL PRO,Weather,Weather
+com.anydo.cal,240,"Cal: Google Calendar, Calendar Widget & Tasks",Productivity,Calendar
+com.fsecure.ms.safe,239,F-Secure SAFE,Tools,Security
+com.l,239,Grocery Shopping List – Listonic,Shopping,To-Do_List
+com.handmark.tweetcaster,238,TweetCaster for Twitter,Social,Social_Networking
+com.appxy.famcal,237,Family Shared Calendar: FamCal,Productivity,Calendar
+com.sec.android.app.taskmanager,237,Samsung Task Manager,Tools,Phone_Tools
+com.ticketswap.ticketswap,237,TicketSwap,Entertainment,Online_Shopping
+com.ikeyboard.theme.valentine.owls,237,Valentine Owls Love Keyboard Theme,Personalization,Phone_Personalization
+com.apps.go.clean.boost.master,236,"Super Cleaner – Antivirus, Booster, Phone Cleaner",Tools,Phone_Optimization
+com.sgn.geniesandgems.gp,236,Genies & Gems – Jewel & Gem Matching Adventure,Puzzle,Game_Singleplayer
+com.alphainventor.filemanager,236,File Manager,Productivity,Phone_Tools
+com.develop.CareConnectMobile,235,CareConnect Mobile,Medical,Medical
+com.ikeyboard.theme.rosegold,235,Rose Gold Keyboard for Phone8,Personalization,Phone_Personalization
+com.motorola.timeweatherwidget,234,Time and Weather,Background Process,Background_Process
+com.google.earth,233,Google Earth,Travel & Local,Maps
+com.wetransfer.app.live,233,WeTransfer,Productivity,Phone_Tools
+com.evilapples.app,233,Evil Apples: A Dirty Card Game,Word,Game_Multiplayer
+com.ea.game.starwarscapital_row,233,Star Wars: Galaxy of Heros,Role Playing,Game_Multiplayer
+com.opacha.autoblog,233,Autoblog.nl,News & Magazines,News
+com.jqrapps.fastandslowmotionvideotool,230,Fast & Slow Motion Video Tool,Video Players & Editors,Video_Players_&_Editors
+com.honeywell.totalconnectcomforteurope,230,Total Connect Comfort Intl,Lifestyle,Home_Automation
+com.bwinlabs.betdroid_be,230,bwin Sports,Sports,Entertainment
+net.supertreat.solitaire,229,Solitaire – Grand Harvest,Card,Game_Singleplayer
+laola1.wrc,228,WRC – The Official App,Sports,Sports
+be.monizze.app,228,myMonizee,Shopping,Online_Shopping
+eu.livesport.LiveUitslagen_nl,228,FlashScore – sportuitslagen,Sports,Sports
+com.sdi.mobile.android.verisure,227,Verisure,Tools,Home_Automation
+com.nordcurrent.canteenhd,227,Cooking Fever,Arcade,Game_Singleplayer
+com.mobisystems.ubreader_west,227,Media365 Book Reader,Books & Reference,Book_Readers
+com.ea.game.easportsufc_row,226,EA SPORTS UFC,Sports,Game_Singleplayer
+media.audioplayer.musicplayer,226,Music Player,Music & Audio,Music_&_Audio
+com.miniclip.plagueinc,225,Plague Inc.,Simulation,Game_Singleplayer
+com.teletrader.android,225,"StockMarkets – news, portfolio, watchlists, charts",Finance,Portfolio/Trading
+nl.nshispeed,224,NS International,Maps & Navigation,Travel_Planning
+com.ketchapp.skyball,224,Sky Ball,Arcade,Game_Singleplayer
+com.teslamotors.tesla,224,Tesla,Lifestyle,Home_Automation
+com.cheerfulinc.flipagram,224,Vigo Video,Video Players & Editors,Social_Networking
+be.stib,224,STIB-MIVB,Travel & Local,Travel_Planning
+com.fitnow.loseit,224,Lose It! - Calorie Counter,Health & Fitness,Personal_Fitness
+com.strawdogstudios.simonscatcrunchtime,224,Simon’s Cat – Crunch Time,Puzzle,Game_Singleplayer
+nl.rtl.rtlnieuws,223,RTL Nieuws,News & Magazines,News
+com.simplemobiletools.gallery,223,Simple Gallery,Tools,Camera
+com.superthomaslab.rootessentials,222,Root Essentials,Tools,Phone_Tools
+com.wahoofitness.boltcompanion,220,ELEMNT,Health & Fitness,Personal_Fitness
+net.rention.mind.skillz,220,Skillz – Logic Brain Games,Puzzle,Game_Singleplayer
+com.obreey.reader,220,"PocketBook reader – pdf, epub, fb2, mobi, audio",Books & Reference,Book_Readers
+com.timehop,220,Timehop,Social,Camera
+com.bituniverse.portfolio,220,"BitUniverse – Bitcoin, ICO, MINE, Crypto Portfolio",Finance,Portfolio/Trading
+lemmingsatwork.quiz,219,Quiz: Logo game,Trivia,Game_Singleplayer
+com.pyrsoftware.pokerstars.be,219,PokerStars,Card,Entertainment
+com.google.android.apps.nbu.files,219,Files Go by Google: Free up space on your phone,Tools,Phone_Tools
+org.adblockplus.browser,219,Adblock Browser for Android,Communication,Internet_Browser
+absworkout.bellyfatworkout.waistworkout.abdominalworkout,219,Abs Workout – Burn Belly Fat with No Equipment,Health & Fitness,Personal_Fitness
+com.somfy.tahoma,218,TaHoma by Somfy,Lifestyle,Home_Automation
+com.rockstargames.gtasa,218,Grand Theft Auto: San Andreas,Action,Game_Singleplayer
+com.decos.flo,218,Flo – Driving Insights,Maps & Navigation,Auto_&_Vehicles
+com.bsplayer.bspandroid.full,215,BSPlayer,Video Players & Editors,Music_&_Audio
+net.oneplus.launcher,214,OnePlus Launcher,Personalization,Phone_Personalization
+com.gestureshortcuts,214,Gesture Shortcuts,Productivity,Phone_Personalization
+webexplorer.amazing.speed,214,Web Browser & Explorer,Communication,Internet_Browser
+com.pixlr.express,214,Pixlr – Free Photo Editor,Photography,Phone_Tools
+com.android.wallpaper.livepicker,213,Live Wallpaper,Personalization,Phone_Personalization
+com.lslk.sleepbot,213,SleepBot – Sleep Cycle Alarm,Health & Fitness,Personal_Fitness
+com.reader.androidworld3,213,AW Reader: news & apps [Dutch],News & Magazines,News
+com.wordgame.puzzle.nl,213,Woord Meester,Word,Game_Singleplayer
+com.asus.filemanager,212,File Manager,Tools,Phone_Tools
+bubbleshooter.puzzle,212,Bubble Shooter Puzzle,Casual,Game_Singleplayer
+com.abnamro.nl.mobile.payments,212,ABN AMRO Mobiel Bankieren,Finance,Personal_Finance
+net.oneplus.music,212,Music Player,Music & Audio,Music_&_Audio
+com.microsoft.amp.apps.bingfinance,212,MSN Money – Stock Quotes & News,Finance,Portfolio/Trading
+com.kbc.mobile.android.phone.kbcbrussels,212,KBC Brussels Mobile,Finance,Personal_Finance
+monitoryourweight.bustan.net,211,Monitor Your Weight,Health & Fitness,Personal_Fitness
+com.gameloft.android.GloftDMKF,211,Kingdoms,Casual,Game_Singleplayer
+com.sirma.mobile.bible.android,211,Bible,Books & Reference,Book_Readers
+com.exact,210,Exact Online,Business,Business_Management
+com.huawei.bone,210,Huawei Wear,Health & Fitness,Wearables
+com.game.motorsportmanager,210,Motorsport Manager Mobile,Racing,Game_Singleplayer
+logo.quiz.guess.movie,210,Guess The Movie Quiz,Travel & Local,Game_Singleplayer
+com.gamefox.twoeyes,209,Two Eyes – Nonogram,Puzzle,Game_Singleplayer
+net.fred.feedex,209,Flym News Reader (old v1 version),News & Magazines,News
+com.google.android.apps.adm,209,Find My Device,Tools,Phone_Tools
+de.cambio.app,209,cambio CarSharing,Travel & Local,Travel_Planning
+com.adobe.psmobile,209,Adobe Photoshop Express: Photo Editor Collage Maker,Photography,Camera
+com.amazon.kindle,209,Amazon Kindle,Books & Reference,Book_Readers
+com.oneplus.soundrecorder,208,Sound Recorder,Tools,Phone_Tools
+com.pawshake.android,208,"Pawshake – Pet Sitting, Day Care & Dog Walking",Lifestyle,Family_Planning
+com.lumiplan.montagne.LesArcs,208,Paradiski YUGE,Travel & Local,Travel_Planning
+com.zeykit.dev.cryptomarketcap,208,"Crypto Market Cap – Bitcoin Prices, Alerts, News",Finance,Portfolio/Trading
+com.htc.soundrecorder,208,Sound Recorder,Tools,Phone_Tools
+com.whatgames.android.ANMP.FAHM,208,Fluffy Fall: Fly Fast to Dodge the Danger!,Arcade,Game_Singleplayer
+com.ToDoReminder.gen,208,To Do Reminder with Alarm,Productivity,To-Do_List
+nl.jacobras.notes,208,Notes,Productivity,Document_Editor
+com.spaceapegames.rivalkingdoms,208,Rival Kingdoms: The Lost City,Action,Game_Multiplayer
+com.hellofresh.androidapp,207,HelloFresh – Get Cooking,Food & Drink,Food_&_Drinks
+eu.fufla.bacteria,207,Bacterial Takeover – Idle Clicker,Simulation,Game_Singleplayer
+com.zynga.wwf2.free,207,Words With Friends – Play Free,Word,Game_Multiplayer
+com.cmplay.tiles2,207,Piano Tiles 2,Arcade,Game_Singleplayer
+com.cozo.mobile,207,CoZo,Medical,Medical
+be.argenta.veiligonderweg,207,,,Auto_&_Vehicles
+com.mrdgame.mrd,207,Crazy Taxy Tycoon,Simulation,Game_Singleplayer
+com.fourdesire.plantnanny,207,Plant Nanny – Water Reminder,"Health & Fitness, Education",Personal_Fitness
+dji.go.v4,206,DJI GO 4—For drones since P4,Video Players & Editors,Camera
+com.twitter.android.beta,206,Twitter Beta,Social,Social_Networking
+com.pixign.smart.brain.games,205,Smart – Brain Games & Logic Puzzles,Puzzle,Game_Singleplayer
+com.ghplanet.postcard,205,Daily Postcard,Social,Social_Networking
+com.hornet.android,205,Hornet – Gay Social Network,Social,Dating
+com.twizzit.TwizzitApp,205,Twitzzit,Sports,Social_Networking
+jp.co.canon.bsd.ad.pixmaprint,205,Canon PRINT Inkjet/SELPHY,Tools,Home_Automation
+com.yodo1.crossyroad,204,Crossy Road,Action,Game_Singleplayer
+com.nickappintl.android.nickelodeon,204,Nickelodeon Play,"Entertainment, Music & Video",Streaming_Services
+com.firsttouchgames.fts15,204,First Touch Soccer 2015,Sports,Game_Singleplayer
+com.routeyou.startup,204,MyRouteYou Mobile,Health & Fitness,Personal_Fitness
+com.appynation.wbpc,203,Picture Cross,Puzzle,Game_Singleplayer
+com.touchtype.swiftkey,203,SwiftKey Keyboard,Productivity,Phone_Personalization
+ballz.magiplay.bricks.breaker.ballz.balls.bounce.puzzle,203,Balls Bounce 2 : Puzzle Challenge,"Arcade, Brain Games",Game_Singleplayer
+com.instcoffee.instlife,202,InstLife,Simulation,Game_Singleplayer
+com.medium.reader,201,Medium,News & Magazines,News
+com.netease.chiji,201,RULES OF SURVIVAL,Action,Game_Multiplayer
+air.bg.lan.Monopoli,201,Rento – Dice Board Game Online,Board,Game_Multiplayer
+org.lichess.mobileapp,201,lichess • Free Online Chess,Board,Game_Multiplayer
+net.sourceforge.opencamera,200,Open Camera,Photography,Camera
+com.Seriously.BestFiends,200,Best Fiends – Free Puzzle Game,Casual,Game_Singleplayer
+com.sngict.yatzy,200,Yatzy,Board,Game_Singleplayer
+be.kuleuven.icts.authenticator,200,KU Leuven Authenticator,Tools,Security
+com.farproc.wifi.analyzer,199,Wifi Analyzer,Tools,Phone_Tools
+com.mixplorer,198,MiXplorer,Tools,Phone_Tools
+com.sec.android.app.SmartClipEdgeService,198,Samsung Smart Select,Background Process,Background_Process
+com.oxylane.android.cubeinstore,198,,,Online_Shopping
+reddit.news,197,Relay for reddit (Pro),News & Magazines,News
+com.alarmclock.remind,197,Alarm Clock,Lifestyle,Phone_Tools
+me.sayatme,197,Sayat.me,Social,Social_Networking
+be.thomasdc.manillen,197,Manille,Card,Game_Singleplayer
+com.samsung.android.quickassist,197,Samsung Quick Dial,Background Process,Background_Process
+ru.kidcontrol.gpstracker,196,Family GPD tracker Kid Control,Social,Family_Planning
+com.overlook.android.fing,196,Fing – Network Tools,Tools,Remote_Administration
+another.music.player,196,Shuttle Music Player,Music & Audio,Music_&_Audio
+com.sonyericsson.music,196,Music,Music & Audio,Music_&_Audio
+de.aboutyou.mobile.app,196,ABOUT YOU Mode Online Shop,Shopping,Online_Shopping
+com.aim.racing,196,Extreme Car Driving Simulator,Racing,Game_Singleplayer
+uk.co.aifactory.backgammonfree,195,Backgammon Free,Board,Game_Singleplayer
+com.smartexpenditure,195,Expense Manager – Tracker,Finance,Personal_Finance
+com.htc.albumgp,195,HTC Gallery,Video Players & Editors,Camera
+com.afksoft.WordShakerAndroidFree,195,Word Shaker Free,Word,Game_Singleplayer
+com.kabouzeid.gramophone,195,Phonograph Music Player,Music & Audio,Music_&_Audio
+com.sngict.rummy,193,Rummy – Offline,Board,Game_Singleplayer
+ak.alizandro.smartaudiobookplayer,193,Smart AudioBook Player,Music & Audio,Book_Readers
+com.samsung.android.app.smartcapture,193,Samsung Smart Capture,Tools,Phone_Tools
+com.corecoders.skitracks,192,Ski Tracks,Sports,Personal_Fitness
+com.innogames.elvenar,192,Elvenar,Simulation,Game_Singleplayer
+dynalogix.screenoff.ultra.quick.timeout,192,Screen off via short timeout,Tools,Phone_Tools
+com.htc.mobiledata,192,Mobile Data,Background Process,Background_Process
+com.popularapp.periodcalendar,192,Period Tracker – Period Calendar Ovulation Tracker,Health & Fitness,Medical
+be.appsolution.knack.be,192,Knack.be,News & Magazines,News
+com.my.hc.rpg.kingdom.simulator,191,Hustle Castle: Fantasy Kingdom,Role Playing,Game_Singleplayer
+com.narvii.amino.master,191,Amino: Communities and Chats,Social,Social_Networking
+le.lenovo.sudoku,191,Sudoku Free,Puzzle,Game_Singleplayer
+com.glu.stardomkim,191,KIM KARDASHIAN: HOLLYWOOD,Adventure,Game_Singleplayer
+com.splendapps.splendo,190,To Do List,Productivity,To-Do_List
+be.voetbalnieuws.android.app,190,VoetbalNiews.be,Sports,Sports
+com.king.alphabettysaga,189,AlphaBetty Saga,Puzzle,Game_Singleplayer
+com.hotornot.app,189,Hot or Not – Find someone right now,Dating,Dating
+com.imangi.templerun,189,Temple Run,Arcade,Game_Singleplayer
+com.tomtom.gplay.navapp,189,TomTom GPS Navigation Traffic,Maps & Navigation,Maps
+com.fgol.HungrySharkEvolution,189,Hungry Shark Evolution,Arcade,Game_Singleplayer
+com.meltingsource.DocsViewer,189,Docs Viewer,Productivity,Document_Editor
+securecomputing.devices.android.controller,189,SafeNet MobilePASS,Business,Security
+flipboard.app,188,Flipboard: News For Our Time,News & Magazines,News
+com.lifecake.android,187,Kids’ photo journal for family by Lifecake Ltd.,Photography,Family_Planning
+com.initechapps.growlr,187,GROWLr: Gay Bears Near You,Social,Dating
+com.screentime.rc,187,Screen Time Parental Control,Tools,Family_Planning
+com.brainium.solitairefree,187,Solitaire,Card,Game_Singleplayer
+vn.creativeapps.free.plank,187,30 Day Plank Challenge Free,Health & Fitness,Personal_Fitness
+com.eumlab.android.prometronome,186,Pro Metronome,Music & Audio,Phone_Tools
+com.king.pyramidsolitairesaga,186,Pyramid Solitaire Saga,Card,Game_Singleplayer
+com.aastra.aastramc.gui,186,Mitel MC,Communication,Remote_Administration
+com.ba.mobile,185,British Airways,Travel & Local,Travel_Planning
+com.lge.settings.easy,185,LG Easy Settings,Tools,Phone_Tools
+com.ticktick.task,184,"TickTick: To Do List with Reminder, Day Planner",Productivity,To-Do_List
+com.lionmobi.netmaster,184,Network Master – Speed Test,Tools,Phone_Tools
+com.android.htmlviewer,184,HTML Viewer,Background Process,Background_Process
+com.blackboard.android.bbstudent,184,Blackboard,Education,Education
+de.hafas.android.db,184,DB Navigator,Maps & Navigation,Travel_Planning
+com.kitkats.qrscanner,183,QR Scanner & Barcode Scanner,Productivity,Phone_Tools
+com.microsoft.launcher,183,Microsoft Launcher,Personalization,Phone_Personalization
+com.playstation.mobilemessenger,183,PlayStation Messages – Check your online friends,Communication,Instant_Messaging
+com.psa.mym.mycitroen,183,"My Citroen – Maintenance, trip",Maps & Navigation,Home_Automation
+com.gamebasic.decibel,183,Sound Meter,Tools,Phone_Tools
+com.softissimo.reverso.context,183,Reverso Translation Dictionary,Books & Reference,Phone_Tools
+com.mobilityware.freecell,182,FreeCell Solitaire,Card,Game_Singleplayer
+net.pixelrush,182,PixelPhone Pro,Communication,Dialer
+fr.leboncoin,182,"leboncoin, petites annonces",Shopping,Job_Search
+com.yazio.android,181,"YAZIO Calorie Counter, Nutrition Diary & Diet Plan",Health & Fitness,Personal_Fitness
+com.caa.sudoku,181,Sudoku,Puzzle,Game_Singleplayer
+com.mobisystems.office,181,OfficeSuite: Free Office + PDF Editor,Business,Document_Editor
+ait.podka,180,Podkicker Podcast Player,Music & Audio,Streaming_Services
+com.cyngn.dialer,180,Dialer,Communication,Dialer
+com.wunderground.android.weather,180,Weather Underground Forecasts,Weather,Weather
+com.eurostar.androidapp,180,Eurostar Trains,Travel & Local,Travel_Planning
+com.gameinsight.airport,180,Airport City,Simulation,Game_Singleplayer
+no.mobitroll.kahoot.android,179,Kahoot!,Education,Education
+com.brother.mfc.brprint,179,Brother iPrint&Scan,Tools,Phone_Tools
+com.google.zxing.client.android,179,Barcode Scanner,Shopping,Phone_Tools
+be.debocom.ECADmobile,178,EasyCAD mobile,Business,Remote_Administration
+com.king.blossomblast,178,Blossom Blast Saga,Casual,Game_Singleplayer
+de.sec.mobile,178,Lidl – Offers & Leaflets,Shopping,Online_Shopping
+com.cbs.sports.fantasy,177,CBS Sports Fantasy,Sports,Sports
+com.synology.DSdownload,176,DS get,Tools,Phone_Tools
+com.honeywell.android.lyric,176,Honeywell Home,Lifestyle,Home_Automation
+org.ligi.passandroid,176,PassAndroid Passbook viewer,Travel & Local,Coupons
+com.droid27.transparentclockweather,176,Transparent clock & weather,Weather,Phone_Personalization
+Draziw.Button.Mines,176,Minesweeper,Puzzle,Game_Singleplayer
+com.huawei.android.FMRadio,176,Radio,Music & Audio,Streaming_Services
+com.qhfka0093.cutememo,176,Cure Note – Dday Todo,Productivity,Document_Editor
+be.barco.dermoscopy,176,Barco Demetra,Medical,Medical
+nl.rtvnoord.android,175,RTV Noord,News & Magazines,News
+com.citymapper.app.release,175,Citymapper – Transit Navigation,Maps & Navigation,Maps
+hotmail.sign.in.hot.mail.app,175,Hotmail,Communication,Email
+com.mobirix.nonogram,175,Nonogram King,Puzzle,Game_Singleplayer
+dsb.android.spelllistburned,175,5th Edition Spellbook Burned,Role Playing,Game_Multiplayer
+com.ea.game.simpsons4_row,175,The Simpsons: Tapped Out,Casual,Game_Singleplayer
+com.jivesoftware.daily,174,Jive Daily: Intranet on the go,Business,Business_Management
+me.pou.app,174,Pou,Casual,Game_Singleplayer
+com.runtastic.android.pro2,174,"Runtastic PRO Running, Fitness",Health & Fitness,Personal_Fitness
+com.miniclip.footballstrike,173,Football Strike – Multiplayer Soccer,Sports,Game_Multiplayer
+com.coolandroidappzfree.freesudoku,173,SuFreeDoku,Puzzle,Game_Singleplayer
+uk.co.aifactory.chessfree,173,Chess Free,Board,Game_Singleplayer
+br.com.tapps.bidwars,173,Bid Wars – Storage Auctions and Pawn Shop Tycoon,Strategy,Game_Singleplayer
+ch.publisheria.bring,173,Bring! Grocery Shopping List,Shopping,To-Do_List
+com.podcast.podcasts,172,Podcast Player,News & Magazines,Streaming_Services
+com.sorex.binairo,172,Bionoid – binary puzzle fun,Puzzle,Game_Singleplayer
+com.android.keepass,172,KeePassDroid,Tools,Security
+imoblife.toolbox.full,172,All-In-One Toolbox: Cleaner & SpeedBooster,Productivity,Phone_Optimization
+de.medisana.vitadockplus,172,VitaDock+ for Connect Devices,Health & Fitness,Personal_Fitness
+emailclient.fastinbox,172,Inbox for Hotmail,Communication,Email
+com.microsoft.microsoftsolitairecollection,171,Microsoft Solitaire Collection,Card,Game_Singleplayer
+com.neymar_lockscreen.psg.neymarpsg,171,Neymar PSG Lock Screen 2018,Lifestyle,Phone_Personalization
+com.sec.android.app.wfdbroker,171,WfdBroker,Background Process,Background_Process
+com.afklm.mobile.android.gomobile.klm,171,KLM – Royal Dutch Airlines,Travel & Local,Travel_Planning
+net.jablonet.mobile,171,MyJABLOTRON,Tools,Home_Automation
+be.introlution.myonlinecalendar,170,MyOnlineCalendar,Health & Fitness,Medical
+com.episodeinteractive.android.catalog,170,Episode – Choose Your Story,Simulation,Game_Singleplayer
+com.nahroto.royalestats,170,RoyaleStats for Fortnite Battle Royale Stats,Entertainment,Entertainment
+com.omgpop.dstfree,170,Draw Something Classic,Word,Game_Singleplayer
+com.kog.alarmclock,170,I Can’t Wake Up! Alarm Clock,Tools,Phone_Tools
+com.cryptocoin.news,170,CryptoCoin News & Events,Finance,Portfolio/Trading
+org.telegram.plus,169,Plus Messenger,Communication,Instant_Messaging
+be.Nextel.EmergencyApp112,169,112 BE,Communication,Dialer
+com.blinkslabs.blinkist.android,169,Blinkist – Nonfiction Books,Education,Book_Readers
+mediavision.handwallet,169,Expense Manager,Finance,Personal_Finance
+com.lge.music,169,Music,Music & Audio,Music_&_Audio
+com.kokteyl.vbz,168,Voetbalzone Score!,Sports,Game_Singleplayer
+ids.kuwaitpetroleum.com,168,IDS Stations,Maps & Navigation,Maps
+com.bvaauctions,168,BVA Auctions Online veilingen,Shopping,Online_Shopping
+com.google.android.ogyoutube,168,OGYouTube,Tools,Streaming_Services
+com.discogs.app,168,"Discogs – Catalog, Collect & Shop Music",Music & Audio,Online_Shopping
+be.appsolution.knack.tablet,168,Knack.,News & Magazines,News
+com.fooview.android.fooview,168,FooView – Float Viewer,Productivity,Phone_Personalization
+com.jbs.util.takescreen,168,Touchshot (Screenshot),Productivity,Phone_Tools
+com.herocraft.game.free.gibbets3,167,Gibbets: Bow Master,Arcade,Game_Singleplayer
+com.lge.bluetoothsetting,167,Bluetooth Settings,Background Process,Background_Process
+com.qcplay.slimegogogo,167,Gumballs & Dungeons(G&D),Strategy,Game_Singleplayer
+com.qiiwi.backpacker,167,"Backpacker – Trivia, Quiz Game",Trivia,Game_Singleplayer
+com.smgstudio.thumbdrift,167,Thumb Drift – Fast & Furious Car Drifting Game,Racing,Game_Singleplayer
+com.kii.safe,166,Keepsafe Photo Vault: Hide Private Photos & Videos,Photography,Security
+com.memrise.android.memrisecompanion,166,"Learn Languages, Grammar & Vocabulary with Memrise",Education,Education
+com.gsamlabs.bbm,166,Gsam Battery Monitor,Tools,Phone_Tools
+com.tencent.ig,166,PUBG MOBILE,Action,Game_Multiplayer
+com.stampix.stampix,166,Stampix – Free photo printing,Photography,Camera
+com.publicobject.shush,165,Shush! Ringer Restorer,Tools,Phone_Personalization
+eu.letspom,165,POM – invoice payments,Productivity,Personal_Finance
+com.kokteyl.goal,165,Goal Live Scores,Sports,Sports
+com.netatmo.camera,165,Netamo Security,Lifestyle,Home_Automation
+com.t101.android3.recon,165,Recon X,Social,Dating
+com.superevilmegacorp.game,165,Vainglory 5V5,Strategy,Game_Multiplayer
+com.spilgames.OperateNow2,164,Operate Now: Hospital,Simulation,Game_Singleplayer
+com.channel4.ondemand,164,All 4,Entertainment,Streaming_Services
+com.easybrain.sudoku.android,164,Sudoku,Board,Game_Singleplayer
+be.luminus.bsp,164,My Luminus,Productivity,Home_Automation
+com.ConstantPouliquen.Keeper,164,Keep it alive!,Action,Game_Singleplayer
+com.brusselsairlines.bmobile,164,Brussels Airlines,Travel & Local,Travel_Planning
+com.auxbrain.egginc,163,"Egg, Inc.",Simulation,Game_Singleplayer
+net.lovoo.android,163,LOVOO,Social,Dating
+com.bubblesoft.android.bubbleupnp,163,BubbleUPnP for DLNA / Chromecast / Smart TV,Video Players & Editors,Home_Automation
+de.moodpath.android,163,Moodpath – Depression & Anxiety Test,Medical,Medical
+com.painless.pc,163,Power Toggles,Tools,Phone_Tools
+com.nmbs,163,sncb international,Travel & Local,Travel_Planning
+com.xda.labs,163,XDA Labs,Social,Social_Networking
+com.kms.free,162,Kaspersky Mobile Antivirus: AppLock & Web Security,Tools,Security
+com.hetweer.in.nl,162,Weather in Holland: the app,Weather,Weather
+com.google.android.inputmethod.latin,161,Gboard – the Google Keyboard,Tools,Phone_Personalization
+com.outerminds.tubular,161,PewDiePie’s Tuber Simulator,Casual,Game_Singleplayer
+com.samsung.roomspeaker3,161,Wireless Audio-Multiroom,Music & Audio,Home_Automation
+be.aldi.android,161,ALDI Belgie,Shopping,Online_Shopping
+com.sigames.fmm2018,161,Football Manager Mobile 2018,Sports,Game_Singleplayer
+com.rovio.angrybirdsfriends,161,Angry Birds Friends,Arcade,Game_Multiplayer
+nextapp.fx,160,"FX File Explorer: No ads, No tracking, No nonsense",Business,Phone_Tools
+be.zesta.phone,160,VTM Koken – receptenapp,Lifestyle,Food_&_Drinks
+com.lenovo.FileBrowser,160,File Browser,Tools,Phone_Tools
+com.runtastic.android.sleepbetter.lite,160,Runtastic Sleep Better: Sleep Cycle & Smart Alarm,Health & Fitness,Personal_Fitness
+com.google.android.tv.remote,159,Android TV Remote Control,Tools,Home_Automation
+com.microsoft.todos,159,"Microsoft To-Do: List, Task & Reminder",Productivity,To-Do_List
+com.adobe.scan.android,159,"Adobe Scan: PDF Scanner, OCR",Productivity,Document_Editor
+com.sec.spen.flashannotate,159,Screen write,Background Process,Background_Process
+com.augmentra.viewranger.android,159,"ViewRanger – Hive, Ride or Walk",Health & Fitness,Maps
+com.samsung.android.samsungpass,159,Samsung Pass,Background Process,Background_Process
+com.htc.video,159,HTC Service – Video Player,Video Players & Editors,Video_Players_&_Editors
+com.playtika.wsop.gp,158,World Series of Poker – WSOP Free Texas Holdem,Card,Entertainment
+com.flightradar24pro,157,Flightradar24,Travel & Local,Travel_Planning
+com.ezscreenrecorder,157,Screen Recorder,Video Players & Editors,Phone_Tools
+com.fungames.sniper3d,157,Sniper 3D Gun Shooter: Free Shooting Games – FPS,Action,Game_Singleplayer
+com.colapps.reminder,157,COL Reminder,Tools,Calendar
+com.inapp.cross.stitch,157,Cross Stitch,"Puzzle, Creativity",Drawing
+com.droidhang.ad,157,Idle Heroes,Role Playing,Game_Multiplayer
+nl.travelbird,157,TravelBird – Travel Deals,Travel & Local,Travel_Planning
+com.homeguard,156,iRISCO,Lifestyle,Remote_Administration
+com.babeltimeus.legendstd,155,Realm Defense: Hero Legends TD,Strategy,Game_Singleplayer
+loseweight.weightloss.workout.fitness,155,Lose Weight in 30 Days,Health & Fitness,Personal_Fitness
+video.player.videoplayer,155,Video Player All Format – Xplayer,Video Players & Editors,Video_Players_&_Editors
+com.yahoo.mobile.client.android.fantasyfootball,155,Yahoo Fantasy Sports - #1 Rated Fantasy App,Sports,Sports
+com.sec.android.daemonapp,155,Unified Daemon,Background Process,Background_Process
+com.onetwoapps.mh,154,My Budget Book,Finance,Personal_Finance
+com.strategygame.gameofwarriors,154,Game of Warriors,Strategy,Game_Singleplayer
+com.starbucks.be,154,Starbucks Belgium,Food & Drink,Food_&_Drinks
+app.habitaclia2,153,Habitaclia – rent and sale of flats and houses,Shopping,Online_Shopping
+me.moop.roomforthought,153,PicYourMoment,Photography,Camera
+nl.tvgids,153,TVGids.nl,News & Magazines,News
+com.realbyteapps.moneymanagerfree,153,Money Manager Expense & Budget,Finance,Personal_Finance
+com.nintendo.znca,152,Nintendo Switch Online,Entertainment,Entertainment
+com.naturalmotion.dawnoftitans,152,Dawn of Titans – Epic War Strategy Game,Strategy,Game_Multiplayer
+com.facebook.work,152,Workplace by Facebook,Business,Business_Management
+com.mojang.minecraftpe,152,Minecraft,"Arcade, Action & Adventure",Game_Multiplayer
+com.queensgame.tripeaks,151,Tripeaks Solitaire,Card,Game_Singleplayer
+live.coins.app,151,Livecoin,Finance,Portfolio/Trading
+com.citrix.mail,151,Citrix Secure Mail,Business,Email
+com.gamecircus.tycoon,150,Taps to Riches,Simulation,Game_Singleplayer
+com.mobilityware.spider,150,Spider Solitaire,Card,Game_Singleplayer
+com.gamedevltd.wwh,150,Word War Heroes: WW2 Shooter,Action,Game_Singleplayer
+com.google.android.apps.unveil,150,Google Goggles,Productivity,Wearables
+com.weareher.her,150,Her – Lesbian Dating App,Social,Dating
+com.samsung.android.app.aodservice,150,[Samsung] Always On Display,Tools,Phone_Personalization
+com.ea.tetrisblitz_row,150,TETRIS Blits,Puzzle,Game_Singleplayer
+com.musixmatch.android.lyrify,150,Musicxmatch – Lyrics for your music,Music & Audio,Music_&_Audio
+com.DPMOBESA,149,DP4Mobile Enterprise Sec.,Finance,Security
+com.stormx.gob,149,Foodpia Tycoon,Simulation,Game_Singleplayer
+com.appple.app.email,149,Email mail box fast mail,Communication,Email
+com.kbc.mobile.android.assist.kbc,149,KBC Assist,Finance,Personal_Finance
+com.gemego.klondikefree,149,Solitaire Free,Card,Game_Singleplayer
+com.mg.android.free,149,WeatherPro Free,Weather,Weather
+cms.lock,148,AppLock,Tools,Remote_Administration
+com.fender.tuner,148,Guitar Tuner Free – Fender Tune,Music & Audio,Phone_Tools
+be.nexuzhealth.mobile.mynexuz,148,mynexuzhealth,Medical,Medical
+com.maguss.maguss,148,Maguss – Wizarding MMORPG,Role Playing,Game_Multiplayer
+com.safeincloud,148,Password Manager SafeInCloud Pro,Productivity,Security
+com.postbuzz,148,Postbuzz,News & Magazines,News
+com.StefMorojna.SpaceflightSimulator,147,Spaceflight Simulator,Simulation,Game_Singleplayer
+es.parrotgames.restaurantcity,147,World Chef,Casual,Game_Singleplayer
+net.wooga.junes_journey_hidden_object_mystery_game,147,June’s Journey – Hidden Object,Adventure,Game_Singleplayer
+be.appsolution.datanews.nl.be,146,DataNews.be NL,News & Magazines,News
+com.audioaddict.di,146,DI.FN Radio: Addictive Electronic Music,Music & Audio,Streaming_Services
+com.rioo.runnersubway,146,Subway Princess Runner,Arcade,Game_Singleplayer
+com.alexvas.dvr.pro,146,tinyCam PRO – Swiss knife to monitor IP can,Video Players & Editors,Home_Automation
+be.maartenvg.theline,146,The Line Realtime,Maps & Navigation,Travel_Planning
+com.zeptolab.cats.google,146,CATS: Crash Arena Turbo Stars,Action,Game_Singleplayer
+slide.cameraZoom,146,Camera ZOOM FX Premium,Photography,Camera
+com.pnixgames.minigolfking,146,Mini Golf King – Multiplayer Game,Sports,Game_Multiplayer
+com.bitwize10.supersimpleshoppinglist,145,Super Simple Shopping List,Shopping,To-Do_List
+net.mobigame.zombietsunami,145,Zombie Tsunami,Arcade,Game_Singleplayer
+com.fortafygames.colorswitch,145,Color Switch,"Action, Adventure",Game_Singleplayer
+com.mountaindehead.timelapsproject,145,Time Lapse camera,Video Players & Editors,Camera
+com.fjsoft.myphoneexplorer.client,145,MyPhoneExplorer Client,Tools,Remote_Administration
+com.xiaomi.smarthome,145,Mi Home,Lifestyle,Home_Automation
+com.droid4you.application.wallet,145,"Wallet – Money, Budget, Finance & Expense Tracker",Finance,Personal_Finance
+com.CarXTech.CarXDriftRacingFull,145,CarX Drift Racing,Racing,Game_Singleplayer
+air.com.innogames.grepolis,145,Grepolis – Divine Strategy MMO,Strategy,Game_Singleplayer
+com.alpha.security,144,Alpha Security,Tools,Security
+com.bandcamp.android,144,Bandcamp,Music & Audio,Streaming_Services
+com.ramandeepbakshi.ringmydroid,144,Treehouse – Ring My Droid,Tools,Phone_Tools
+com.venticake.retrica,144,Retrica,Photography,Camera
+com.nekki.shadowfight,143,Shadow Fight 2,Action,Game_Singleplayer
+com.sec.android.app.soundalive,143,Samsung SoundAlive,Music & Audio,Music_&_Audio
+com.osdmod.remote,143,WDIxTV MediaPlayers Remote,Video Players & Editors,Home_Automation
+com.lenbrook.sovi.bluesound,143,BluOS Controller,Music & Audio,Home_Automation
+com.sec.android.easyMover,142,Samsung Smart Switch Mobile,Tools,Home_Automation
+com.duosecurity.duomobile,142,Duo Mobile,Business,Security
+com.zorros.archisnapper4,142,ArchiSnapper 4,Productivity,To-Do_List
+com.innologica.inoreader,142,Inoreader – News Apps & RSS,News & Magazines,News
+com.ovelin.guitartuna,141,Guitar Tuner free – GuitarTuna,Tools,Phone_Tools
+com.synology.dsvideo,141,DS Video,Video Players & Editors,Streaming_Services
+blast.chain.bubble,141,Bubble Chain Blast,Casual,Game_Singleplayer
+be.vrt.radioplus.klara,141,Klara,Music & Audio,Streaming_Services
+nl.flitsmeister,141,Flitsmeister,Maps & Navigation,Auto_&_Vehicles
+com.softpauer.f1timingapp2014.basic,141,Formula 1,Sports,Sports
+com.geonaute.geonaute,141,"Decathlon Coach – Running, Walking, Pilates, GPS",Health & Fitness,Personal_Fitness
+com.androbros.puzzle2048eng,140,2048,Puzzle,Game_Singleplayer
+com.miniclip.bowmasters,140,Bowmasters,Action,Game_Singleplayer
+com.agilebits.onepassword,140,1Password – Password Manager and Secure Wallet,Productivity,Security
+com.whatstablet.whatstablet,140,Tablet for WhatsApp,Communication,Instant_Messaging
+net.cachapa.libra,140,Libra – Weight Manager,Health & Fitness,Personal_Fitness
+com.coco2games.ng,140,NinjaGirls : Reborn,Role Playing,Game_Singleplayer
+com.mttnow.droid.easyjet,139,easyJet: Travel App,Travel & Local,Travel_Planning
+com.wittidesign.beddi,139,BEDDI,Tools,Home_Automation
+org.isoron.uhabits,139,Loop – Habit Tracker,Productivity,Personal_Fitness
+com.marsvard.delijn,139,Dienstregeling+ De Lijn,Maps & Navigation,Travel_Planning
+com.stremio,139,Stremio,Entertainment,Streaming_Services
+com.journey.app,139,"Journey: Diary, Journal",Lifestyle,Document_Editor
+com.jellybtn.boardkings,138,Board Kings,Casual,Game_Multiplayer
+com.android.certinstaller,138,Certificate Installer,Background Process,Background_Process
+fr.meteo,138,METEO FRANCE,Weather,Weather
+fr.slvn.mms,138,SMS Messaging (AOSP),Communication,Messaging
+music.musicplayer,138,Audio Player,Music & Audio,Music_&_Audio
+com.queensgame.collection,138,Solitaire Collection,Card,Game_Singleplayer
+com.bubbleshooter.match.witch.pet.shoot,138,Bubble Shooter,Casual,Game_Singleplayer
+com.devexpert.weather,137,Weather & Clock Widget for Android,Weather,Phone_Personalization
+telenet.playsports,137,Play Sports,Sports,Streaming_Services
+com.gabblestudios.boredbutton,137,Bored Button,Puzzle,Game_Singleplayer
+com.mapmywalk.android2,137,Walk with Map My Walk,Health & Fitness,Personal_Fitness
+com.adotis.packking,137,Packaging List for Travel – PackKing,Travel & Local,To-Do_List
+com.mobeam.beepngo,137,Beep’nGo – Wallet & Coupons,Shopping,Personal_Finance
+be.fimaser.smartphone,137,Carrefour Finance,Finance,Personal_Finance
+com.zui.mms,137,ZUI Messages,Communication,Messaging
+org.wangjie.a2048,137,2048,Strategy,Game_Singleplayer
+com.tnex.bookchoice,137,Bookchoice,Entertainment,Book_Readers
+com.automattic.simplenote,136,Simplenote,Productivity,Document_Editor
+com.bergfex.mobile.android.lite,136,bergfex/Ski Lite,Weather,Travel_Planning
+com.oneplus.note,135,Notes,Productivity,Document_Editor
+com.futureplay.boots,135,Idle Farming Empire,Simulation,Game_Singleplayer
+com.logitech.circle,135,Logi Circle,House & Home,Home_Automation
+com.nytimes.android,135,NYTimes – Latest News,News & Magazines,News
+com.skyfireapps.followersinsightapp,135,Followers Insight for Instagram,Social,Social_Networking
+com.indeed.android.jobsearch,135,Indeed Job Search,Business,Job_Search
+io.edo.agenda,135,Edo Agenda,Lifestyle,To-Do_List
+com.samsung.intrafficreply,135,In-Traffic Reply,Communication,Auto_&_Vehicles
+com.cyngn.browser,135,Internet Browser,Communication,Internet_Browser
+be.focuswtv.navigationdrawertest,135,Focus & WTV,News & Magazines,News
+com.supra_elektronik.ipcviewer,135,Maginon IPC Viewer,Tools,Home_Automation
+com.faultexception.reader,135,Lithium: EPUB Reader,Books & Reference,Book_Readers
+com.wikiloc.wikilocandroid,134,Wikiloc Outdoor Navigation GPS,Maps & Navigation,Maps
+com.myro.Agenda,134,Agenda,Education,Education
+com.kebab.Llama,134,Llama – Location Profiles,Tools,Phone_Personalization
+com.arkadiusz.dayscounter,134,Days Counter,Lifestyle,Calendar
+com.kuronekogames.cryptocapitalist,134,Crypto Capitalist – Idle Game,Simulation,Game_Singleplayer
+com.jrdcom.filemanager,134,File Manager – Take Command of Your Files Easily,Tools,Phone_Tools
+com.quickturtle.EmployeeSurvival_en,134,Don’t get fired!,Role Playing,Game_Singleplayer
+com.BeerMoneyGames.Demolition2,134,Demolition Derby 2,Racing,Game_Singleplayer
+jp.co.johospace.jorte,134,Jorte Calendar & Organizer,Productivity,Calendar
+be.kruidvat.voordeelkaart,134,Kruidvat,Shopping,Coupons
+com.awl.be.android.XENGOKBC,134,KBS-Pay Me,Finance,Personal_Finance
+be.scarlet.mobile,134,my scarlet,Tools,Phone_Tools
+com.yatzyworld,134,Yatzy World,Board,Game_Singleplayer
+com.igg.castleclash,134,Castle Clash: Heroes of the Empire US,Strategy,Game_Multiplayer
+com.studioeleven.windfinder,134,Windfinder – weather & wind forecast,Weather,Weather
+be.stripmunk.stripmunk,134,Stripmunk,Comics,Book_Readers
+com.doubleread,133,"Blue tick, last seen hider – Whatsapp, Facebook",Tools,Instant_Messaging
+com.Qublix.SolitaireTales,133,Solitaire Tales,Card,Game_Singleplayer
+com.liveyap.timehut,133,"Peekaboo Moments – Babybook, memories & moments",Parenting,Family_Planning
+com.wb.goog.westworld,133,Westworld,Simulation,Game_Singleplayer
+in.plackal.lovecyclesfree,133,"Maya – Period, Fertility, Ovulation & Pregnancy",Health & Fitness,Medical
+com.quintiq.ProtoEngine.Thalys.tamtam,133,TamTam Messenger – free chats & video calls,Communication,Travel_Planning
+com.Revsoft.Wabbitemu,133,Wabbitemu,Education,Phone_Tools
+com.lyrebirdstudio.pip_collage,133,"Photo Editor & Filter, Sticekr & PIP Collage Maker",Photography,Camera
+com.acidcousins.chilly,132,Chilly Show,Arcade,Game_Singleplayer
+com.airwatch.androidagent,132,AirWatch Agent,Business,Business_Management
+com.fivehundredpx.viewer,132,500px – Discover great photos,Photography,Camera
+com.cakecodes.bitmaker,132,Storm Play -  Earn Free Bitcoin,Tools,Mechanical_Turk
+com.phyora.apps.reddit_now,132,Now for Reddit,News & Magazines,Social_Networking
+com.insiteactivationstudio,132,Insight Activation Studio,Social,Business_Management
+com.youneedabudget.ynab.app.market,132,"YNAB _ Budget, Personal Finance",Finance,Personal_Finance
+com.kbc.mobile.android.mbj.kbc,132,K’Ching,Finance,Personal_Finance
+com.diune.pictures,131,Piktures – Beautiful Gallery,Photography,Camera
+com.firstrowria.android.soccerlivescores,131,All Goals – Football Live Scores,Sports,Sports
+com.tcx.sipphone14,131,3CX,Communication,Dialer
+com.pgatour.fantasygolf,131,PGA TOUR Fantasy Golf,Sports,Game_Singleplayer
+com.king.farmheroessupersaga,131,Farm Heroes Super Saga,Casual,Game_Singleplayer
+se.ja1984.twee,131,Twee – keep track of tv-series,Video Players & Editors,Entertainment
+com.samsung.android.visionintelligence,131,Bixby,Background Process,Background_Process
+nl.VakantieVeilingen.android,131,VakantieVeilingen – Dagje uit,Travel & Local,Travel_Planning
+com.airwatch.email,131,AirWatch Inbox,Business,Email
+com.dashlane,131,Dashlane Free Password Manager,Productivity,Security
+com.cleevio.spendee,130,Spendee – Budget and Expense Tracker & Planner,Finance,Personal_Finance
+com.fassor.android.sudoku,130,Sudou – Free & Offline,Puzzle,Game_Singleplayer
+com.heightwordsapart.game,130,8 Words Apart,Trivia,Game_Singleplayer
+com.google.android.apps.youtube.creator,130,YouTube Studio,Video Players & Editors,Social_Networking
+shoot.extreme,130,Shoot Bubble Extreme,Arcade,Game_Singleplayer
+com.thefancy.app,130,Fancy,Shopping,Online_Shopping
+org.hattrick.hattrick,130,Hattrick Football Manager Game,Sports,Game_Multiplayer
+com.android.vending.billing.InAppBillingService.COIN,130,Lucky Patcher,Tools,Entertainment
+com.dlink.mydlinkmyhome,129,mydling Home,Productivity,Home_Automation
+com.qualcomm.qti.networksetting,129,Cellular Network Settings,Tools,Phone_Tools
+com.Millinkmini.ismartandroid2,129,Mini Doorbells,Communication,Home_Automation
+com.technogym.mywellness,129,mywellness,Health & Fitness,Personal_Fitness
+org.openhab.habdroid,129,openHAB,Lifestyle,Home_Automation
+com.digital.bestcompass.compass2018,129,Digital Smart Compass,Lifestyle,Maps
+com.tmarki.spidersol,129,Classic Spider Solitaire,Card,Game_Singleplayer
+com.shazam.encore.android,129,Shazam Encore,Music & Audio,Entertainment
+com.google.android.instantapps.supervisor,128,Android Instant Apps,Tools,Phone_Tools
+com.recloak.littlealchemy2,128,Little Alchemy 2,Puzzle,Game_Singleplayer
+com.ikea.tradfri.lighting,128,IKEA TRADFRI,Lifestyle,Home_Automation
+ninja.sesame.app.edge,128,Sesame – Universal Search and Shortcuts,Personalization,Phone_Personalization
+be.treinbestuurder.app,128,Treinbestuurder,Productivity,Travel_Planning
+mahjong.games.mahjong.classic.free,128,Mahjong,"Puzzle, Brain Games",Game_Singleplayer
+aplicacion.tiempo,128,Weather 14 Days,Weather,Weather
+com.azumio.instantheartrate.full,128,Instant Heart Rate+: Heart Rate & Pulse Monitor,Health & Fitness,Personal_Fitness
+com.zynga.words3,128,Words With Friends 2 – Word Game,Word,Game_Singleplayer
+com.tranzmate,127,"Moovit: Bus Times, Train Times & Live Updates",Maps & Navigation,Travel_Planning
+com.lumiplan.montagne.PortesDuSoleil,127,Portes du Soleil,Sports,Maps
+com.viki.android,127,Viki: Asian TV Dramas & Movies,Entertainment,Streaming_Services
+com.samsung.android.voc,127,Samsung Members,Tools,Social_Networking
+nl.mercatorgeo.aeroweather,127,PilotWeather,Weather,Weather
+object.ecamview.client,127,E-CamView,Video Players & Editors,Security
+com.meizu.media.camera,127,Camera,Photography,Camera
+com.endare.rafc,126,RAFC Official,Sports,Sports
+com.veryfit2hr.second,126,VeryFitPro,Health & Fitness,Personal_Fitness
+com.melesta.coffeeshop,126,My Cafe: Recipes & Stories – World Cooking Game,Casual,Game_Singleplayer
+com.garmin.android.apps.phonelink,126,Garmin Smartphone Link,Travel & Local,Phone_Tools
+com.bergfex.mobile.weather,126,bergfex/Weather App – Forecast Radar Rain & Webcams,Weather,Weather
+com.wagtail.plexhtremote,126,Remote Control for Plex HT,Video Players & Editors,Home_Automation
+com.danlustudios.apps.roamingswitch,125,Roaming Switch ON / OFF,Tools,Phone_Tools
+com.expensemanager,125,Expense Manager,Finance,Personal_Finance
+tof.cv.mpp,125,BeTrains – SNBC Belgium,Maps & Navigation,Travel_Planning
+be.appmax.androiddokters,125,SANMAX Agenda,Business,Business_Management
+com.battlelancer.seriesguide,125,SeriesGuide – Show & Movie Manager,Entertainment,Entertainment
+com.onkyo.jp.onkyoremote,125,Onkyo Remote,Music & Audio,Home_Automation
+com.king.bubblewitch3,125,Bubble Witch 3 Saga,Puzzle,Game_Singleplayer
+com.ape.calculator2,125,Calculator,Tools,Phone_Tools
+de.underflow.calc,125,Shake Calc – Calculator,Tools,Phone_Tools
+com.onegravity.k10.pro2,125,K-@ Mail Pro – Email App,Communication,Email
+com.bose.monet,125,Bose Connect,Music & Audio,Phone_Tools
+com.holosfind.showroom,125,Showroomprive,Communication,Online_Shopping
+jaguargames.wordmaster2,124,Word Master,Word,Game_Singleplayer
+com.bigfishgames.sunkensecretsgooglef2p,124,Sunken Secrets,Simulation,Game_Singleplayer
+com.neatorobotics.android,124,Neato Robotics,Lifestyle,Home_Automation
+com.whatsapp.w4b,124,WhatsApp Business,Communication,Instant_Messaging
+io.faceapp,124,FaceApp,Photography,Camera
+com.lunatouch.eyefilter.free,123,EyeFilter – Bluelight,Health & Fitness,Phone_Tools
+online.oflline.music.player.local,123,"Free Music – Offline Music Player, Music App",Music & Audio,Music_&_Audio
+com.appstar.callrecorder,123,Automatic Call Recorder,Tools,Phone_Tools
+com.protonvpn.android,123,ProtonVPN – advanced online security for everyone,Tools,Security
+nl.vv.fietsknoop,123,Fietsknoop bike your own route,Travel & Local,Maps
+com.kayak.android,123,"KAYAK Flights, Hotels & Cars",Travel & Local,Travel_Planning
+com.dodreams.driveahead,123,Drive Ahead!,Racing,Game_Singleplayer
+be.bankvanbreda.mobile,123,VanBredaOnline,Finance,Personal_Finance
+com.freegame.solitaire.basic2,123,Solitaire Classic,Card,Game_Singleplayer
+com.zui.email,123,Email,Communication,Email
+com.truemindgame.quizetatsamericains,123,United States Quiz,Trivia,Game_Singleplayer
+eu.daikin.remoapp,122,Daikin Online Controller,Tools,Home_Automation
+com.pixonic.wwr,122,War Robots,Action,Game_Multiplayer
+nl.wielerflits,122,WielerFlits,Sports,Sports
+info.intrasoft.habitgoaltracker,122,Goal Tracker & Habit List,Productivity,To-Do_List
+com.sonymobile.xperiaweather,122,Weather,Weather,Weather
+com.samsung.android.app.cocktailbarservice,122,Cocktailbar,Background Process,Background_Process
+com.eryodsoft.android.cards.belote.lite,122,French Belote – Free,Card,Game_Singleplayer
+com.samsung.android.videolist,122,Samsung Video Library,Video Players & Editors,Video_Players_&_Editors
+com.rememberthemilk.MobileRTM,122,Remember The Milk,Productivity,To-Do_List
+be.vrt.een.blokken,122,Blokken,Entertainment,Entertainment
+com.rummikubfree,122,Rummikub,Board,Game_Multiplayer
+com.apps.paced.breathing,122,Paced Breathing,Health & Fitness,Personal_Fitness
+be.krcgenk.mobile,122,KRC Genk Official App,Sports,Sports
+com.ifttt.ifttt,121,IFTTT,Productivity,Home_Automation
+com.onkyo.jp.onkyocontroller,121,Onkyo Controller,Entertainment,Home_Automation
+com.houseofhr.nowjobs,121,NOWJOBS,Business,Job_Search
+com.jwork.wearable.heartratesync2,121,Heart Rate OS – Android Watch,Health & Fitness,Personal_Fitness
+jp.co.bii.android.app.dskvzr,121,Desktop VisualizeR,Personalization,Phone_Personalization
+com.williamsinteractive.jackpotparty,121,Jackpot Party Casino: Slot Machines & Casino Games,Casino,Game_Singleplayer
+com.CubeSoftware.BattleOfWarships,121,Battle of Warships: Naval Blitz,Action,Game_Multiplayer
+com.tplink.kasa_android,121,Kasa Smart,Lifestyle,Home_Automation
+com.inditex.ecommerce.bershka,121,Bershka – Fashion and trends online,Shopping,Online_Shopping
+com.danvelazco.fbwrapper,121,Tinfoil for Facebook,Social,Social_Networking
+com.northpark.periodtracker,120,Period Tracker,Beauty,Medical
+com.hp.android.print,120,HP ePrint,Photography,Phone_Tools
+com.videostarnew.videostar,120,Video Star Music,Video Players & Editors,Camera
+com.youdagames.gop3multiplayer,120,Governor of Poker 3 – Texas Holder Poker Online,Card,Game_Multiplayer
+com.sec.android.app.simsettingmgr,120,SIM card manager,Tools,Phone_Tools
+com.lastpass.authenticator,120,LastPass Authenticator,Productivity,Security
+com.sand.airdroid,120,AirDroid: Remote access & File,Tools,Phone_Tools
+com.gameloft.android.ANMP.GloftDOHM,120,Dragon Mania Legends,Simulation,Game_Multiplayer
+com.amazon.avod.thirdpartyclient,120,Amazon Prime Video,Entertainment,Streaming_Services
+com.google.android.apps.adwords,120,Google Ads,Business,Business_Management
+com.mgc.RopeHero.ViceTown,119,Rope Hero: Vice Town,Action,Game_Singleplayer
+com.daikin.brc1h.controller,119,Madoka Assistant,House & Home,Home_Automation
+com.samsung.android.smartmirroring,119,Samsung Smart View,Tools,Home_Automation
+uk.co.aifactory.spadesfree,119,Spades Free,Card,Game_Singleplayer
+com.azumio.android.sleeptime,119,Sleep Time : Sleep Cycle Smart Alarm Clock Tracker,Health & Fitness,Personal_Fitness
+nl.itnext.kakhiel,119,Kakhiel,Entertainment,Entertainment
+com.grupet.web.app,119,Untis Mobile,Education,Education
+com.chinzilla.littlealchemist.google,119,Little Alchemist,Role Playing,Game_Singleplayer
+fr.kwit.android,119,Kwit – quit smoking for good – smoking cessation,Health & Fitness,Personal_Fitness
+com.candylegend.legend,118,Candy Legend,Casual,Game_Singleplayer
+nl.avro.demol,118,Wie is de Mol?,Strategy,Game_Multiplayer
+com.android.mipop,118,Mi-POP,Personalization,Phone_Tools
+com.yelp.android,118,"Yelp: Food, Shopping Services Nearby",Travel & Local,Food_&_Drinks
+nz.co.lmidigital,118,Les Mills Releases,Health & Fitness,Personal_Fitness
+com.Qublix.SolitaireSafari,118,Solitaire Safari,Card,Game_Singleplayer
+pl.solidexplorer2,118,Solid Explorer File Manager,Productivity,Phone_Tools
+nu.tommie.inbrowser,117,InBrowser – Incognito Browsing,Communication,Internet_Browser
+com.electrabel.apps.boxxapp,117,boxx,Tools,Home_Automation
+ch.aorlinn.bridges,117,Hasi (Bridges),Puzzle,Game_Singleplayer
+com.oxylane.android.decathlon,117,Decathlon,Lifestyle,Coupons
+com.linkdesks.jewellegend,117,Jewels Legend – Match 3 Puzzle,Arcade,Game_Singleplayer
+nl.sanomamedia.autoweek.app,117,AutoWeek,News & Magazines,News
+com.fingersoft.hillclimb,117,Hill Climb Racing,Racing,Game_Singleplayer
+com.outfit7.talkingtomgoldrun,117,Talking Tom Gold Run,Action,Game_Singleplayer
+com.samsung.android.mobileservice,116,Samsung Experience Service,Tools,Phone_Tools
+com.app.p5914CD,116,Snowcase,Travel & Local,Travel_Planning
+com.bittorrent.client,116,BotTorrent – Torrent Downloads,Video Players & Editors,Phone_Tools
+com.domobile.applock,116,AppLock,Tools,Security
+com.TMC.weerslag,116,"Weerslag, get weer",Weather,Weather
+com.plarium.zoo,116,Family Zoo: The Story,Puzzle,Game_Singleplayer
+com.sonelli.juicessh,115,JuiceSSH – SSH Client,Communication,Phone_Tools
+net.benoitbasset.krakapi,115,KrakAPI,Finance,Portfolio/Trading
+com.zenprise,115,Citrix Secure Hub,Business,Remote_Administration
+com.lge.filemanager,115,File Manager,Tools,Phone_Tools
+com.frontier_silicon.fsirc.dok2,115,UNDOK,Music & Audio,Home_Automation
+net.wargaming.wot.blitz,115,World of Tanks Blitz,Action,Game_Multiplayer
+media.music.musicplayer,115,Music Player – Audio Player,Music & Audio,Music_&_Audio
+live.coinmarketcap.app,114,CoinMarketCap - Crypto Prices & Coin Market Cap ,Finance,Portfolio/Trading
+com.arlosoft.macrodroid,114,MacroDroid – Device Automation,Tools,Phone_Tools
+com.safariflow.queue,114,Safari Queue,Education,Book_Readers
+be.napoleongames.app,114,Napoleon Sports & Casino,Casino,Entertainment
+uk.co.nickfines.RealCalc,114,RalCalc Scientific Calculator,Productivity,Phone_Tools
+com.decathlon.android.decathlonservices,114,Decathlon,Lifestyle,Personal_Fitness
+com.intermedia.hq,114,HQ Trivia (Unreleased),Trivia,Game_Multiplayer
+com.stt.android,114,Sports Tracker Running Cycling,Health & Fitness,Personal_Fitness
+com.ape.myseneschal,114,Phone Assist,Tools,Phone_Tools
+com.mail.mobile.android.mail,114,mail.com mail,Communication,Email
+net.creaplay.nursingtimer,113,Nursing Time Tracker,Health & Fitness,Time_Tracker
+eu.smartpatient.mytherapy,113,Medication Reminder & Pill Tracker,Medical,Medical
+com.radiolight.belgique,113,Radio Belgium,Music & Audio,Streaming_Services
+com.android.vpndialogs,113,VPN Dialog,Background Process,Background_Process
+com.scimob.ninetyfour.percent,113,"94% - Quiz, Trivia & Logic",Trivia,Game_Singleplayer
+com.wlxd.pomochallenge,113,Productivity Challenge Timer,Productivity,Time_Tracker
+balls.arcademaker.bricks.breaker.brounce.ballz,113,Balls Bricks Breaker,"Arcade, Brain Games",Game_Singleplayer
+io.nuki,113,Nuki Smart Lock,Tools,Home_Automation
+com.bork.dsp.datuna,113,Tuner – DaTuner (Lite!),Music & Audio,Phone_Tools
+com.microsoft.amp.apps.bingnews,113,Microsoft News,News & Magazines,News
+com.yoosee,112,Yoosee,Video Players & Editors,Camera
+com.andreasabbatini.logicgamestk,112,100 Logic Games – Time Killers,Puzzle,Game_Singleplayer
+com.lumoslabs.lumosity,112,Lumosity: #1 Brain Games & Cognitive Training App,Education,Game_Singleplayer
+demigos.com.mobilism,112,Mobilism,Shopping,Phone_Tools
+com.supertapx.tappyshots,112,Tappy Shots,Sports,Game_Singleplayer
+hr.palamida,112,Dub Music Player – Audio Player & Music Equalizer,Music & Audio,Music_&_Audio
+com.samsung.android.app.soundpicker,112,Samsung Sound Picker,Personalization,Phone_Personalization
+com.kickstarter.kickstarter,112,Kickstarter,Social,Online_Shopping
+com.camerasideas.instashot,112,InShot – Video Editor & Photo Editor,Photography,Camera
+com.xda.feed,112,XDA Feed,News & Magazines,News
+com.eset.ems2.gp,112,Mobile Security & Antivirus,Productivity,Security
+fr.disneylandparis.android,112,Disneyland Paris,Lifestyle,Entertainment
+com.tinytitanstudios.TrainChu,111,Tiny Rails,Arcade,Game_Singleplayer
+com.xs2theworld.voetballNL,111,Voetbal.nl,Sports,Sports
+com.xtech.videoplayer,111,Video Player Pro,Video Players & Editors,Video_Players_&_Editors
+com.webascender.callerid,111,Hiya – Caller ID & Block,Communication,Phone_Tools
+com.toh.app.alarmclock,111,Alarm clock,Tools,Phone_Tools
+net.oneplus.forums,111,OnePlus Community,Communication,News
+com.misfitwearables.prometheus,111,Misfit,Health & Fitness,Personal_Fitness
+com.miui.fm,111,FM Radio,Music & Audio,Streaming_Services
+com.jrtstudio.AnotherMusicPlayer,111,Rocket Music Player,Music & Audio,Music_&_Audio
+com.outfit7.mytalkingangelafree,110,My Talking Angela,Casino,Game_Singleplayer
+com.hwi.android,110,Hardware.Info,News & Magazines,News
+com.jetstartgames.chess,110,Chess,Board,Game_Singleplayer
+tugapower.codeaurora.browser,110,TugaBrowser,Communication,Internet_Browser
+realdolmen.roadpricingandroidapp,110,Road pricing cost calculator,Tools,Phone_Tools
+si.modula.android.instantheartrate,110,Instant Heart Rate: HR Monitor & Pulse Checker,Health & Fitness,Personal_Fitness
+com.babysits,110,Babysits – Find Babysitters,Lifestyle,Family_Planning
+de.tvtoday,109,TV Today – TV Program,Entertainment,Entertainment
+com.nbcuni.nbcsports.rotoworld,109,Rotoworld News & Draft Guides,Sports,News
+radiotime.player,109,TuneIn Radio Pro – Live Radio,Music & Audio,Streaming_Services
+com.shoppinglist,109,Shopping List,Shopping,To-Do_List
+be.humo.mobile.reader,109,Humo,News & Magazines,News
+com.sillysoft.LuxDLX,109,Lux DLK (world conquest ++),Strategy,Game_Singleplayer
+com.simplemobiletools.calendar,109,Simple Calendar,Tools,Calendar
+com.digitalbrains.translate,109,Vertalen.nu,Books & Reference,Phone_Tools
+com.karmangames.hearts,108,Hearts,Card,Game_Multiplayer
+com.htc.music,108,Music,Music & Audio,Music_&_Audio
+eu.siacs.conversations,108,Conversations (Jabber / XMPP),Communication,Instant_Messaging
+com.steam.photoeditor,108,"S Photo Editor – Collage Maker, Photo Collage",Photography,Camera
+com.mobileiron,108,Mobile@Work,Business,Business_Management
+com.cisco.im,108,Cisco Jabber,Communication,Instant_Messaging
+com.etermax.apalabrados.lite,108,Aworded Crack,Word,Game_Singleplayer
+be.bazookas.mobile.android.clubbrugge,107,Club Brugge,Sports,Sports
+com.weheartit,107,We Heart It,Social,Social_Networking
+com.fruit4droid.cronosurf.pro,107,Cronosurf Wave Pro watch,Lifestyle,Wearables
+com.bitsmedia.android.muslimpro,107,"Muslim Pro – Prayer Times, Azan, Quran & Qibla",Lifestyle,Phone_Tools
+com.TeamPlayer,107,TeamPlayer,Business,Business_Management
+com.king.paradisebay,107,Paradise Bay,Casual,Game_Singleplayer
+se.sas.android,107,SAS Scandinavian Airlines,Travel & Local,Travel_Planning
+com.Qublix.SolitaireAtlantis,107,Solitaire Atlantis,Card,Game_Singleplayer
+locus.addon.mcs,107,Locus – multi cache solver,Travel & Local,Entertainment
+in.denim.fastfinder,106,Fast Finder,Tools,Phone_Personalization
+fi.polar.beat,106,Polar Beat – Multisport Fitness App,Health & Fitness,Personal_Fitness
+tubin.debts,106,IOU – debt manager,Finance,Personal_Finance
+com.adobe.lrmobile,106,Adobe Photoshop Lightroom CC,Photography,Camera
+com.jaumo.casual,106,Casual Dating & Adult Singles – Joyride,Dating,Dating
+be.bcfi_cbip.mobile.cbip,106,Geneesmiddelenrepertorium BCFI,Medical,Medical
+com.specialistbetting.specialistbettingtips,106,Specialist Betting Tips,Sports,Entertainment
+anno.oudetijd,106,Anno 1404 Fan App,Tools,Entertainment
+com.wix.android,106,Wix,Productivity,Phone_Tools
+com.htc.htcpowermanager,106,HTC Power Manager,Tools,Phone_Tools
+com.motionvolt.flipbounce,105,Flip Master,Sports,Game_Singleplayer
+ch.enluf.laaxexplore,105,INSIDE LAAX,Travel & Local,Travel_Planning
+com.leodesol.games.puzzlecollection,105,"Puzzlerama – Lines, Dots, Blocks, Pipes & more!",Puzzle,Game_Singleplayer
+nl.rtvnoordholland.android,105,NH Nieuws,News & Magazines,News
+com.google.android.apps.magazines,105,Google News,News & Magazines,News
+com.tricolorcat.calculator,105,Calculator,Productivity,Phone_Tools
+be.niko.smart.mobile,105,Niko Home Control II,Lifestyle,Home_Automation
+com.netatmo.thermostat,105,Netatmo Energy,Lifestyle,Home_Automation
+nl.nle.annainzicht,105,NLEx-inzicht,Productivity,Home_Automation
+com.yodo1.rodeo.safari,105,Rodeo Stampede: Sky Zoo Safari,Casual,Game_Singleplayer
+com.sec.app.samsungprintservice,105,Samsung Print Service Plugin,Productivity,Phone_Tools
+com.icemobile.jumboclient,105,Jumbo,Shopping,Online_Shopping
+com.android.emergency,104,Emergency Info,Background Process,Background_Process
+cc.relive.reliveapp,104,Relive – Your Outdoor 3D Videos,Health & Fitness,Personal_Fitness
+com.coffeebeanventures.easyvoicerecorder,104,Easy Voice Recorder,Productivity,Phone_Tools
+com.amazon.dee.app,104,Amazon Alexa,Music & Audio,Home_Automation
+be.tbwagroup.demol,104,De Mol Belgie,Casual,Game_Singleplayer
+io.enpass.app,104,Enpass Password Manager,Productivity,Security
+air.com.pixelfederation.diggy,104,Diggy’s Adventure,Adventure,Game_Singleplayer
+com.hp.printercontrol,103,HP Smart (Printer Remote),Productivity,Phone_Tools
+com.tomtom.mydrive.eu,103,TomTom MyDrive,Travel & Local,Auto_&_Vehicles
+com.dts.freefireth,103,Garena Free Fire,Action,Game_Multiplayer
+com.Feelnside.SlopeDown,103,Slope Down: First Trip,Arcade,Game_Singleplayer
+com.banggood.client,103,Banggood – Easy Online Shopping,Shopping,Online_Shopping
+cn.chuango.w020,103,W020 Alarm,Tools,Home_Automation
+com.crazylabs.sausage.run,103,Run Sausage Run!,Arcade,Game_Singleplayer
+com.ea.game.maddenmobile15_row,103,Madden NFL Overdrive Football,Sports,Game_Singleplayer
+com.shamanland.privatescreenshots,103,Private Screenshots,Tools,Phone_Tools
+com.windyty.android,103,"Windy: wind, waves and hurricanes forecast",Weather,Weather
+com.kongregate.mobile.tinkerisland.google,103,Tinker Island – Pixel Art Survival Adventure,Adventure,Game_Singleplayer
+com.google.android.videos,102,Google Play Movies & TV,Video Players & Editors,Streaming_Services
+com.hutchgames.hotwheels,102,Hot Wheels: Race Off,"Racing, Action & Adventure",Game_Singleplayer
+com.zentertain.photoeditor,102,Photo Editor Pro,Photography,Camera
+com.authy.authy,102,Authy 2-Factor Authentication,Tools,Security
+com.crossfit.games.android,102,CrossFit Games,Health & Fitness,Personal_Fitness
+be.smappee.mobile.android,102,Smappee Energy Monitor,Lifestyle,Home_Automation
+com.lf.lfvtandroid,102,Lfconnect – Workout Tracking,Health & Fitness,Personal_Fitness
+com.ketchapp.play2048,102,2048,Puzzle,Game_Singleplayer
+org.M.alcodroid,102,AlcoDroid Alcohol Tracker,Health & Fitness,Personal_Fitness
+com.killermobile.totalrecall,101,Call Recorder,Productivity,Phone_Tools
+com.nordvpn.android,101,NordVPN: Private WiFi & Security – Unlimited VPN,Tools,Security
+com.appnormal.rummified,101,Rummified,Casual,Game_Multiplayer
+com.google.android.tts,101,Google Text-to-Speech,Tools,Phone_Tools
+com.google.android.marvin.talkback,101,Android Accessibility Suite,Tools,Phone_Tools
+com.expect.colorful,101,Expect Colorful,Tools,Phone_Tools
+com.cylan.jiafeigou,101,Clever Dog,Tools,Home_Automation
+com.popreach.dumbways,101,Dumb Ways to Die Original,Casual,Game_Singleplayer
+com.tunnelbear.android,101,TunnelBear VPN,Tools,Security
+be.gps.android72,101,Emprova 7.2,Business,Business_Management
+com.samsung.android.app.simplesharing,100,Link Sharing,Productivity,Phone_Tools
+com.bw.vrtlive,100,VRT Live,Video Players & Editors,Streaming_Services
+com.fictionpress.fanfiction,100,FanFiction.Net,Books & Reference,Book_Readers
+com.ea.gp.bej3,100,Bejeweled Classic,Casual,Game_Singleplayer
+com.rauscha.apps.timesheet,100,Timesheet – Time Tracker,Productivity,Time_Tracker
+com.htc.Weather,100,Weather,Weather,Weather
+com.guxiu.dreamdays_l,100,Dreamdays Countdown Free,Lifestyle,Calendar
+com.safecard.android,100,Safecard,Tools,Security
+com.apnax.wordsnack,100,Word Snack – Your Picnic with Words,Word,Game_Singleplayer
+com.eventbrite.attendee,100,Eventbrite – Discover popular events & nearby fun,Entertainment,Entertainment
+de.aktiwir.aktibmi,100,"Weight Loss Tracker, BMI",Health & Fitness,Personal_Fitness
+com.playstudios.popslots,100,POP! Slots – Free Vegas Casino Slot Machine Games,Casino,Game_Singleplayer
+com.color.puzzle.i.love.hue.blendoku.game,100,Color Puzzle Game + Download Free Hue Wallpaper,Puzzle,Game_Singleplayer
