@@ -71,7 +71,7 @@ for ep in epsilons:
 
 summary_db = pd.DataFrame(summary_db, columns = ['algo','ep','mins','clusters','avg_cl_size','lrgst_cl_size', 'noise_size'])
 
-summary_db.to_csv("summary_dbscan.csv")
+summary_db.to_csv("summary_dbscan.csv", index = False)
 
 
 #%%
@@ -117,3 +117,5 @@ for n in clusters:
                             avg, lrgst,noise,silhouette))
 
 summary_agg_pca = pd.DataFrame(summary_agg_pca, columns = ['clusters_n','clusters_out','leaves','avg_cl_size','lrgst_cl_size', 'noise_size', 'silhouette'])
+
+summary_db.to_csv("summary_agg.csv", index = False)

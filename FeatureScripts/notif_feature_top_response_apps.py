@@ -61,12 +61,13 @@ topapps_response_app.fillna("None", inplace = True)
 
 
 #%%
+'''
 apps = appresponse.application.append(pd.Series("None"))
-#%%
+
 le = preprocessing.LabelEncoder()
 
 le.fit(apps)
-#%%
+
 le.classes_.shape
 #%%
 
@@ -76,6 +77,12 @@ for i in topapps_response_session.columns:
 for i in topapps_response_app.columns:
     topapps_response_app[i] = le.transform(topapps_response_app[i])
 
+
+topapps_response_app_names.to_csv("../../Outputs/Descriptives/topapps_response_app.csv")
+
+topapps_response_session_names.to_csv("../../Outputs/Descriptives/topapps_response_session.csv")
+
+'''
 #%%
 
 topapps_response_session.to_csv("../../Outputs/Features/topapps_response_session.csv")
@@ -83,7 +90,3 @@ topapps_response_session.to_csv("../../Outputs/Features/topapps_response_session
 
 topapps_response_app.to_csv("../../Outputs/Features/topapps_response_app.csv")
 
-
-topapps_response_app_names.to_csv("../../Outputs/Descriptives/topapps_response_app.csv")
-
-topapps_response_session_names.to_csv("../../Outputs/Descriptives/topapps_response_session.csv")
