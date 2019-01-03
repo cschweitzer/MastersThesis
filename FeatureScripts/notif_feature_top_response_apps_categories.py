@@ -28,14 +28,19 @@ index = pd.DataFrame(index = np.unique(appresponse_orig.id))
 
 #%%
 
-appcats = pd.read_csv("sorted_labelled_1.csv")
+appcats = pd.read_csv("sorted_labelled_1.csv", na_values = "")
+
 appcats.fillna("Other", inplace = True)
 appcats.rename(index=str, columns={"app_id": "application"}, inplace = True)
 
 #%%
 appresponse = appresponse_orig.merge(appcats, on = "application", how = "left")
+
+#%%
 appresponse.drop(columns = ['application', 'name', 'category', 'count'], inplace = True)
 appresponse.rename(columns = {"better_category":"application"}, inplace = True)
+
+appresponse[['application']]=appresponse[['application']].fillna("Other")
 #%%
 
 def topapp(data, time):
