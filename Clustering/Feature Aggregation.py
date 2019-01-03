@@ -5,7 +5,6 @@ Created on Tue Dec  4 12:22:49 2018
 @author: schwe
 """
 import numpy as np
-from sklearn.decomposition import PCA
 import os
 import pandas as pd
 
@@ -29,7 +28,7 @@ def features_combine(location, datatype):
 #%%
 
 features_cont = features_combine("..\Outputs\Features\cont",'cont')
-#%%
+
 features_cat = features_combine("..\Outputs\Features\cat",'cat')
 
 #%%
@@ -50,28 +49,22 @@ for i in features_cont.columns:
 #%%
 features_cont.isnull().any()
 #%%
-X = np.array(features_nona)
-#%%
 
+features_cont.to_csv( "../Outputs/features_cont.csv")
+features_cat.to_csv( "../Outputs/features_cat.csv")
+
+#%%
+features_cont_std = features_cont.copy(deep = True)
+#%%
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
-X_z = scaler.fit_transform(X)
+X_cont_z = scaler.fit_transform(features_cont_std.values)
+
+features_cont_std.loc[:,:] = X_cont_z
+#%%
+features_cont_std.to_csv( "../Outputs/features_cont_std.csv")
 
 #%%
-import pickle
-pickle.dump( X_z, open( "../Outputs/features_std.pickle", "wb" ) )
+features_combined = pd.merge(features_cont_std, features_cat,  left_index = True, right_index = True, how = 'outer')
 
-#%%
-#X = pickle.load( Xt, open( "../Outputs/features.pickle", "rb" ) )
-#X_z = pickle.load( Xt, open( "../Outputs/features_std.pickle", "rb" ) )
-
-pca = PCA(20)
-pca.fit(X_z)
-Xt = pca.transform(X_z)
-#%%
-pickle.dump( Xt, open( "../Outputs/features_z_pca.pickle", "wb" ))
-
-#%%
-comps = pd.DataFrame(pca.components_, columns = features_all_df.columns)
-#%%
-test = pca.components_
+features_combined.to_csv( "../Outputs/features_combined.csv")
