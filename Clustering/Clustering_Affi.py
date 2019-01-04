@@ -5,7 +5,6 @@ Created on Wed Dec  5 16:03:08 2018
 @author: schwe
 """
 
-from sklearn.cluster import AffinityPropagation
 import numpy as np
 from collections import Counter
 import pandas as pd
@@ -13,9 +12,9 @@ import pandas as pd
 from sklearn.metrics import silhouette_score, davies_bouldin_score
 #%%
 
-features = pd.read_csv("../Outputs/features_z_pca.csv", header = None )
+features = pd.read_csv("../Outputs/Features/cluster_inputs/features_z_pca.csv", header = None )
 
-#features = pd.read_csv("../Outputs/features_cont_Std.csv", index_col = 'id')
+#features = pd.read_csv("../Outputs/Features/cluster_inputs/features_cont_std.csv", index_col = 'id')
 
 #%%
 
@@ -27,6 +26,7 @@ np.mean(distances)
 
 
 #%%
+from sklearn.cluster import AffinityPropagation
 
 dampings= [.5,.75,.95]
 max_iters = [50,100, 150, 200, 250]
@@ -55,10 +55,10 @@ for d in dampings:
                 db_score = None
 
             summary.append((d, mi, ci, len(c_l),avg, lrgst,noise,silhouette, db_score))
-#%%
-summary = pd.DataFrame(summary_birch, columns = ['damping','max_iter','convergence_iter','clusters_out','avg_cl_size','lrgst_cl_size', 'noise_size', 'silhouette', 'davies_bouldin'])
 
-summary.to_csv("summary_affinity_pca.csv", index = False)
+summary = pd.DataFrame(summary, columns = ['damping','max_iter','convergence_iter','n_clusters','avg_cl_size','lrgst_cl_size', 'noise_size', 'silhouette', 'davies_bouldin'])
+
+summary.to_csv("../Outputs/Clustering/summary_affinity_pca5.csv", index = False)
 
 
 #%%

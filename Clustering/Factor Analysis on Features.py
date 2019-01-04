@@ -10,12 +10,12 @@ import os
 import pandas as pd
 
 #%%
-features_cont = pd.read_csv("../Outputs/features_cont_std.csv",  index_col = 'id')
+features_cont = pd.read_csv("../Outputs/Features/cluster_inputs/features_cont_std.csv",  index_col = 'id')
 #features_cat = pd.read_csv("../Outputs/features_cat.csv")
 
 #%%
 
-pca = PCA(10).fit(features_cont)
+pca = PCA(5).fit(features_cont)
 
 #%%
 comps = pd.DataFrame(pca.components_, columns = features_cont.columns)
@@ -25,7 +25,7 @@ noise = pca.noise_variance_
 #%%
 Xt = pca.transform(features_cont)
 #%%
-np.savetxt( "../Outputs/features_z_pca.csv", Xt, delimiter=',')
+np.savetxt( "../Outputs/Features/cluster_inputs/features_z_pca5.csv", Xt, delimiter=',')
 
 
 #%% https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html#sphx-glr-auto-examples-datasets-plot-iris-dataset-py

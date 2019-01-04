@@ -5,7 +5,6 @@ Created on Wed Dec  5 16:03:08 2018
 @author: schwe
 """
 
-from sklearn.cluster import DBSCAN, AgglomerativeClustering
 import numpy as np
 from collections import Counter
 import pandas as pd
@@ -13,9 +12,9 @@ import pandas as pd
 from sklearn.metrics import silhouette_score, davies_bouldin_score
 #%%
 
-#features = pd.read_csv("../Outputs/features_z_pca.csv")
+features = pd.read_csv("../Outputs/Features/cluster_inputs/features_z_pca5.csv")
 
-features = pd.read_csv("../Outputs/features_cont_Std.csv", index_col = 'id')
+#features = pd.read_csv("../Outputs/Features/cluster_inputs/features_cont_std.csv", index_col = 'id')
 
 #%%
 
@@ -25,11 +24,10 @@ distances = np.linalg.norm(features, axis = 1)
 
 np.mean(distances)
 
-#%%
-
-X = np.copy(features)
 
 #%%
+
+from sklearn.cluster import DBSCAN
 
 epsilons = [1,2,3,4,5,10,15,20,25,30]
 minpts = [1, 5,10,20,50]
@@ -44,7 +42,7 @@ for ep in epsilons:
                           min_samples=mins,
                           metric='euclidean',
                           algorithm=alg)
-            clustermodel.fit(X)
+            clustermodel.fit(features)
             labels = clustermodel.labels_
 
             c_l = Counter(labels)
@@ -58,8 +56,8 @@ for ep in epsilons:
 
                 #if len(c_l) < len(X):
                 with np.errstate(divide='ignore'):
-                    silhouette = silhouette_score(X, labels)
-                    db_score = davies_bouldin_score(X, labels)
+                    silhouette = silhouette_score(features, labels)
+                    db_score = davies_bouldin_score(features, labels)
                 #else:
                     #silhouette = None
                     #db_score = None
@@ -72,10 +70,10 @@ for ep in epsilons:
 
             summary_db.append((alg, ep, mins, len(c_nn),
                             avg, lrgst,noise,silhouette, db_score))
-#%%
-summary_db = pd.DataFrame(summary_db, columns = ['algo','ep','mins','clusters','avg_cl_size','lrgst_cl_size', 'noise_size', 'silhouette','davies_bouldin'])
 
-summary_db.to_csv("summary_dbscan_nonpcacont.csv", index = False)
+summary_db = pd.DataFrame(summary_db, columns = ['algo','ep','mins','n_clusters','avg_cl_size','lrgst_cl_size', 'noise_size', 'silhouette','davies_bouldin'])
+
+summary_db.to_csv("../Outputs/Clustering/summary_dbscan_pca5.csv", index = False)
 
 
 #%%
@@ -90,38 +88,3 @@ clustermodel.fit(X)
 silhouette = silhouette_score(X, clustermodel.labels_)
 db_score = davies_bouldin_score(X, clustermodel.labels_)
 
-#%%
-
-clusters= [2,5,10,15]
-#affinity=’euclidean’
-#memory=None
-#connectivity=None
-#compute_full_tree=’auto’
-#linkage=’ward’
-#pooling_func=’deprecated’
-
-summary_agg_pca = []
-for n in clusters:
-
-    clusteragg = AgglomerativeClustering(n_clusters=n, affinity='euclidean')
-    clusteragg.fit(features_pca)
-
-    c_l = Counter(clusteragg.labels_)
-    noise = c_l[-1]
-
-    if len(c_l) > 1:
-        avg = np.mean([j for i,j in c_l.items() if i != -1])
-        lrgst = max([j for i,j in c_l.items() if i != -1])
-    else:
-        avg = max(noise,c_l[0])
-        lrgst = max(noise,c_l[0])
-
-    silhouette = silhouette_score(features_pca, clusteragg.labels_)
-
-    summary_agg_pca.append((n, np.unique(clusteragg.labels_).size,
-                        clusteragg.n_leaves_,
-                            avg, lrgst,noise,silhouette))
-
-summary_agg_pca = pd.DataFrame(summary_agg_pca, columns = ['clusters_n','clusters_out','leaves','avg_cl_size','lrgst_cl_size', 'noise_size', 'silhouette'])
-
-summary_db.to_csv("summary_agg.csv", index = False)

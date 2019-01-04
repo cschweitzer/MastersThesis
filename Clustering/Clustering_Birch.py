@@ -5,7 +5,7 @@ Created on Wed Dec  5 16:03:08 2018
 @author: schwe
 """
 
-from sklearn.cluster import Birch
+
 import numpy as np
 from collections import Counter
 import pandas as pd
@@ -13,9 +13,9 @@ import pandas as pd
 from sklearn.metrics import silhouette_score, davies_bouldin_score
 #%%
 
-features = pd.read_csv("../Outputs/features_z_pca.csv", header = None )
+features = pd.read_csv("../Outputs/Features/cluster_inputs/features_z_pca.csv", header = None )
 
-#features = pd.read_csv("../Outputs/features_cont_Std.csv", index_col = 'id')
+#features = pd.read_csv("../Outputs/Features/cluster_inputs/features_cont_std.csv", index_col = 'id')
 
 #%%
 
@@ -27,6 +27,9 @@ np.mean(distances)
 
 
 #%%
+
+from sklearn.cluster import Birch
+
 thresholds= [.5,1,1.5,2,3,4,5]
 branches = [20,50,100, 150]
 
@@ -56,9 +59,9 @@ for th in thresholds:
         summary_birch.append((th, br, len(c_l),
                                 avg, lrgst,noise,silhouette, db_score))
 
-summary_birch = pd.DataFrame(summary_birch, columns = ['threshold','branchfactor','clusters_out','avg_cl_size','lrgst_cl_size', 'noise_size', 'silhouette', 'davies_bouldin'])
+summary_birch = pd.DataFrame(summary_birch, columns = ['threshold','branchfactor','n_clusters','avg_cl_size','lrgst_cl_size', 'noise_size', 'silhouette', 'davies_bouldin'])
 
-summary_birch.to_csv("summary_birch_pca.csv", index = False)
+summary_birch.to_csv("../Outputs/Clustering/summary_birch_pca5.csv", index = False)
 
 
 #%%
