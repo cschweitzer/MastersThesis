@@ -10,18 +10,41 @@ import os
 import pandas as pd
 
 #%%
-features_cont = pd.read_csv("../Outputs/features_cont.csv")
-features_cat = pd.read_csv("../Outputs/features_cat.csv")
+features_cont = pd.read_csv("../Outputs/features_cont_std.csv",  index_col = 'id')
+#features_cat = pd.read_csv("../Outputs/features_cat.csv")
 
 #%%
 
-pca = PCA(20)
-pca.fit(X_z)
-Xt = pca.transform(X_z)
-#%%
-pickle.dump( Xt, open( "../Outputs/features_z_pca.pickle", "wb" ))
+pca = PCA(10).fit(features_cont)
 
 #%%
-comps = pd.DataFrame(pca.components_, columns = features_all_df.columns)
+comps = pd.DataFrame(pca.components_, columns = features_cont.columns)
+
+var = pca.explained_variance_ratio_
+noise = pca.noise_variance_
 #%%
-test = pca.components_
+Xt = pca.transform(features_cont)
+#%%
+np.savetxt( "../Outputs/features_z_pca.csv", Xt, delimiter=',')
+
+
+#%% https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html#sphx-glr-auto-examples-datasets-plot-iris-dataset-py
+
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+from sklearn import datasets
+from sklearn.decomposition import PCA
+
+fig2 = plt.figure(2)
+plt.scatter(Xt[:, 0], Xt[:, 1])
+plt.show()
+
+#%%
+fig1 = plt.figure(1)
+ax = Axes3D(fig1)
+ax.scatter(Xt[:, 0], Xt[:, 1], Xt[:, 2])
+plt.scatter(Xt[:, 0], Xt[:, 1])
+plt.show()
+
+
+

@@ -28,7 +28,7 @@ def features_combine(location, datatype):
 #%%
 
 features_cont = features_combine("..\Outputs\Features\cont",'cont')
-
+#%%
 features_cat = features_combine("..\Outputs\Features\cat",'cat')
 
 #%%
@@ -51,7 +51,8 @@ features_cont.isnull().any()
 #%%
 
 features_cont.to_csv( "../Outputs/features_cont.csv")
-features_cat.to_csv( "../Outputs/features_cat.csv")
+#%%
+features_cat.to_csv( "../Outputs/features_cat_cat.csv")
 
 #%%
 features_cont_std = features_cont.copy(deep = True)
@@ -67,4 +68,4 @@ features_cont_std.to_csv( "../Outputs/features_cont_std.csv")
 #%%
 features_combined = pd.merge(features_cont_std, features_cat,  left_index = True, right_index = True, how = 'outer')
 
-features_combined.to_csv( "../Outputs/features_combined.csv")
+features_combined.to_csv( "../Outputs/features_combined_cat.csv")
