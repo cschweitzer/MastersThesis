@@ -55,10 +55,6 @@ topapps_response_app= topapps_response_app_times.merge(index, how = 'outer', rig
 topapps_response_session.index.name = "id"
 topapps_response_app.index.name = "id"
 
-#%%
-topapps_response_session.fillna("None", inplace = True)
-topapps_response_app.fillna("None", inplace = True)
-
 
 #%%
 '''

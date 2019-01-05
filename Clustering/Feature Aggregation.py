@@ -46,13 +46,18 @@ for i in features_cont.columns:
     if "trains" in i:
         cols = features_cont.columns[features_cont.columns.str.contains(pat = 'trains')]
         features_cont.loc[:,cols] = features_cont.loc[:,cols].fillna(0)
+
+    if "_times" in i:
+        cols = features_cont.columns[features_cont.columns.str.contains(pat = '_times')]
+        vals = features_cont.loc[:,cols].median()
+        features_cont.loc[:,cols] = features_cont.loc[:,cols].fillna(vals)
 #%%
 features_cont.isnull().any()
 #%%
 
-features_cont.to_csv( "../Outputs/features_cont.csv")
+features_cont.to_csv( "../Outputs/Features/cluster_inputs/features_cont.csv")
 #%%
-features_cat.to_csv( "../Outputs/features_cat_cat.csv")
+features_cat.to_csv( "../Outputs/Features/cluster_inputs/features_cat_cat.csv")
 
 #%%
 features_cont_std = features_cont.copy(deep = True)
@@ -63,7 +68,7 @@ X_cont_z = scaler.fit_transform(features_cont_std.values)
 
 features_cont_std.loc[:,:] = X_cont_z
 #%%
-features_cont_std.to_csv( "../Outputs/features_cont_std.csv")
+features_cont_std.to_csv( "../Outputs/Features/cluster_inputs/features_cont_std.csv")
 
 #%%
 features_combined = pd.merge(features_cont_std, features_cat,  left_index = True, right_index = True, how = 'outer')
