@@ -20,9 +20,11 @@ features = pd.read_csv("../Outputs/Features/cluster_inputs/features_z_pca5.csv")
 
 from numpy import linalg
 
-distances = np.linalg.norm(features, axis = 1)
+distances1 = pd.DataFrame(np.linalg.norm(features, axis = 1))
+np.mean(distances1)
 
-np.mean(distances)
+#import scipy.spatial
+#distances2 = pd.DataFrame(scipy.spatial.distance.pdist(features))
 
 
 #%%
@@ -69,6 +71,7 @@ for ep in epsilons:
 
 
             summary_db.append((alg, ep, mins, len(c_nn),
+
                             avg, lrgst,noise,silhouette, db_score))
 
 summary_db = pd.DataFrame(summary_db, columns = ['algo','ep','mins','n_clusters','avg_cl_size','lrgst_cl_size', 'noise_size', 'silhouette','davies_bouldin'])
