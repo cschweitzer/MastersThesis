@@ -3,8 +3,11 @@ library(cluster)
 library(fpc)
 library(NbClust)
 
-features <-read.csv("../../Outputs/Features/cluster_inputs/features_z_pca10.csv", row.names = 1,
+features10 <-read.csv("../../Outputs/Features/cluster_inputs/features_z_pca10.csv", row.names = 1,
                     header = FALSE)
+
+features5 <-read.csv("../../Outputs/Features/cluster_inputs/features_z_pca10.csv", row.names = 1,
+                      header = FALSE)
 
 
 d <- dist(features, method = "euclidean") # distance matrix
