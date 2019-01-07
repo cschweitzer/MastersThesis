@@ -30,20 +30,28 @@ np.savetxt( "../Outputs/Features/cluster_inputs/features_z_pca10.csv", Xt, delim
 
 #%% https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html#sphx-glr-auto-examples-datasets-plot-iris-dataset-py
 
+Xt = np.loadtxt( "../Outputs/Features/cluster_inputs/features_z_pca10.csv", delimiter=',')
+
+#%%
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-from sklearn import datasets
-from sklearn.decomposition import PCA
 
+#%%
 fig2 = plt.figure(2)
 plt.scatter(Xt[:, 0], Xt[:, 1])
+plt.title('PCA Components', fontsize = 20)
+plt.xlabel(r'Component 1', fontsize=15)
+plt.ylabel(r'Component 2', fontsize=15)
 plt.show()
 
 #%%
 fig1 = plt.figure(1)
 ax = Axes3D(fig1)
 ax.scatter(Xt[:, 0], Xt[:, 1], Xt[:, 2])
-plt.scatter(Xt[:, 0], Xt[:, 1])
+plt.title('PCA Components', fontsize = 20)
+ax.set_xlabel(r'Component 1', fontsize=15)
+ax.set_ylabel(r'Component 2', fontsize=15)
+ax.set_zlabel(r'Component 3', fontsize=15)
 plt.show()
 
 
