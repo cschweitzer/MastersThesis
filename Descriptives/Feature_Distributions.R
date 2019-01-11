@@ -49,3 +49,14 @@ ggplot(data.melt, aes(x = vals)) +
   facet_wrap(~variable,scales='free')+
   coord_cartesian(xlim = c(-5,50),
                   ylim=c(0,3400))
+
+
+
+###################
+files <- dir("../../Outputs/Features/cont/", pattern =".csv")
+
+for (file in files){
+  feature <- paste0(path,file)
+  data <- read.csv(feature, stringsAsFactors = F, row.names = 1, header = T)
+
+ggplot()
