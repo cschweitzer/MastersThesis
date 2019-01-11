@@ -74,3 +74,14 @@ features_cont_std.to_csv( "../Outputs/Features/cluster_inputs/features_cont_std.
 features_combined = pd.merge(features_cont_std, features_cat,  left_index = True, right_index = True, how = 'outer')
 
 features_combined.to_csv( "../Outputs/features_combined_cat.csv")
+
+
+#%%%% Select features based on distributions
+
+data = pd.read_csv( "../Outputs/Features/cluster_inputs/features_cont_std.csv")
+
+data2 = data[['id','multi_app_sessions: prop_multi_sessions','repeat_app_sessions: prop_repeat_sessions','single_app_sessions: prop_single_sessions','notification_responsetime: response_time_app_std','trains_topperuser_freq_features: 1']]
+
+data2.set_index("id", inplace = True)
+
+data2.to_csv( "../Outputs/Features/cluster_inputs/features_cont_std_select.csv")

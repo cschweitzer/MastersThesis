@@ -31,8 +31,9 @@ np.mean(distances1)
 
 from sklearn.cluster import DBSCAN
 
-epsilons = [1,2,3,4,5,10,15,20,25,30]
-minpts = [1, 5,10,20,50]
+epsilons = [1,2,3,4,5,8, 10,15,20,25,30]
+minpts = [1, 2,3,4,5,8, 10,20,50]
+
 dist = ['euclidean']
 algo = ['auto', 'ball_tree', 'kd_tree', 'brute']
 
