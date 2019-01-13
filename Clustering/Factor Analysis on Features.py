@@ -8,20 +8,34 @@ import numpy as np
 from sklearn.decomposition import PCA
 import os
 import pandas as pd
-
+import matplotlib.pyplot as plt
 #%%
 features_cont = pd.read_csv("../Outputs/Features/cluster_inputs/features_cont_std.csv",  index_col = 'id')
 #features_cat = pd.read_csv("../Outputs/features_cat.csv")
 
 #%%
 
-pca = PCA(10).fit(features_cont)
+pca = PCA(20).fit(features_cont)
 
 #%%
-comps = pd.DataFrame(pca.components_, columns = features_cont.columns)
-
+comps = pd.DataFrame(pca.components_, columns = features_cont.columns).transpose()
+comps.to_csv("../Outputs/Descriptives/pca_components.csv")
 var = pca.explained_variance_ratio_
 noise = pca.noise_variance_
+#%%
+x = np.arange(0, len(var), 1)
+xl = np.arange(1, len(var)+1, 1)
+
+plt.plot(np.cumsum(var))
+plt.xticks(x, xl)
+
+plt.title("Cumulative % Variance vs PCA Components")
+plt.xlabel('Number of PCA Components')
+plt.ylabel('Cumulative % Variance Explained')
+plt.legend()
+
+plt.savefig("../Outputs/Plots/pca_vs_variance.png")
+
 #%%
 Xt = pca.transform(features_cont)
 #%%

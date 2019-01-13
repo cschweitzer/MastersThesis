@@ -23,9 +23,10 @@ from numpy import linalg
 distances1 = pd.DataFrame(np.linalg.norm(features, axis = 1))
 np.mean(distances1)
 
-#import scipy.spatial
-#distances2 = pd.DataFrame(scipy.spatial.distance.pdist(features))
-
+from sklearn.metrics.pairwise import euclidean_distances
+distances2 = euclidean_distances(features)
+#%%
+np.mean(distances2)
 
 #%%
 
