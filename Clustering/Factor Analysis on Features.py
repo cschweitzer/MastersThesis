@@ -15,7 +15,7 @@ features_cont = pd.read_csv("../Outputs/Features/cluster_inputs/features_cont_st
 
 #%%
 
-pca = PCA(20).fit(features_cont)
+pca = PCA().fit(features_cont)
 
 #%%
 comps = pd.DataFrame(pca.components_, columns = features_cont.columns).transpose()
@@ -26,6 +26,7 @@ noise = pca.noise_variance_
 x = np.arange(0, len(var), 1)
 xl = np.arange(1, len(var)+1, 1)
 
+plt.figure(figsize=(10,7))
 plt.plot(np.cumsum(var))
 plt.xticks(x, xl)
 
@@ -39,7 +40,7 @@ plt.savefig("../Outputs/Plots/pca_vs_variance.png")
 #%%
 Xt = pca.transform(features_cont)
 #%%
-np.savetxt( "../Outputs/Features/cluster_inputs/features_z_pca10.csv", Xt, delimiter=',')
+np.savetxt( "../Outputs/Features/cluster_inputs/features_z_pca24.csv", Xt, delimiter=',')
 
 
 #%% https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html#sphx-glr-auto-examples-datasets-plot-iris-dataset-py

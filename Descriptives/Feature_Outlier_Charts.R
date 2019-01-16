@@ -41,6 +41,13 @@ colnames(outlier_info) <- c("Num Outliers", "% Outliers",
                             "High","Avg of High Outliers",
                             "Features")
 
+outlier_info$`Feature Type` <- c("Response Time",
+                       "Proportion",
+                       "Response Time","Response Time","Response Time","Response Time",
+                       "Proportion","Proportion","Proportion",
+                       "Response Time","Response Time","Response Time" , "Response Time","Response Time" ,  "Response Time",
+                       "Proportion","Proportion","Proportion", "Proportion","Proportion","Proportion","Proportion","Proportion","Proportion","Proportion","Proportion","Proportion","Proportion","Proportion","Proportion")
+
 outlier_formatted <- outlier_info %>% arrange(-`Num Outliers`) %>% 
   gather("Outlier Type", value,Low, High)
 
@@ -51,5 +58,6 @@ ggplot(outlier_formatted, aes(x = reorder(Features, `Num Outliers`), y = value, 
   labs(title = "Outliers per Feature: High vs Low Valued",
        y="Number of Outliers",fill="Outlier Type",x="Features")+
   theme_bw()+
+  facet_wrap(~`Feature Type`, nrow = 2, drop = T, scales = "free_y")+
   theme(plot.title = element_text(hjust = 0.5))
 

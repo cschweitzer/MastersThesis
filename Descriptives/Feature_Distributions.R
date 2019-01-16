@@ -1,5 +1,6 @@
 library(fitdistrplus)
 library(ggplot2)
+library(dplyr)
 
 data <-read.csv("../../Outputs/Features/cluster_inputs/features_cont_std.csv", row.names = 1,
                     header = T)
@@ -75,16 +76,16 @@ colnames(data) <- c( "Btwn Session Dur",
                      "Top 1 Response Time Session",
                      "Top 2 Response Time Session" ,  
                      "Top 3 Response Time Session",
-                     "Top Train: FB App - FB Messenger",
-                     "Top Train: FB App - Instagram",
-                     "Top Train: FB App - WhatsApp",
-                     "Top Train: FB Messenger - FB App",
-                     "Top Train: FB Messenger - Snapchat",
-                     "Top Train: Instagram - FB App",
-                     "Top Train: Contacts - Call",
-                     "Top Train: WhatsApp - Chrome",
-                     "Top Train: WhatsApp - Facebook",
-                     "Top Train: WhatsApp - Instagram",
+                     "Top Train FB App - FB Messenger",
+                     "Top Train FB App - Instagram",
+                     "Top Train FB App - WhatsApp",
+                     "Top Train FB Messenger - FB App",
+                     "Top Train FB Messenger - Snapchat",
+                     "Top Train Instagram - FB App",
+                     "Top Train Contacts - Call",
+                     "Top Train WhatsApp - Chrome",
+                     "Top Train WhatsApp - Facebook",
+                     "Top Train WhatsApp - Instagram",
                      "Top 1 Individ Train",
                      "Top 2 Individ Train",
                      "Top 3 Individ Train",
@@ -105,16 +106,18 @@ feature_type <- c("Duration (in secs)", "% of Sessions",
 #limits = quantile(, c(0,.985))
 
 for (i in 1:ncol(data)){
-  #i <- 3
+  #i <- 8
   feature <- names(data[i])
-  outlier <- as.numeric(quantile(data[,i],.75)) + (1.5*IQR(data[,i]))
-  ggplot(data, aes(x = data[,i])) +
-    geom_histogram(binwidth = function(x) ((max(x)-min(x))/1000)) +
+  outlier <- boxplot.stats(data[,i])$stats[5]
+  data2 <- filter(data, !!as.name(feature) < outlier)
+  ggplot(data2, aes(x = data2[,i])) +
+    geom_histogram(binwidth = function(x) ((max(x)-min(x))/1000), color = "blue") +
     labs(y="Number of Users",x=feature_type[i], title = paste0("Distribution of ",feature))+
-    scale_x_continuous(limits = c(0,outlier))+
+    #scale_x_continuous(limits = c(-.0001,outlier))+
+    #ylim(0,25)+
     theme_bw()+
     theme(plot.title = element_text(hjust = 0.5), legend.position="none")
     
   
-  ggsave(paste0("../../Outputs/Plots/",feature,"_outlier.png"))
+  ggsave(paste0("../../Outputs/Plots/Features/",feature,"_outlier2.png"))
 }
