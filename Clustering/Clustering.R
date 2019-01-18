@@ -42,6 +42,10 @@ ggplot(kdistsorted, aes( x = points, y = distance))+
   coord_cartesian(xlim = c(24000,28000),
                   ylim = c(0,30))+
   theme_bw()+
+  theme(axis.text = element_text(size=12),  
+        axis.title = element_text(size=12),
+        legend.text = element_text(size=12),
+        legend.title = element_text(size=12))+
   theme(plot.title = element_text(hjust = 0.5))
 
 
@@ -131,17 +135,12 @@ fviz_cluster(dbcluster, features,geom = "point", stand = FALSE,
              xlab = "PCA Component 1 (17.0%)",
              ylab = "PCA Component 2 (11.5%)",
              ggtheme = theme_bw(),legend.title = "Clusters")+
-  theme(plot.title = element_text(hjust = 0.5))
+  theme(axis.text = element_text(size=12),  
+        axis.title = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=10))+
+  theme(plot.title = element_text(hjust = 0.5, size = 12))
 
-
-ggplot(filter(clusterdf, cluster_val > 0), aes(x = PC1, y = PC2, color = Cluster))+
-  geom_point()+
-  labs(x = "PCA Component 1 (17.0%)",
-       y = "PCA Component 2 (11.5%)",
-       legend.title = "Clusters",
-       title = "DBSCAN Clusters - Without Noise")+
-  theme_bw()+
-  theme(plot.title = element_text(hjust = 0.5))
 
 ggplot(clusterdf, aes(x = PC1, y = PC2, color = Cluster))+
   geom_point()+
@@ -150,7 +149,26 @@ ggplot(clusterdf, aes(x = PC1, y = PC2, color = Cluster))+
        legend.title = "Clusters",
        title = "DBSCAN Clusters (2 PC)")+
   theme_bw()+
-  theme(plot.title = element_text(hjust = 0.5))
+  theme(axis.text = element_text(size=12),  
+        axis.title = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=10))+
+  theme(plot.title = element_text(hjust = 0.5, size = 12))
+
+
+
+ggplot(filter(clusterdf, cluster_val > 0), aes(x = PC1, y = PC2, color = Cluster))+
+  geom_point()+
+  labs(x = "PCA Component 1 (17.0%)",
+       y = "PCA Component 2 (11.5%)",
+       legend.title = "Clusters",
+       title = "DBSCAN Clusters - Excl. Noise")+
+  theme_bw()+
+  theme(axis.text = element_text(size=12),  
+        axis.title = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=10))+
+  theme(plot.title = element_text(hjust = 0.5, size = 12))
 
 
 
@@ -204,6 +222,7 @@ colnames(ksummary) <- c("k",
                         "iter","ifault")
 
 write.csv(ksummary, "../../Outputs/Clustering/r_kmeans_summary_seed111.csv", row.names = F)
+ksummary <- read.csv("../../Outputs/Clustering/r_kmeans_summary_seed111.csv")
 
 ksummary <- ksummary %>% filter(n_clusters < 16)
 
@@ -213,7 +232,11 @@ ggplot(ksummary, aes(x=n_clusters, y = SSE))+
        y = "SSE",
        title = "K-Means: Clusters vs Error")+
   ylim(0,45000)+
-  theme_bw()+
+  theme_bw()+  theme(axis.text = element_text(size=12),  
+                     axis.title = element_text(size=12),
+                     legend.text = element_text(size=10),
+                     legend.title = element_text(size=10))+
+  theme(plot.title = element_text(hjust = 0.5, size = 12))
   theme(plot.title = element_text(hjust = 0.5))
 
 ksumadj <- filter(ksummary, n_clusters > 2)
@@ -224,8 +247,11 @@ ggplot(ksumadj, aes(x=n_clusters, y = min_cl_size))+
        y = "Minimum Cluster Size",
        title = "K-Means: Clusters vs Min Cluster Size")+
   scale_x_continuous(breaks=c(4,6,8,10, 12, 14))+
-  theme_bw()+
-  theme(plot.title = element_text(hjust = 0.5))
+  theme_bw()+  theme(axis.text = element_text(size=12),  
+                     axis.title = element_text(size=12),
+                     legend.text = element_text(size=10),
+                     legend.title = element_text(size=10))+
+  theme(plot.title = element_text(hjust = 0.5, size = 12))
 
 
 set.seed(111)
@@ -238,7 +264,11 @@ fviz_cluster(kcluster, features,geom = "point", stand = FALSE,
              ylab = "PCA Component 2 (11.5%)",
              shape = 19, outlier.shape = 4,show.clust.cent = F,
              ggtheme = theme_bw(),legend.title = "Clusters")+
-  theme(plot.title = element_text(hjust = 0.5))
+  theme(axis.text = element_text(size=12),  
+        axis.title = element_text(size=12),
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=10))+
+  theme(plot.title = element_text(hjust = 0.5, size = 12))
 
 plot_ly(x =features$V2,y = features$V3,  z=features$V4, 
         type="scatter3d", mode="markers", color = kcluster$cluster)

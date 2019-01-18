@@ -13,29 +13,37 @@ import matplotlib.pyplot as plt
 features_cont = pd.read_csv("../Outputs/Features/cluster_inputs/features_cont_std.csv",  index_col = 'id')
 #features_cat = pd.read_csv("../Outputs/features_cat.csv")
 
+
 #%%
 
 pca = PCA().fit(features_cont)
 
 #%%
 comps = pd.DataFrame(pca.components_, columns = features_cont.columns).transpose()
-comps.to_csv("../Outputs/Descriptives/pca_components.csv")
+#comps.to_csv("../Outputs/Descriptives/pca_components.csv")
 var = pca.explained_variance_ratio_
 noise = pca.noise_variance_
+
+loadings = pd.DataFrame(pca.components_.T * np.sqrt(pca.explained_variance_),
+                         index= features_cont.columns)
+loadings.to_csv("../Outputs/Descriptives/pca_factorloadings.csv")
 #%%
-x = np.arange(0, len(var), 1)
-xl = np.arange(1, len(var)+1, 1)
+x = np.arange(1, len(var)+2, 2)
+xl = np.arange(2, len(var)+2, 2)
 
 plt.figure(figsize=(10,7))
 plt.plot(np.cumsum(var))
+plt.plot(24,np.cumsum(var)[24], 'ro')
 plt.xticks(x, xl)
-
-plt.title("Cumulative % Variance vs PCA Components")
-plt.xlabel('Number of PCA Components')
+SIZE = 20
+plt.title("Cumulative % Variance vs Principal Components")
+plt.xlabel('Number of Components')
 plt.ylabel('Cumulative % Variance Explained')
+plt.rc('font', size=SIZE)
+plt.rc('axes', titlesize=SIZE)
 plt.legend()
 
-plt.savefig("../Outputs/Plots/pca_vs_variance.png")
+plt.savefig("../Outputs/Plots/pca_vs_variance_2.png")
 
 #%%
 Xt = pca.transform(features_cont)

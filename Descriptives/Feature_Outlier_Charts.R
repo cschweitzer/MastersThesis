@@ -58,6 +58,11 @@ ggplot(outlier_formatted, aes(x = reorder(Features, `Num Outliers`), y = value, 
   labs(title = "Outliers per Feature: High vs Low Valued",
        y="Number of Outliers",fill="Outlier Type",x="Features")+
   theme_bw()+
-  facet_wrap(~`Feature Type`, nrow = 2, drop = T, scales = "free_y")+
-  theme(plot.title = element_text(hjust = 0.5))
-
+  theme(axis.text = element_text(size=10),  
+        axis.title = element_text(size=12),
+        legend.text = element_text(size = 10),
+        legend.title = element_text( size = 10),
+        strip.text.x = element_text(size = 10))+
+  theme(plot.title = element_text(hjust = 0.5), legend.position="bottom")+
+  facet_wrap(~`Feature Type`, nrow = 2, drop = T, scales = "free_y",
+             strip.position = "left")
