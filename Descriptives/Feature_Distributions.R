@@ -12,7 +12,7 @@ plot(data[,1])
 descdist(x = data[,1], discrete = F)
 
 
-colnames(data) <- c( "Btwn Session Dur",
+colnames(data) <- c( "Between Session Duration",
                      "Multi App Sessions",
                      "Notif Response Sess (med)",
                      "Notif Response Sess (std)",
@@ -64,7 +64,7 @@ data <-read.csv("../../Outputs/Features/cluster_inputs/features_cont.csv", row.n
                 header = T)
 
 
-colnames(data) <- c( "Btwn Session Dur",
+colnames(data) <- c( "Between Session Duration",
                      "Multi App Sessions",
                      "Notification Response Sess (med)",
                      "Notification Response Sess (std)",
@@ -111,7 +111,7 @@ feature_type <- c("Duration (in secs)", "% of Sessions",
 #limits = quantile(, c(0,.985))
 
 for (i in 1:ncol(data)){
-  i <- 8
+  i <- 1
   feature <- names(data[i])
   outlier <- boxplot.stats(data[,i])$stats[5]
   data2 <- filter(data, !!as.name(feature) < outlier)
@@ -121,7 +121,10 @@ for (i in 1:ncol(data)){
     #scale_x_continuous(limits = c(-.0001,outlier))+
     #ylim(0,25)+
     theme_bw()+
-    theme(plot.title = element_text(hjust = 0.5), legend.position="none")
+    theme(axis.text = element_text(size=10),  
+          axis.title = element_text(size=12),
+          title = element_text(size = 12),
+          plot.title = element_text(hjust = 0.5), legend.position="none")
     
   
   ggsave(paste0("../../Outputs/Plots/Features/",feature,"_outlier2.png"))
@@ -153,7 +156,7 @@ subout$feature <- factor(subout$feature,
 
 ggplot(subout, aes(x = value )) +
   geom_histogram(binwidth = .002, position = "identity", fill = "blue") + # , position = "stack" "identity"
-  labs(y="Number of Users",x="% of Sessions" , title = "Distribution of Features"
+  labs(y="Number of Users",x="% of Sessions" , title = "Distribution of Features: Proportion of Sessions"
        )+
   theme_bw()+
   theme(axis.text = element_text(size=10),  
